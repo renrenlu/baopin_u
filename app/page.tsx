@@ -21,7 +21,7 @@ const ISSUES: Issue[] = [
     takeaway: "日常品不用讲得复杂，先让用户看见它在生活里解决了什么。",
     category: "综合选品",
     topics: ["纯钛杯", "厨房好物", "食养产品"],
-    size: "1.3 MB",
+    size: "6.8 MB",
     accent: "blue",
   },
   {
@@ -31,7 +31,7 @@ const ISSUES: Issue[] = [
     takeaway: "母婴内容先回应担心，再给出低风险、易执行的解决办法。",
     category: "母婴个护",
     topics: ["润本驱蚊", "儿童护肤", "补铁剂"],
-    size: "0.6 MB",
+    size: "3.2 MB",
     accent: "peach",
   },
   {
@@ -41,7 +41,7 @@ const ISSUES: Issue[] = [
     takeaway: "不是靠流量，而是靠内容和选品；粉丝几千照样能爆。",
     category: "个人护理",
     topics: ["防蚊网", "安睡裤", "清洁好物"],
-    size: "1.1 MB",
+    size: "5.2 MB",
     accent: "lavender",
   },
   {
@@ -51,7 +51,7 @@ const ISSUES: Issue[] = [
     takeaway: "美妆带货，能让人看到的，就别只让人听到。",
     category: "美妆",
     topics: ["假睫毛", "高光", "眉笔"],
-    size: "1.0 MB",
+    size: "4.8 MB",
     accent: "peach",
   },
   {
@@ -61,7 +61,7 @@ const ISSUES: Issue[] = [
     takeaway: "季节品要把使用时刻说清楚，让用户立刻代入下一次出门或入睡。",
     category: "家居出行",
     topics: ["帽子夹", "凉席", "一次性浴巾"],
-    size: "0.7 MB",
+    size: "3.7 MB",
     accent: "blue",
   },
   {
@@ -71,7 +71,7 @@ const ISSUES: Issue[] = [
     takeaway: "食饮内容先讲什么时候喝、谁来喝，再解释配方和价值。",
     category: "食品饮料",
     topics: ["藕节芦根", "苹果山楂水", "儿童奶酪"],
-    size: "1.0 MB",
+    size: "5.0 MB",
     accent: "lime",
   },
   {
@@ -81,7 +81,7 @@ const ISSUES: Issue[] = [
     takeaway: "自律不是口号，要被拆成一个看得见、做得到的日常动作。",
     category: "养生食饮",
     topics: ["十三宝茶", "元气铁", "非遗食养"],
-    size: "0.7 MB",
+    size: "5.0 MB",
     accent: "lime",
   },
   {
@@ -91,7 +91,7 @@ const ISSUES: Issue[] = [
     takeaway: "教育内容先降低行动门槛，再让家长看见一个可持续的暑假计划。",
     category: "教育亲子",
     topics: ["暑假阅读", "九年级预习", "同步字帖"],
-    size: "0.8 MB",
+    size: "3.4 MB",
     accent: "blue",
   },
   {
@@ -101,7 +101,7 @@ const ISSUES: Issue[] = [
     takeaway: "母婴好物的价值，往往是让照顾动作更简单，让家长更安心。",
     category: "母婴用品",
     topics: ["宝宝牙膏", "辅食", "夏季洗护"],
-    size: "1.1 MB",
+    size: "4.8 MB",
     accent: "peach",
   },
   {
@@ -111,7 +111,7 @@ const ISSUES: Issue[] = [
     takeaway: "刚需痛点强的时候，先把痛感讲到位，再补机制解释。",
     category: "个人护理",
     topics: ["儿童牙刷", "防蚊", "口腔护理"],
-    size: "1.0 MB",
+    size: "5.5 MB",
     accent: "lavender",
   },
   {
@@ -121,7 +121,7 @@ const ISSUES: Issue[] = [
     takeaway: "信任不是说出来的，是被测试过程做出来的。",
     category: "美妆测评",
     topics: ["粉扑测评", "底妆", "彩妆工具"],
-    size: "1.1 MB",
+    size: "5.5 MB",
     accent: "peach",
   },
   {
@@ -131,7 +131,7 @@ const ISSUES: Issue[] = [
     takeaway: "小商品要么明显省一步，要么准确补上一种情绪。",
     category: "家居好物",
     topics: ["清洁用品", "重力眼罩", "家居摆件"],
-    size: "1.1 MB",
+    size: "5.9 MB",
     accent: "blue",
   },
   {
@@ -141,7 +141,7 @@ const ISSUES: Issue[] = [
     takeaway: "食品第一秒先负责让人想吃，参数留到用户停下来以后再讲。",
     category: "食品饮料",
     topics: ["夹心饼干", "鲜花饼", "绿豆莲子羹"],
-    size: "1.2 MB",
+    size: "5.6 MB",
     accent: "lime",
   },
   {
@@ -151,7 +151,7 @@ const ISSUES: Issue[] = [
     takeaway: "开头先解决停留，再让卖点负责解释和成交。",
     category: "滋补保健",
     topics: ["辅酶 Q10", "氨糖", "酸梅汤"],
-    size: "0.9 MB",
+    size: "4.8 MB",
     accent: "lime",
   },
   {
@@ -161,7 +161,7 @@ const ISSUES: Issue[] = [
     takeaway: "开头先解决停留，再让清晰的学习动作负责解释和成交。",
     category: "教育亲子",
     topics: ["物理启蒙", "漫画理化", "暑假计划"],
-    size: "0.8 MB",
+    size: "4.6 MB",
     accent: "blue",
   },
   {
@@ -171,7 +171,7 @@ const ISSUES: Issue[] = [
     takeaway: "用户先相信眼前的变化，再愿意听你解释产品。",
     category: "生活护理",
     topics: ["猫抓板", "祛痘棉片", "儿童冰沙霜"],
-    size: "0.4 MB",
+    size: "2.7 MB",
     accent: "lavender",
   },
   {
@@ -181,7 +181,7 @@ const ISSUES: Issue[] = [
     takeaway: "家居清洁先让结果说话，再解释为什么省力、为什么值得买。",
     category: "家居清洁",
     topics: ["去污膏", "抽绳垃圾袋", "抽纸"],
-    size: "0.9 MB",
+    size: "5.5 MB",
     accent: "blue",
   },
   {
@@ -191,7 +191,7 @@ const ISSUES: Issue[] = [
     takeaway: "美妆开头先给用户一个能看见的变化，再让产品解释变化怎么发生。",
     category: "美妆",
     topics: ["眼线胶笔", "高光笔", "固体唇蜜"],
-    size: "1.0 MB",
+    size: "5.7 MB",
     accent: "peach",
   },
   {
@@ -201,7 +201,7 @@ const ISSUES: Issue[] = [
     takeaway: "家居日用的停留来自看见问题被解决，而不是听懂一个参数。",
     category: "家居日用",
     topics: ["消毒灯", "保温杯", "手机防水袋"],
-    size: "1.0 MB",
+    size: "5.7 MB",
     accent: "lavender",
   },
   {
@@ -211,7 +211,7 @@ const ISSUES: Issue[] = [
     takeaway: "食品饮料先让人想吃、看懂、敢买，再用参数解释为什么值得买。",
     category: "食品饮料",
     topics: ["每日坚果", "瓜子仁", "电解质水"],
-    size: "1.0 MB",
+    size: "6.1 MB",
     accent: "lime",
   },
   {
@@ -221,7 +221,7 @@ const ISSUES: Issue[] = [
     takeaway: "滋补保健先讲用户处境和使用理由，再让规格、品牌和场景补信任。",
     category: "滋补保健",
     topics: ["镁钾微泡片", "阿胶糕", "燕窝粥"],
-    size: "0.9 MB",
+    size: "5.4 MB",
     accent: "lime",
   },
 ];
