@@ -239,6 +239,10 @@ function issueHref(issue: Issue) {
   return `${BASE_PATH}/pdfs/${issue.date.replaceAll("-", "")}.pdf`;
 }
 
+function issueTextHref(issue: Issue) {
+  return `${BASE_PATH}/issues/${issue.date.replaceAll("-", "")}/`;
+}
+
 export default function Home() {
   const [monthIndex, setMonthIndex] = useState(MONTHS.length - 1);
   const [activeDate, setActiveDate] = useState(ISSUES[ISSUES.length - 1].date);
@@ -412,7 +416,7 @@ export default function Home() {
                   <i />
                   <span>{activeIssue.category}</span>
                 </div>
-                <a id="active-issue-title" className="featured-title" href={issueHref(activeIssue)} target="_blank" rel="noreferrer">
+                <a id="active-issue-title" className="featured-title" href={issueTextHref(activeIssue)}>
                   {activeIssue.title}<span aria-hidden="true">↗</span>
                 </a>
                 <p className="featured-summary">{activeIssue.summary}</p>
@@ -459,7 +463,7 @@ export default function Home() {
                         <time dateTime={issue.date}>{formatDate(issue.date, "short")}</time>
                         <span>{issue.category}</span>
                       </div>
-                      <a href={issueHref(issue)} target="_blank" rel="noreferrer">{issue.title}<span aria-hidden="true">↗</span></a>
+                      <a href={issueTextHref(issue)}>{issue.title}<span aria-hidden="true">↗</span></a>
                       <p>{issue.summary}</p>
                     </div>
                     <a className="download-icon" href={issueHref(issue)} download aria-label={`下载《${issue.title}》PDF`} title="下载 PDF">↓</a>
