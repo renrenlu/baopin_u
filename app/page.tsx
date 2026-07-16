@@ -299,9 +299,10 @@ export default function Home() {
           <span className="brand-note">DAILY SIGNAL</span>
         </a>
         <nav className="topnav" aria-label="主导航">
-          <a className="active" href="#top">每日内参</a>
-          <a href="#archive">本月归档</a>
-          <a href="#insight">今日规律</a>
+          <a className="active" href="#top">爆品讯息</a>
+          <span aria-disabled="true">社会热点</span>
+          <span aria-disabled="true">读书分享</span>
+          <span aria-disabled="true">爆款裂变</span>
         </nav>
         <button
           className="mobile-menu"
@@ -316,6 +317,13 @@ export default function Home() {
 
       <div className="workspace" id="top">
         <aside className={sidebarOpen ? "sidebar open" : "sidebar"} aria-label="期刊日期导航">
+          <nav className="mobile-category-nav" aria-label="内容栏目">
+            <a className="active" href="#top" onClick={() => setSidebarOpen(false)}>爆品讯息</a>
+            <span aria-disabled="true">社会热点</span>
+            <span aria-disabled="true">读书分享</span>
+            <span aria-disabled="true">爆款裂变</span>
+          </nav>
+
           <label className="search-field">
             <span aria-hidden="true">⌕</span>
             <input
