@@ -8,6 +8,7 @@ import {
   writeFileSync,
 } from "node:fs";
 import { execFileSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import path from "node:path";
 
 const projectRoot = process.cwd();
@@ -27,24 +28,25 @@ const pdfDir = path.join(projectRoot, "public/pdfs");
 const textDir = path.join(projectRoot, "content/issues");
 const galleryPublicDir = path.join(projectRoot, "public/galleries");
 const galleryManifestPath = path.join(projectRoot, "data/galleries.json");
+const galleryTextDir = path.join(projectRoot, "content/galleries");
 
 const GALLERY_SOURCES = [
   {
     slug: "social",
     label: "社会热点",
-    directory: "03社会热点",
+    directories: ["03热点选题拆解", "03社会热点"],
     description: "从正在发生的事件里，提炼立场、冲突与可展开的内容角度。",
   },
   {
     slug: "reading",
     label: "读书分享",
-    directory: "02读书分享",
+    directories: ["02读书分享"],
     description: "把书里的关键认知整理成可以快速浏览、反复回看的视觉笔记。",
   },
   {
     slug: "viral",
     label: "爆款裂变",
-    directory: "01爆款裂变",
+    directories: ["01爆款作品裂变", "01爆款裂变"],
     description: "拆出爆款内容的受众、钩子与结构，沉淀成可复用的创作模板。",
   },
 ];
@@ -189,6 +191,47 @@ function galleryCollected(markdown, stats) {
   return new Date(stats.mtimeMs).toISOString().slice(0, 10);
 }
 
+function galleryPlainText(markdown) {
+  return cleanText(
+    markdown
+      .replace(/^---[\s\S]*?---\s*/m, "")
+      .replace(/!\[\[.*?\]\]/g, "")
+      .replace(/\[\[([^\]|]+\|)?([^\]]+)\]\]/g, "$2")
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+      .replace(/^#{1,6}\s+/gm, "")
+      .replace(/^[-*>]\s*/gm, "")
+      .replace(/[*_`~]/g, ""),
+  );
+}
+
+function galleryExcerpt(markdown) {
+  const withoutFrontmatter = markdown.replace(/^---[\s\S]*?---\s*/m, "");
+  const lines = withoutFrontmatter
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(
+      (line) =>
+        line &&
+        !line.startsWith("#") &&
+        !line.startsWith("原图：") &&
+        !line.startsWith("![[") &&
+        !line.startsWith(">") &&
+        !line.startsWith("-") &&
+        !/^\d+\./.test(line),
+    );
+  const cleanedLines = lines.map(galleryPlainText).filter(Boolean);
+  const excerpt = cleanedLines.find((line) => line.length >= 28) ?? cleanedLines[0] ?? "";
+  return excerpt.length > 110 ? `${excerpt.slice(0, 109)}…` : excerpt;
+}
+
+function gallerySlug(category, baseName) {
+  return `${category}-${createHash("sha1").update(baseName).digest("hex").slice(0, 10)}`;
+}
+
+function galleryMarkdownCopy(markdown) {
+  return `${markdown.replace(/\r\n/g, "\n").replace(/[ \t]+$/gm, "").trimEnd()}\n`;
+}
+
 function createThumbnail(source, target) {
   mkdirSync(path.dirname(target), { recursive: true });
   execFileSync(
@@ -200,8 +243,16 @@ function createThumbnail(source, target) {
 
 function syncGalleries() {
   const addedImages = [];
+  const updatedTexts = [];
   const galleryPending = [];
   const galleries = [];
+  const previousManifest = existsSync(galleryManifestPath) ? readFileSync(galleryManifestPath, "utf8") : "";
+  let previousGalleries = [];
+  try {
+    previousGalleries = previousManifest ? JSON.parse(previousManifest) : [];
+  } catch {
+    previousGalleries = [];
+  }
 
   if (!existsSync(galleryVaultRoot)) {
     return {
@@ -213,14 +264,35 @@ function syncGalleries() {
   }
 
   for (const source of GALLERY_SOURCES) {
-    const categoryRoot = path.join(galleryVaultRoot, source.directory);
-    const imageDir = path.join(categoryRoot, `${source.directory}_图片收集`);
-    const titleDir = path.join(categoryRoot, `${source.directory}_标题`);
+    const directory = source.directories.find((name) => existsSync(path.join(galleryVaultRoot, name)));
     const items = [];
 
+    if (!directory) {
+      galleryPending.push({ area: source.label, reason: `找不到栏目目录：${source.directories.join(" 或 ")}` });
+      galleries.push(
+        previousGalleries.find((gallery) => gallery.slug === source.slug) ?? {
+          slug: source.slug,
+          label: source.label,
+          description: source.description,
+          items,
+        },
+      );
+      continue;
+    }
+
+    const categoryRoot = path.join(galleryVaultRoot, directory);
+    const imageDir = path.join(categoryRoot, `${directory}_图片收集`);
+    const titleDir = path.join(categoryRoot, `${directory}_标题`);
     if (!existsSync(imageDir)) {
       galleryPending.push({ area: source.label, reason: `图片目录不存在：${imageDir}` });
-      galleries.push({ ...source, items });
+      galleries.push(
+        previousGalleries.find((gallery) => gallery.slug === source.slug) ?? {
+          slug: source.slug,
+          label: source.label,
+          description: source.description,
+          items,
+        },
+      );
       continue;
     }
 
@@ -239,6 +311,9 @@ function syncGalleries() {
       const baseName = filename.replace(/\.[^.]+$/, "");
       const titlePath = path.join(titleDir, `${baseName}.md`);
       const markdown = existsSync(titlePath) ? readFileSync(titlePath, "utf8") : "";
+      const websiteMarkdown = markdown ? galleryMarkdownCopy(markdown) : "";
+      const slug = gallerySlug(source.slug, baseName);
+      const textTarget = path.join(galleryTextDir, source.slug, `${slug}.md`);
       const originalTarget = path.join(galleryPublicDir, source.slug, "original", filename);
       const thumbnailFilename = `${baseName}.jpg`;
       const thumbnailTarget = path.join(galleryPublicDir, source.slug, "thumbs", thumbnailFilename);
@@ -262,11 +337,26 @@ function syncGalleries() {
         thumbnail = `/galleries/${source.slug}/original/${filename}`;
       }
 
+      if (markdown) {
+        const previousText = existsSync(textTarget) ? readFileSync(textTarget, "utf8") : "";
+        if (previousText !== websiteMarkdown) {
+          updatedTexts.push({ category: source.label, title: galleryTitle(markdown, baseName), file: `${slug}.md` });
+          if (!dryRun) {
+            mkdirSync(path.dirname(textTarget), { recursive: true });
+            writeFileSync(textTarget, websiteMarkdown);
+          }
+        }
+      }
+
       items.push({
+        slug,
         title: galleryTitle(markdown, baseName),
         collected: galleryCollected(markdown, stats),
+        excerpt: galleryExcerpt(markdown),
+        searchText: galleryPlainText(markdown),
         image: `/galleries/${source.slug}/original/${filename}`,
         thumbnail,
+        content: markdown ? `content/galleries/${source.slug}/${slug}.md` : null,
       });
     }
 
@@ -280,17 +370,17 @@ function syncGalleries() {
   }
 
   const manifest = `${JSON.stringify(galleries, null, 2)}\n`;
-  const previous = existsSync(galleryManifestPath) ? readFileSync(galleryManifestPath, "utf8") : "";
-  const manifestChanged = manifest !== previous;
+  const manifestChanged = manifest !== previousManifest;
   if (!dryRun && manifestChanged) {
     mkdirSync(path.dirname(galleryManifestPath), { recursive: true });
     writeFileSync(galleryManifestPath, manifest);
   }
 
   return {
-    changed: manifestChanged || addedImages.length > 0,
+    changed: manifestChanged || addedImages.length > 0 || updatedTexts.length > 0,
     manifestChanged,
     addedImages,
+    updatedTexts,
     pending: galleryPending,
     total: galleries.reduce((sum, gallery) => sum + gallery.items.length, 0),
   };

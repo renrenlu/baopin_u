@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import galleryData from "@/data/galleries.json";
+import GalleryDirectory from "./gallery-directory";
 
 type GalleryItem = {
+  slug: string;
   title: string;
   collected: string;
+  excerpt: string;
+  searchText: string;
   image: string;
   thumbnail: string;
+  content: string | null;
 };
 
 type Gallery = {
@@ -42,11 +47,6 @@ export async function generateMetadata({ params }: GalleryPageProps): Promise<Me
 
 function galleryHref(slug: string) {
   return `${BASE_PATH}/gallery/${slug}/`;
-}
-
-function formatDate(value: string) {
-  const [year, month, day] = value.split("-");
-  return `${year}.${month}.${day}`;
 }
 
 export default async function GalleryPage({ params }: GalleryPageProps) {
@@ -94,29 +94,12 @@ export default async function GalleryPage({ params }: GalleryPageProps) {
         </header>
 
         {gallery.items.length ? (
-          <div className="gallery-grid">
-            {gallery.items.map((item, index) => (
-              <a
-                className="gallery-card"
-                href={`${BASE_PATH}${item.image}`}
-                target="_blank"
-                rel="noreferrer"
-                key={`${item.image}-${index}`}
-                aria-label={`打开《${item.title}》原图`}
-              >
-                <figure>
-                  <div className="gallery-thumbnail">
-                    <img src={`${BASE_PATH}${item.thumbnail}`} alt="" loading="lazy" />
-                    <span>查看原图 ↗</span>
-                  </div>
-                  <figcaption>
-                    <h2>{item.title}</h2>
-                    <p>{formatDate(item.collected)} · {gallery.label}</p>
-                  </figcaption>
-                </figure>
-              </a>
-            ))}
-          </div>
+          <GalleryDirectory
+            basePath={BASE_PATH}
+            category={gallery.slug}
+            label={gallery.label}
+            items={gallery.items}
+          />
         ) : (
           <div className="gallery-empty">这个目录还没有图片，Obsidian 新增后会在下一次同步时出现。</div>
         )}
