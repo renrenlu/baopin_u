@@ -7,6 +7,7 @@ import {
   statSync,
   writeFileSync,
 } from "node:fs";
+import { execFileSync } from "node:child_process";
 import path from "node:path";
 
 const projectRoot = process.cwd();
@@ -14,6 +15,9 @@ const vaultRoot =
   process.env.BAOPIN_OBSIDIAN_VAULT ??
   "/Users/mt/Library/Mobile Documents/iCloud~md~obsidian/Documents/baokuan_dhsp";
 const sourceDir = path.join(vaultRoot, "06-素材库");
+const galleryVaultRoot =
+  process.env.BAOPIN_GALLERY_VAULT ??
+  "/Users/mt/Library/Mobile Documents/iCloud~md~obsidian/Documents/photo_u";
 const dryRun = process.argv.includes("--dry-run");
 const minimumFileAgeMs = Number(process.env.BAOPIN_MIN_FILE_AGE_MS ?? 120_000);
 
@@ -21,6 +25,29 @@ const homePath = path.join(projectRoot, "app/page.tsx");
 const readerPath = path.join(projectRoot, "app/issues/[date]/page.tsx");
 const pdfDir = path.join(projectRoot, "public/pdfs");
 const textDir = path.join(projectRoot, "content/issues");
+const galleryPublicDir = path.join(projectRoot, "public/galleries");
+const galleryManifestPath = path.join(projectRoot, "data/galleries.json");
+
+const GALLERY_SOURCES = [
+  {
+    slug: "social",
+    label: "社会热点",
+    directory: "03社会热点",
+    description: "从正在发生的事件里，提炼立场、冲突与可展开的内容角度。",
+  },
+  {
+    slug: "reading",
+    label: "读书分享",
+    directory: "02读书分享",
+    description: "把书里的关键认知整理成可以快速浏览、反复回看的视觉笔记。",
+  },
+  {
+    slug: "viral",
+    label: "爆款裂变",
+    directory: "01爆款裂变",
+    description: "拆出爆款内容的受众、钩子与结构，沉淀成可复用的创作模板。",
+  },
+];
 
 function fail(message) {
   console.error(JSON.stringify({ status: "error", message }, null, 2));
@@ -152,6 +179,123 @@ function issueLiteral(issue) {
   ].join("\n");
 }
 
+function galleryTitle(markdown, fallback) {
+  return cleanText(markdown.match(/^#\s+(.+)$/m)?.[1] ?? fallback);
+}
+
+function galleryCollected(markdown, stats) {
+  const frontmatterDate = markdown.match(/^collected:\s*["']?(\d{4}-\d{2}-\d{2})/m)?.[1];
+  if (frontmatterDate) return frontmatterDate;
+  return new Date(stats.mtimeMs).toISOString().slice(0, 10);
+}
+
+function createThumbnail(source, target) {
+  mkdirSync(path.dirname(target), { recursive: true });
+  execFileSync(
+    "sips",
+    ["--resampleWidth", "900", "-s", "format", "jpeg", "-s", "formatOptions", "78", source, "--out", target],
+    { stdio: "ignore" },
+  );
+}
+
+function syncGalleries() {
+  const addedImages = [];
+  const galleryPending = [];
+  const galleries = [];
+
+  if (!existsSync(galleryVaultRoot)) {
+    return {
+      changed: false,
+      addedImages,
+      pending: [{ area: "gallery", reason: `Obsidian 图片库不存在：${galleryVaultRoot}` }],
+      total: 0,
+    };
+  }
+
+  for (const source of GALLERY_SOURCES) {
+    const categoryRoot = path.join(galleryVaultRoot, source.directory);
+    const imageDir = path.join(categoryRoot, `${source.directory}_图片收集`);
+    const titleDir = path.join(categoryRoot, `${source.directory}_标题`);
+    const items = [];
+
+    if (!existsSync(imageDir)) {
+      galleryPending.push({ area: source.label, reason: `图片目录不存在：${imageDir}` });
+      galleries.push({ ...source, items });
+      continue;
+    }
+
+    const filenames = readdirSync(imageDir)
+      .filter((filename) => /\.(?:png|jpe?g|webp)$/i.test(filename))
+      .sort((a, b) => a.localeCompare(b, "zh-CN"));
+
+    for (const filename of filenames) {
+      const imageSource = path.join(imageDir, filename);
+      const stats = statSync(imageSource);
+      if (Date.now() - stats.mtimeMs < minimumFileAgeMs) {
+        galleryPending.push({ area: source.label, file: filename, reason: "图片仍在同步，等待文件稳定" });
+        continue;
+      }
+
+      const baseName = filename.replace(/\.[^.]+$/, "");
+      const titlePath = path.join(titleDir, `${baseName}.md`);
+      const markdown = existsSync(titlePath) ? readFileSync(titlePath, "utf8") : "";
+      const originalTarget = path.join(galleryPublicDir, source.slug, "original", filename);
+      const thumbnailFilename = `${baseName}.jpg`;
+      const thumbnailTarget = path.join(galleryPublicDir, source.slug, "thumbs", thumbnailFilename);
+      let thumbnail = `/galleries/${source.slug}/thumbs/${thumbnailFilename}`;
+
+      if (!dryRun && !existsSync(originalTarget)) {
+        mkdirSync(path.dirname(originalTarget), { recursive: true });
+        copyFileSync(imageSource, originalTarget);
+        addedImages.push({ category: source.label, title: baseName, file: filename });
+      } else if (dryRun && !existsSync(originalTarget)) {
+        addedImages.push({ category: source.label, title: baseName, file: filename });
+      }
+
+      if (!dryRun && !existsSync(thumbnailTarget)) {
+        try {
+          createThumbnail(imageSource, thumbnailTarget);
+        } catch {
+          thumbnail = `/galleries/${source.slug}/original/${filename}`;
+        }
+      } else if (!existsSync(thumbnailTarget)) {
+        thumbnail = `/galleries/${source.slug}/original/${filename}`;
+      }
+
+      items.push({
+        title: galleryTitle(markdown, baseName),
+        collected: galleryCollected(markdown, stats),
+        image: `/galleries/${source.slug}/original/${filename}`,
+        thumbnail,
+      });
+    }
+
+    items.sort((a, b) => b.collected.localeCompare(a.collected) || a.title.localeCompare(b.title, "zh-CN"));
+    galleries.push({
+      slug: source.slug,
+      label: source.label,
+      description: source.description,
+      items,
+    });
+  }
+
+  const manifest = `${JSON.stringify(galleries, null, 2)}\n`;
+  const previous = existsSync(galleryManifestPath) ? readFileSync(galleryManifestPath, "utf8") : "";
+  const manifestChanged = manifest !== previous;
+  if (!dryRun && manifestChanged) {
+    mkdirSync(path.dirname(galleryManifestPath), { recursive: true });
+    writeFileSync(galleryManifestPath, manifest);
+  }
+
+  return {
+    changed: manifestChanged || addedImages.length > 0,
+    manifestChanged,
+    addedImages,
+    pending: galleryPending,
+    total: galleries.reduce((sum, gallery) => sum + gallery.items.length, 0),
+  };
+}
+
 if (!existsSync(sourceDir)) fail(`Obsidian PDF 目录不存在：${sourceDir}`);
 if (!existsSync(homePath) || !existsSync(readerPath)) fail("网站期刊页面文件不存在");
 
@@ -254,14 +398,19 @@ if (!dryRun && added.length) {
   writeFileSync(readerPath, readerSource);
 }
 
+const gallerySync = syncGalleries();
+pending.push(...gallerySync.pending);
+const hasUpdates = added.length > 0 || gallerySync.changed;
+
 console.log(
   JSON.stringify(
     {
-      status: added.length ? (dryRun ? "dry-run" : "updated") : pending.length ? "pending" : "unchanged",
+      status: hasUpdates ? (dryRun ? "dry-run" : "updated") : pending.length ? "pending" : "unchanged",
       sourceDir,
       added,
       pending,
       skippedCount: skipped.length,
+      gallery: gallerySync,
     },
     null,
     2,

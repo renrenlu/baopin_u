@@ -310,9 +310,9 @@ export default function Home() {
         </a>
         <nav className="topnav" aria-label="主导航">
           <a className="active" href="#top">爆品讯息</a>
-          <span aria-disabled="true">社会热点</span>
-          <span aria-disabled="true">读书分享</span>
-          <span aria-disabled="true">爆款裂变</span>
+          <a href={`${BASE_PATH}/gallery/social/`}>社会热点</a>
+          <a href={`${BASE_PATH}/gallery/reading/`}>读书分享</a>
+          <a href={`${BASE_PATH}/gallery/viral/`}>爆款裂变</a>
         </nav>
         <button
           className="mobile-menu"
@@ -329,9 +329,9 @@ export default function Home() {
         <aside className={sidebarOpen ? "sidebar open" : "sidebar"} aria-label="期刊日期导航">
           <nav className="mobile-category-nav" aria-label="内容栏目">
             <a className="active" href="#top" onClick={() => setSidebarOpen(false)}>爆品讯息</a>
-            <span aria-disabled="true">社会热点</span>
-            <span aria-disabled="true">读书分享</span>
-            <span aria-disabled="true">爆款裂变</span>
+            <a href={`${BASE_PATH}/gallery/social/`}>社会热点</a>
+            <a href={`${BASE_PATH}/gallery/reading/`}>读书分享</a>
+            <a href={`${BASE_PATH}/gallery/viral/`}>爆款裂变</a>
           </nav>
 
           <label className="search-field">

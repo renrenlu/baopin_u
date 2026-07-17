@@ -228,6 +228,49 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 .site-footer a:hover { color: var(--ink); }
 .sidebar-backdrop { display: none; }
 
+.gallery-shell { min-height: 100vh; background: #fff; }
+.gallery-mobile-tabs { display: none; }
+.gallery-page { width: min(1440px, calc(100% - 80px)); margin: 0 auto; padding: 72px 0 38px; }
+.gallery-heading {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: end;
+  gap: 80px;
+  margin-bottom: 52px;
+  padding-bottom: 28px;
+  border-bottom: 2px solid var(--ink);
+}
+.gallery-heading > div:first-child > span { color: #999d95; font-size: 10px; font-weight: 750; letter-spacing: 0.15em; }
+.gallery-heading h1 { margin: 12px 0 0; font-size: clamp(42px, 6vw, 82px); line-height: 1; letter-spacing: -0.07em; }
+.gallery-intro { display: grid; gap: 14px; justify-items: end; }
+.gallery-intro p { max-width: 520px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.9; text-align: right; }
+.gallery-intro strong { color: #989c94; font-size: 10px; letter-spacing: 0.08em; }
+.gallery-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 62px 42px; }
+.gallery-card figure { margin: 0; }
+.gallery-thumbnail { position: relative; overflow: hidden; aspect-ratio: 4 / 3; background: var(--paper); }
+.gallery-thumbnail img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: top center; transition: transform 380ms ease; }
+.gallery-thumbnail span {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgba(23, 25, 22, 0.9);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  opacity: 0;
+  transform: translateY(5px);
+  transition: 180ms ease;
+}
+.gallery-card:hover .gallery-thumbnail img { transform: scale(1.025); }
+.gallery-card:hover .gallery-thumbnail span { opacity: 1; transform: translateY(0); }
+.gallery-card figcaption { padding-top: 14px; }
+.gallery-card h2 { margin: 0; font-size: 17px; line-height: 1.45; letter-spacing: -0.025em; }
+.gallery-card p { margin: 3px 0 0; color: #8a8e86; font-size: 10px; }
+.gallery-empty { min-height: 300px; display: grid; place-items: center; border: 1px dashed #d9dcd5; color: #92968e; font-size: 13px; }
+.gallery-footer { margin-top: 74px; }
+
 .reader-shell {
   min-height: 100vh;
   background:
@@ -860,6 +903,9 @@ button:focus-visible, a:focus-visible, input:focus-visible {
   .reader-layout { grid-template-columns: 170px minmax(0, 760px); gap: 38px; }
   .reader-toc { padding: 15px; }
   .reader-toc nav { grid-template-columns: repeat(3, 1fr); }
+  .gallery-page { width: min(100% - 48px, 1040px); }
+  .gallery-heading { gap: 38px; }
+  .gallery-grid { gap: 46px 26px; }
 }
 
 @media (max-width: 800px) {
@@ -931,6 +977,26 @@ button:focus-visible, a:focus-visible, input:focus-visible {
   .reader-toc > p { display: none; }
   .reader-hero { padding-top: 0; }
   .reader-hero h1 { font-size: clamp(36px, 9vw, 52px); }
+  .gallery-shell .topbar .brand { flex: 1; }
+  .gallery-mobile-tabs {
+    position: sticky;
+    z-index: 45;
+    top: 66px;
+    display: flex;
+    gap: 6px;
+    padding: 9px 16px;
+    overflow-x: auto;
+    border-bottom: 1px solid var(--line);
+    background: rgba(255, 255, 255, 0.96);
+    scrollbar-width: none;
+  }
+  .gallery-mobile-tabs a { flex: 0 0 auto; padding: 8px 11px; border-radius: 8px; color: #666a63; font-size: 10px; font-weight: 700; }
+  .gallery-mobile-tabs a.active { background: var(--yellow); color: var(--ink); }
+  .gallery-page { width: min(100% - 32px, 700px); padding-top: 42px; }
+  .gallery-heading { grid-template-columns: 1fr; gap: 20px; margin-bottom: 34px; }
+  .gallery-intro { justify-items: start; }
+  .gallery-intro p { text-align: left; }
+  .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px 18px; }
 }
 
 @media (max-width: 560px) {
@@ -964,6 +1030,9 @@ button:focus-visible, a:focus-visible, input:focus-visible {
   .brief-card { grid-template-columns: 30px minmax(0, 1fr); gap: 10px; padding: 16px 14px; }
   .brief-card-index { width: 28px; height: 28px; }
   .brief-card-focus { grid-template-columns: 1fr; }
+  .gallery-heading h1 { font-size: 48px; }
+  .gallery-grid { grid-template-columns: 1fr; gap: 38px; }
+  .gallery-card h2 { font-size: 16px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

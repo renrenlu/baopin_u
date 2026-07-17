@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "social",
+    "label": "社会热点",
+    "description": "从正在发生的事件里，提炼立场、冲突与可展开的内容角度。",
+    "items": [
+      {
+        "title": "衡阳跺脚炒粉老爷爷",
+        "collected": "2026-07-15",
+        "image": "/galleries/social/original/衡阳跺脚炒粉老爷爷.png",
+        "thumbnail": "/galleries/social/thumbs/衡阳跺脚炒粉老爷爷.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "reading",
+    "label": "读书分享",
+    "description": "把书里的关键认知整理成可以快速浏览、反复回看的视觉笔记。",
+    "items": [
+      {
+        "title": "当两件事不是“同一回事”时",
+        "collected": "2026-07-15",
+        "image": "/galleries/reading/original/当两件事不是同一回事时.png",
+        "thumbnail": "/galleries/reading/thumbs/当两件事不是同一回事时.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "viral",
+    "label": "爆款裂变",
+    "description": "拆出爆款内容的受众、钩子与结构，沉淀成可复用的创作模板。",
+    "items": [
+      {
+        "title": "两周内可以学会任何东西",
+        "collected": "2026-07-15",
+        "image": "/galleries/viral/original/两周内可以学会任何东西.png",
+        "thumbnail": "/galleries/viral/thumbs/两周内可以学会任何东西.jpg"
+      }
+    ]
+  }
+]
