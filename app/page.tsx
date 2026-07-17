@@ -224,9 +224,19 @@ const ISSUES: Issue[] = [
     size: "5.4 MB",
     accent: "lime",
   },
+  {
+    date: "2026-07-16",
+    title: "图书教育：让学习安排更可执行",
+    summary: "今天这组图书教育案例先看一件事:开头要先圈清年龄、年级或学习场景,再给家长一个可执行的选择理由。",
+    takeaway: "图书教育卖的不是书名,而是家长此刻能理解、能执行、敢相信的学习安排。",
+    category: "图书教育",
+    topics: ["初升高暑假预习","课本里的百科全书","初中字帖"],
+    size: "5.7 MB",
+    accent: "blue",
+  },
 ];
 
-const MONTHS = ["2026-06", "2026-07"];
+const MONTHS = Array.from(new Set(ISSUES.map((issue) => issue.date.slice(0, 7)))).sort();
 const WEEKDAYS = ["一", "二", "三", "四", "五", "六", "日"];
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
