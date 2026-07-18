@@ -234,6 +234,26 @@ const ISSUES: Issue[] = [
     size: "5.7 MB",
     accent: "blue",
   },
+  {
+    date: "2026-07-17",
+    title: "图书教育：让学习安排更可执行",
+    summary: "今天这组母婴宠物案例先看一件事:开头要把家长或铲屎官的具体担心拍出来,再给产品进入的理由。",
+    takeaway: "母婴宠物要先让照顾者觉得“这和我家有关”,再谈产品。",
+    category: "图书教育",
+    topics: ["英氏双萃凝露春夏儿童宝宝面霜补…","babycare随行8件套紫盖…","宠物冰垫夏天防暑猫咪垫凉窝撕不…"],
+    size: "6.2 MB",
+    accent: "blue",
+  },
+  {
+    date: "2026-07-18",
+    title: "美妆个护：让效果先被看见",
+    summary: "今天这组个人护理案例先看一件事:用户会为真实痛点、即时变化和生活场景停留,参数只能放在后面补信任。",
+    takeaway: "个人护理不要先堆成分,先让用户看到自己现在就有这个问题。",
+    category: "美妆个护",
+    topics: ["花臣【夏季舒爽】澳洲茶树精华安…","可⻨控油蓬松洗发水修护去屑养发…","双头固体唇蜜护唇显白水光感唇彩…"],
+    size: "6.6 MB",
+    accent: "peach",
+  },
 ];
 
 const MONTHS = Array.from(new Set(ISSUES.map((issue) => issue.date.slice(0, 7)))).sort();
