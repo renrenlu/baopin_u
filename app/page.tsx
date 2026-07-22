@@ -284,6 +284,16 @@ const ISSUES: Issue[] = [
     size: "7.3 MB",
     accent: "lime",
   },
+  {
+    date: "2026-07-22",
+    title: "滋补保健：先讲处境，再补信任",
+    summary: "今天不把滋补保健压成一种公式，而是对照三条真实路径：FoYes 蛋白粉的痛点后果、喜纯玉灵膏的动作自证，以及 ON 金标乳清的真实停留点。",
+    takeaway: "不要从品类倒推固定开头：三条案例分别依赖痛点后果、动作自证和真实停留点，先找最强证据，再决定开场方式。",
+    category: "滋补保健",
+    topics: ["FoYes 蛋白粉", "喜纯玉灵膏", "ON 金标乳清"],
+    size: "6.6 MB",
+    accent: "lime",
+  },
 ];
 
 const MONTHS = Array.from(new Set(ISSUES.map((issue) => issue.date.slice(0, 7)))).sort();
