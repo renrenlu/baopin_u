@@ -236,7 +236,7 @@ function createThumbnail(source, target) {
   mkdirSync(path.dirname(target), { recursive: true });
   execFileSync(
     "sips",
-    ["--resampleWidth", "900", "-s", "format", "jpeg", "-s", "formatOptions", "78", source, "--out", target],
+    ["--resampleWidth", "900", "-s", "format", "public.jpeg", "-s", "formatOptions", "78", source, "--out", target],
     { stdio: "ignore" },
   );
 }
