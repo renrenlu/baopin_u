@@ -1,0 +1,156 @@
+{
+  "issues": [
+    {
+      "date": "2026-07-22",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案和数据。",
+      "pdf": "/hooks/钩子训练-2026-07-22.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q01-left.webp" },
+            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q01-right.webp" }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            { "level": "高赞", "title": "太听话耽误正事", "likes": "100000", "published": "2026-06-30 22:12:53" },
+            { "level": "低赞", "title": "infj/高敏感的出路--博主", "likes": "65", "published": "2026-07-15 19:47:15" }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q02-left.webp" },
+            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q02-right.webp" }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            { "level": "高赞", "title": "钱都流向不缺钱的，爱都流向不缺爱的", "likes": "31000", "published": "2025-12-23 21:00:09" },
+            { "level": "低赞", "title": "普通人寻找天赋使命最好的办法（2）", "likes": "682", "published": "2026-03-02 21:24:01" }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q03-left.webp" },
+            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q03-right.webp" }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            { "level": "高赞", "title": "这事儿必须由我来做吗", "likes": "92000", "published": "2026-05-25 15:18:41" },
+            { "level": "低赞", "title": "钱都流向不缺钱的人，爱都流向不缺爱的人", "likes": "236", "published": "2026-01-09 20:12:28" }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q04-left.webp" },
+            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q04-right.webp" }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            { "level": "高赞", "title": "高敏感 + 极简＝王炸", "likes": "67000", "published": "2026-03-24 22:21:22" },
+            { "level": "低赞", "title": "我自己每次创造新颖话题的方法", "likes": "969", "published": "2026-05-09 17:21" }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q05-left.webp" },
+            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q05-right.webp" }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            { "level": "高赞", "title": "0经验跨行第六期", "likes": "100000", "published": "2026-01-17 18:01:59" },
+            { "level": "低赞", "title": "也轮到你也汗流浃背了吧", "likes": "170", "published": "2025-09-05 10:16:48" }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q06-left.webp" },
+            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q06-right.webp" }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            { "level": "高赞", "title": "如何让贵人主动帮你 | 你有三种稀缺价值", "likes": "100000", "published": "2026-01-08 18:03:41" },
+            { "level": "低赞", "title": "不想一直打工，学会反向压榨公司", "likes": "380", "published": "2025-08-26 19:37:26" }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q07-left.webp" },
+            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q07-right.webp" }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            { "level": "高赞", "title": "人际关系 | 如何摆脱讨好", "likes": "58000", "published": "2025-12-26 21:22" },
+            { "level": "低赞", "title": "《找工作经验贴》如何快速找到工作", "likes": "430", "published": "2025-08-19 21:07:50" }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            { "choice": "work", "label": "待判断作品", "src": "/hooks/20260722/q08.webp" }
+          ],
+          "correct": "high",
+          "answerLabel": "高赞",
+          "works": [
+            { "level": "高赞", "title": "钱都流向不缺钱的，爱都流向不缺爱的", "likes": "31000", "published": "2025-12-23 21:00:09" }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            { "choice": "work", "label": "待判断作品", "src": "/hooks/20260722/q09.webp" }
+          ],
+          "correct": "high",
+          "answerLabel": "高赞",
+          "works": [
+            { "level": "高赞", "title": "如何让贵人主动帮你 | 你有三种稀缺价值", "likes": "100000", "published": "2026-01-08 18:03:41" }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            { "choice": "work", "label": "待判断作品", "src": "/hooks/20260722/q10.webp" }
+          ],
+          "correct": "high",
+          "answerLabel": "高赞",
+          "works": [
+            { "level": "高赞", "title": "0经验跨行第六期", "likes": "100000", "published": "2026-01-17 18:01:59" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -363,6 +363,7 @@ export default function Home() {
           <a href={`${BASE_PATH}/gallery/social/`}>社会热点</a>
           <a href={`${BASE_PATH}/gallery/reading/`}>读书分享</a>
           <a href={`${BASE_PATH}/gallery/viral/`}>爆款裂变</a>
+          <a href={`${BASE_PATH}/hooks/`}>钩子训练</a>
         </nav>
         <button
           className="mobile-menu"
@@ -382,6 +383,7 @@ export default function Home() {
             <a href={`${BASE_PATH}/gallery/social/`}>社会热点</a>
             <a href={`${BASE_PATH}/gallery/reading/`}>读书分享</a>
             <a href={`${BASE_PATH}/gallery/viral/`}>爆款裂变</a>
+            <a href={`${BASE_PATH}/hooks/`}>钩子训练</a>
           </nav>
 
           <label className="search-field">

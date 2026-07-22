@@ -69,6 +69,7 @@ export default async function GalleryPage({ params }: GalleryPageProps) {
               {item.label}
             </a>
           ))}
+          <a href={`${BASE_PATH}/hooks/`}>钩子训练</a>
         </nav>
       </header>
 
@@ -79,6 +80,7 @@ export default async function GalleryPage({ params }: GalleryPageProps) {
             {item.label}
           </a>
         ))}
+        <a href={`${BASE_PATH}/hooks/`}>钩子训练</a>
       </nav>
 
       <section className="gallery-page">
