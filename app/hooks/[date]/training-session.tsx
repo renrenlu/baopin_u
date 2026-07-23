@@ -10,6 +10,7 @@ type ImageChoice = {
 
 type Work = {
   level: string;
+  blogger?: string;
   title: string;
   likes: string;
   published: string;
@@ -199,7 +200,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
                         <span>{work.level}</span>
                         <h4>{work.title}</h4>
                         <dl>
-                          <div><dt>博主</dt><dd>华丽蒙</dd></div>
+                          <div><dt>博主</dt><dd>{work.blogger ?? "华丽蒙"}</dd></div>
                           <div><dt>点赞</dt><dd>{work.likes}</dd></div>
                           <div><dt>发布</dt><dd>{work.published}</dd></div>
                         </dl>

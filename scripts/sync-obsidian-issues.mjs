@@ -29,6 +29,13 @@ const textDir = path.join(projectRoot, "content/issues");
 const galleryPublicDir = path.join(projectRoot, "public/galleries");
 const galleryManifestPath = path.join(projectRoot, "data/galleries.json");
 const galleryTextDir = path.join(projectRoot, "content/galleries");
+const hookVaultDir = path.join(vaultRoot, "07-钩子");
+const hookManifestPath = path.join(projectRoot, "data/hook-training.json");
+const hookPublicDir = path.join(projectRoot, "public/hooks");
+const hookExtractorPath = path.join(projectRoot, "scripts/extract-hook-training.py");
+const hookPython =
+  process.env.BAOPIN_PDF_PYTHON ??
+  "/Users/mt/Library/Application Support/U哥PDF工作流/.venv/bin/python";
 
 const GALLERY_SOURCES = [
   {
@@ -386,6 +393,130 @@ function syncGalleries() {
   };
 }
 
+function recursiveFiles(root) {
+  if (!existsSync(root)) return [];
+  return readdirSync(root, { withFileTypes: true }).flatMap((entry) => {
+    const current = path.join(root, entry.name);
+    return entry.isDirectory() ? recursiveFiles(current) : [current];
+  });
+}
+
+function syncHookTraining() {
+  const added = [];
+  const pending = [];
+  const skipped = [];
+  if (!existsSync(hookVaultDir)) {
+    return {
+      changed: false,
+      added,
+      pending: [{ area: "钩子训练", reason: `Obsidian 目录不存在：${hookVaultDir}` }],
+      skipped,
+    };
+  }
+  if (!existsSync(hookExtractorPath) || !existsSync(hookPython)) {
+    return {
+      changed: false,
+      added,
+      pending: [{ area: "钩子训练", reason: "钩子训练提取器或本地 Python 不存在" }],
+      skipped,
+    };
+  }
+
+  const previousManifest = existsSync(hookManifestPath)
+    ? readFileSync(hookManifestPath, "utf8")
+    : '{"issues":[]}';
+  let manifest;
+  try {
+    manifest = JSON.parse(previousManifest);
+  } catch {
+    return {
+      changed: false,
+      added,
+      pending: [{ area: "钩子训练", reason: `清单格式错误：${hookManifestPath}` }],
+      skipped,
+    };
+  }
+  manifest.issues ??= [];
+  const knownDates = new Set(manifest.issues.map((issue) => issue.date));
+  const candidates = new Map();
+
+  for (const file of recursiveFiles(hookVaultDir)) {
+    const filename = path.basename(file);
+    if (!/^钩子训练-.*\.pdf$/i.test(filename)) continue;
+    const match = filename.match(/(20\d{2})[-_.]?(\d{2})[-_.]?(\d{2})/);
+    if (!match) continue;
+    const date = `${match[1]}-${match[2]}-${match[3]}`;
+    const stats = statSync(file);
+    const previous = candidates.get(date);
+    if (!previous || stats.mtimeMs > previous.mtimeMs) {
+      candidates.set(date, { date, file, filename, stats });
+    }
+  }
+
+  for (const candidate of [...candidates.values()].sort((a, b) => a.date.localeCompare(b.date))) {
+    if (knownDates.has(candidate.date)) {
+      skipped.push(candidate.date);
+      continue;
+    }
+    if (Date.now() - candidate.stats.mtimeMs < minimumFileAgeMs) {
+      pending.push({ area: "钩子训练", date: candidate.date, reason: "PDF 仍在同步，等待文件稳定" });
+      continue;
+    }
+
+    const compactDate = candidate.date.replaceAll("-", "");
+    const outputDir = path.join(hookPublicDir, compactDate);
+    const publicPrefix = `/hooks/${compactDate}`;
+    const args = [
+      hookExtractorPath,
+      "--pdf",
+      candidate.file,
+      "--public-prefix",
+      publicPrefix,
+    ];
+    if (!dryRun) args.push("--output-dir", outputDir);
+
+    try {
+      const result = JSON.parse(
+        execFileSync(hookPython, args, { encoding: "utf8", maxBuffer: 20 * 1024 * 1024 }),
+      );
+      if (result.status !== "ok" || !result.issue) {
+        throw new Error(result.message ?? "提取器未返回训练内容");
+      }
+      const issue = result.issue;
+      if (!dryRun) {
+        mkdirSync(hookPublicDir, { recursive: true });
+        copyFileSync(candidate.file, path.join(hookPublicDir, `钩子训练-${candidate.date}.pdf`));
+        manifest.issues.push(issue);
+        knownDates.add(candidate.date);
+      }
+      added.push({
+        date: candidate.date,
+        source: candidate.filename,
+        questions: issue.questions.length,
+        assets: issue.questions.reduce((sum, question) => sum + question.images.length, 0),
+      });
+    } catch (error) {
+      pending.push({
+        area: "钩子训练",
+        date: candidate.date,
+        reason: error instanceof Error ? error.message : String(error),
+      });
+    }
+  }
+
+  if (!dryRun && added.length) {
+    manifest.issues.sort((a, b) => a.date.localeCompare(b.date));
+    writeFileSync(hookManifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
+  }
+
+  return {
+    changed: added.length > 0,
+    added,
+    pending,
+    skipped,
+  };
+}
+
 if (!existsSync(sourceDir)) fail(`Obsidian PDF 目录不存在：${sourceDir}`);
 if (!existsSync(homePath) || !existsSync(readerPath)) fail("网站期刊页面文件不存在");
 
@@ -490,7 +621,9 @@ if (!dryRun && added.length) {
 
 const gallerySync = syncGalleries();
 pending.push(...gallerySync.pending);
-const hasUpdates = added.length > 0 || gallerySync.changed;
+const hookSync = syncHookTraining();
+pending.push(...hookSync.pending);
+const hasUpdates = added.length > 0 || gallerySync.changed || hookSync.changed;
 
 console.log(
   JSON.stringify(
@@ -501,6 +634,7 @@ console.log(
       pending,
       skippedCount: skipped.length,
       gallery: gallerySync,
+      hooks: hookSync,
     },
     null,
     2,

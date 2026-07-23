@@ -11,14 +11,32 @@
           "mode": "compare",
           "prompt": "哪一张是高赞作品？",
           "images": [
-            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q01-left.webp" },
-            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q01-right.webp" }
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260722/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260722/q01-right.webp"
+            }
           ],
           "correct": "right",
           "answerLabel": "右图是高赞作品",
           "works": [
-            { "level": "高赞", "title": "太听话耽误正事", "likes": "100000", "published": "2026-06-30 22:12:53" },
-            { "level": "低赞", "title": "infj/高敏感的出路--博主", "likes": "65", "published": "2026-07-15 19:47:15" }
+            {
+              "level": "高赞",
+              "title": "太听话耽误正事",
+              "likes": "100000",
+              "published": "2026-06-30 22:12:53"
+            },
+            {
+              "level": "低赞",
+              "title": "infj/高敏感的出路--博主",
+              "likes": "65",
+              "published": "2026-07-15 19:47:15"
+            }
           ]
         },
         {
@@ -26,14 +44,32 @@
           "mode": "compare",
           "prompt": "哪一张是高赞作品？",
           "images": [
-            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q02-left.webp" },
-            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q02-right.webp" }
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260722/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260722/q02-right.webp"
+            }
           ],
           "correct": "left",
           "answerLabel": "左图是高赞作品",
           "works": [
-            { "level": "高赞", "title": "钱都流向不缺钱的，爱都流向不缺爱的", "likes": "31000", "published": "2025-12-23 21:00:09" },
-            { "level": "低赞", "title": "普通人寻找天赋使命最好的办法（2）", "likes": "682", "published": "2026-03-02 21:24:01" }
+            {
+              "level": "高赞",
+              "title": "钱都流向不缺钱的，爱都流向不缺爱的",
+              "likes": "31000",
+              "published": "2025-12-23 21:00:09"
+            },
+            {
+              "level": "低赞",
+              "title": "普通人寻找天赋使命最好的办法（2）",
+              "likes": "682",
+              "published": "2026-03-02 21:24:01"
+            }
           ]
         },
         {
@@ -41,14 +77,32 @@
           "mode": "compare",
           "prompt": "哪一张是高赞作品？",
           "images": [
-            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q03-left.webp" },
-            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q03-right.webp" }
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260722/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260722/q03-right.webp"
+            }
           ],
           "correct": "right",
           "answerLabel": "右图是高赞作品",
           "works": [
-            { "level": "高赞", "title": "这事儿必须由我来做吗", "likes": "92000", "published": "2026-05-25 15:18:41" },
-            { "level": "低赞", "title": "钱都流向不缺钱的人，爱都流向不缺爱的人", "likes": "236", "published": "2026-01-09 20:12:28" }
+            {
+              "level": "高赞",
+              "title": "这事儿必须由我来做吗",
+              "likes": "92000",
+              "published": "2026-05-25 15:18:41"
+            },
+            {
+              "level": "低赞",
+              "title": "钱都流向不缺钱的人，爱都流向不缺爱的人",
+              "likes": "236",
+              "published": "2026-01-09 20:12:28"
+            }
           ]
         },
         {
@@ -56,14 +110,32 @@
           "mode": "compare",
           "prompt": "哪一张是高赞作品？",
           "images": [
-            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q04-left.webp" },
-            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q04-right.webp" }
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260722/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260722/q04-right.webp"
+            }
           ],
           "correct": "left",
           "answerLabel": "左图是高赞作品",
           "works": [
-            { "level": "高赞", "title": "高敏感 + 极简＝王炸", "likes": "67000", "published": "2026-03-24 22:21:22" },
-            { "level": "低赞", "title": "我自己每次创造新颖话题的方法", "likes": "969", "published": "2026-05-09 17:21" }
+            {
+              "level": "高赞",
+              "title": "高敏感 + 极简＝王炸",
+              "likes": "67000",
+              "published": "2026-03-24 22:21:22"
+            },
+            {
+              "level": "低赞",
+              "title": "我自己每次创造新颖话题的方法",
+              "likes": "969",
+              "published": "2026-05-09 17:21"
+            }
           ]
         },
         {
@@ -71,14 +143,32 @@
           "mode": "compare",
           "prompt": "哪一张是高赞作品？",
           "images": [
-            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q05-left.webp" },
-            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q05-right.webp" }
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260722/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260722/q05-right.webp"
+            }
           ],
           "correct": "left",
           "answerLabel": "左图是高赞作品",
           "works": [
-            { "level": "高赞", "title": "0经验跨行第六期", "likes": "100000", "published": "2026-01-17 18:01:59" },
-            { "level": "低赞", "title": "也轮到你也汗流浃背了吧", "likes": "170", "published": "2025-09-05 10:16:48" }
+            {
+              "level": "高赞",
+              "title": "0经验跨行第六期",
+              "likes": "100000",
+              "published": "2026-01-17 18:01:59"
+            },
+            {
+              "level": "低赞",
+              "title": "也轮到你也汗流浃背了吧",
+              "likes": "170",
+              "published": "2025-09-05 10:16:48"
+            }
           ]
         },
         {
@@ -86,14 +176,32 @@
           "mode": "compare",
           "prompt": "哪一张是高赞作品？",
           "images": [
-            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q06-left.webp" },
-            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q06-right.webp" }
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260722/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260722/q06-right.webp"
+            }
           ],
           "correct": "left",
           "answerLabel": "左图是高赞作品",
           "works": [
-            { "level": "高赞", "title": "如何让贵人主动帮你 | 你有三种稀缺价值", "likes": "100000", "published": "2026-01-08 18:03:41" },
-            { "level": "低赞", "title": "不想一直打工，学会反向压榨公司", "likes": "380", "published": "2025-08-26 19:37:26" }
+            {
+              "level": "高赞",
+              "title": "如何让贵人主动帮你 | 你有三种稀缺价值",
+              "likes": "100000",
+              "published": "2026-01-08 18:03:41"
+            },
+            {
+              "level": "低赞",
+              "title": "不想一直打工，学会反向压榨公司",
+              "likes": "380",
+              "published": "2025-08-26 19:37:26"
+            }
           ]
         },
         {
@@ -101,14 +209,32 @@
           "mode": "compare",
           "prompt": "哪一张是高赞作品？",
           "images": [
-            { "choice": "left", "label": "左图", "src": "/hooks/20260722/q07-left.webp" },
-            { "choice": "right", "label": "右图", "src": "/hooks/20260722/q07-right.webp" }
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260722/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260722/q07-right.webp"
+            }
           ],
           "correct": "left",
           "answerLabel": "左图是高赞作品",
           "works": [
-            { "level": "高赞", "title": "人际关系 | 如何摆脱讨好", "likes": "58000", "published": "2025-12-26 21:22" },
-            { "level": "低赞", "title": "《找工作经验贴》如何快速找到工作", "likes": "430", "published": "2025-08-19 21:07:50" }
+            {
+              "level": "高赞",
+              "title": "人际关系 | 如何摆脱讨好",
+              "likes": "58000",
+              "published": "2025-12-26 21:22"
+            },
+            {
+              "level": "低赞",
+              "title": "《找工作经验贴》如何快速找到工作",
+              "likes": "430",
+              "published": "2025-08-19 21:07:50"
+            }
           ]
         },
         {
@@ -116,12 +242,21 @@
           "mode": "judge",
           "prompt": "这张作品是高赞还是低赞？",
           "images": [
-            { "choice": "work", "label": "待判断作品", "src": "/hooks/20260722/q08.webp" }
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260722/q08.webp"
+            }
           ],
           "correct": "high",
           "answerLabel": "高赞",
           "works": [
-            { "level": "高赞", "title": "钱都流向不缺钱的，爱都流向不缺爱的", "likes": "31000", "published": "2025-12-23 21:00:09" }
+            {
+              "level": "高赞",
+              "title": "钱都流向不缺钱的，爱都流向不缺爱的",
+              "likes": "31000",
+              "published": "2025-12-23 21:00:09"
+            }
           ]
         },
         {
@@ -129,12 +264,21 @@
           "mode": "judge",
           "prompt": "这张作品是高赞还是低赞？",
           "images": [
-            { "choice": "work", "label": "待判断作品", "src": "/hooks/20260722/q09.webp" }
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260722/q09.webp"
+            }
           ],
           "correct": "high",
           "answerLabel": "高赞",
           "works": [
-            { "level": "高赞", "title": "如何让贵人主动帮你 | 你有三种稀缺价值", "likes": "100000", "published": "2026-01-08 18:03:41" }
+            {
+              "level": "高赞",
+              "title": "如何让贵人主动帮你 | 你有三种稀缺价值",
+              "likes": "100000",
+              "published": "2026-01-08 18:03:41"
+            }
           ]
         },
         {
@@ -142,12 +286,379 @@
           "mode": "judge",
           "prompt": "这张作品是高赞还是低赞？",
           "images": [
-            { "choice": "work", "label": "待判断作品", "src": "/hooks/20260722/q10.webp" }
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260722/q10.webp"
+            }
           ],
           "correct": "high",
           "answerLabel": "高赞",
           "works": [
-            { "level": "高赞", "title": "0经验跨行第六期", "likes": "100000", "published": "2026-01-17 18:01:59" }
+            {
+              "level": "高赞",
+              "title": "0经验跨行第六期",
+              "likes": "100000",
+              "published": "2026-01-17 18:01:59"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-07-23.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260723/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260723/q01-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "进击的李李",
+              "title": "如何无痛提高表达力,看完你就不混乱了2.0",
+              "likes": "15000",
+              "published": "2026-03-30 23:26:00"
+            },
+            {
+              "level": "低赞",
+              "blogger": "进击的李李",
+              "title": "只需一招,任何事情都能轻松简单化!!",
+              "likes": "828",
+              "published": "2025-02-10 22:45:06"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260723/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260723/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "炸老师爱说话",
+              "title": "全网最另辟蹊径的一份“祛魅母爱”报告",
+              "likes": "9893",
+              "published": "2026-02-26 13:30:13"
+            },
+            {
+              "level": "低赞",
+              "blogger": "炸老师爱说话",
+              "title": "跑步让我更懂得“做时间朋友”的真谛",
+              "likes": "162",
+              "published": "2025-02-05 19:00:39"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260723/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260723/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "炸老师爱说话",
+              "title": "全网最另辟蹊径的「思维锻炼表达能力」方法论",
+              "likes": "24000",
+              "published": "2026-03-15 14:48:52"
+            },
+            {
+              "level": "低赞",
+              "blogger": "炸老师爱说话",
+              "title": "可能是全网最另辟蹊径的戒掉“讨好感”方法论",
+              "likes": "221",
+              "published": "2025-11-08 23:35:53"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260723/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260723/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "进击的李李",
+              "title": "200%存下钱的方法:工资先放余额宝「攒着」",
+              "likes": "14000",
+              "published": "2026-07-03 19:26:05"
+            },
+            {
+              "level": "低赞",
+              "blogger": "炸老师爱说话",
+              "title": "买这个被婆婆打了",
+              "likes": "79",
+              "published": "2024-11-12 18:04:39"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260723/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260723/q05-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "炸老师爱说话",
+              "title": "30岁后的顶级清醒:别让“假深度”耗尽你的能",
+              "likes": "8853",
+              "published": "2026-04-23 20:34:51"
+            },
+            {
+              "level": "低赞",
+              "blogger": "炸老师爱说话",
+              "title": "全网最另辟蹊径的建立自信底层逻辑&方法论",
+              "likes": "743",
+              "published": "2026-05-30 10:05:05"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260723/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260723/q06-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "进击的李李",
+              "title": "强烈建议普通人不要拍日常vlog!",
+              "likes": "20000",
+              "published": "2026-04-03 22:33:30"
+            },
+            {
+              "level": "低赞",
+              "blogger": "进击的李李",
+              "title": "替大家试过了,裸辞之后人生并不会重启",
+              "likes": "146",
+              "published": "2025-06-27 13:30:38"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260723/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260723/q07-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "进击的李李",
+              "title": "职场魅魔之性格扭捏的人如何才能松弛大方",
+              "likes": "16000",
+              "published": "2026-05-07 17:21:58"
+            },
+            {
+              "level": "低赞",
+              "blogger": "进击的李李",
+              "title": "自媒体做口播,出爆款真的很简单",
+              "likes": "488",
+              "published": "2025-11-03 19:59:36"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260723/q08-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260723/q08-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "进击的李李",
+              "title": "i人也能找到天选职业的秘诀",
+              "likes": "24000",
+              "published": "2025-03-24 20:30:52"
+            },
+            {
+              "level": "低赞",
+              "blogger": "炸老师爱说话",
+              "title": "多与自己和食物对话!别吃那些你不想吃的!",
+              "likes": "257",
+              "published": "2025-01-02 10:33:56"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260723/q09-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260723/q09-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "炸老师爱说话",
+              "title": "全网最另辟蹊径的自信感底层逻辑&方法论",
+              "likes": "17000",
+              "published": "2026-05-28 11:12:07"
+            },
+            {
+              "level": "低赞",
+              "blogger": "炸老师爱说话",
+              "title": "全网最另辟蹊径的“建立高配得感”指南",
+              "likes": "391",
+              "published": "2026-06-05 12:08:56"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260723/q10-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260723/q10-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "进击的李李",
+              "title": "7天找到满意的工作全流程",
+              "likes": "16000",
+              "published": "2025-03-19 00:16:44"
+            },
+            {
+              "level": "低赞",
+              "blogger": "炸老师爱说话",
+              "title": "跑步跑的这是人生啊!!",
+              "likes": "58",
+              "published": "2024-12-23 15:06:04"
+            }
           ]
         }
       ]
