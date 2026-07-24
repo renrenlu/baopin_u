@@ -22,6 +22,13 @@ try:
 except ImportError:  # pragma: no cover - fallback keeps source bytes
     Image = None
 
+try:
+    import cv2
+    import numpy as np
+except ImportError:  # pragma: no cover - checked when QR links are extracted
+    cv2 = None
+    np = None
+
 
 def normalize(value: str) -> str:
     value = unicodedata.normalize("NFKC", value.replace("\x00", ""))
@@ -118,6 +125,41 @@ def write_image(document: fitz.Document, xref: int, destination_base: Path) -> s
     return destination.name
 
 
+def answer_video_urls(
+    document: fitz.Document,
+    page_index: int,
+    expected_count: int,
+) -> list[str]:
+    if cv2 is None or np is None:
+        raise RuntimeError("缺少二维码识别组件：请安装 opencv-python-headless")
+    if page_index >= document.page_count:
+        raise ValueError(f"答案页不足：找不到 PDF 第 {page_index + 1} 页")
+
+    detector = cv2.QRCodeDetector()
+    positioned_urls: dict[str, float] = {}
+    page = document[page_index]
+    for scale in (3.4, 3.7, 4.0, 4.6):
+        pixmap = page.get_pixmap(matrix=fitz.Matrix(scale, scale), alpha=False)
+        image = np.frombuffer(pixmap.samples, dtype=np.uint8).reshape(
+            pixmap.height,
+            pixmap.width,
+            pixmap.n,
+        )
+        detected, decoded, points, _ = detector.detectAndDecodeMulti(image)
+        if not detected or points is None:
+            continue
+        for value, corners in zip(decoded, points):
+            value = value.strip()
+            if re.match(r"https?://", value):
+                positioned_urls[value] = float(corners[:, 1].mean()) / pixmap.height
+        if len(positioned_urls) >= expected_count:
+            break
+    return [
+        value
+        for value, _ in sorted(positioned_urls.items(), key=lambda item: item[1])
+    ]
+
+
 def extract(pdf: Path, output_dir: Path | None, public_prefix: str) -> dict[str, Any]:
     document = fitz.open(pdf)
     pages = [normalize(page.get_text("text")) for page in document]
@@ -148,6 +190,20 @@ def extract(pdf: Path, output_dir: Path | None, public_prefix: str) -> dict[str,
     questions = []
     for number in range(1, total + 1):
         answer = answers[number]
+        video_urls = answer_video_urls(
+            document,
+            answer_page + number - 1,
+            len(answer["works"]),
+        )
+        if len(video_urls) != len(answer["works"]):
+            raise ValueError(
+                f"第 {number} 题原视频二维码数量异常："
+                f"识别到 {len(video_urls)}，应为 {len(answer['works'])}"
+            )
+        works = [
+            {**work, "videoUrl": video_urls[index]}
+            for index, work in enumerate(answer["works"])
+        ]
         compare = number <= mode_one
         if compare:
             specs = [("left", "左图"), ("right", "右图")]
@@ -186,7 +242,7 @@ def extract(pdf: Path, output_dir: Path | None, public_prefix: str) -> dict[str,
                 "images": images,
                 "correct": correct,
                 "answerLabel": answer["answerLabel"],
-                "works": answer["works"],
+                "works": works,
             }
         )
 

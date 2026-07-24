@@ -14,6 +14,7 @@ type Work = {
   title: string;
   likes: string;
   published: string;
+  videoUrl?: string;
 };
 
 type Question = {
@@ -281,6 +282,17 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
                           <div><dt>点赞</dt><dd>{work.likes}</dd></div>
                           <div><dt>发布</dt><dd>{work.published}</dd></div>
                         </dl>
+                        {work.videoUrl ? (
+                          <a
+                            className="training-video-link"
+                            href={work.videoUrl}
+                            target="_blank"
+                            rel="noreferrer noopener"
+                          >
+                            <span>打开原视频</span>
+                            <span aria-hidden="true">↗</span>
+                          </a>
+                        ) : null}
                       </article>
                     ))}
                   </div>

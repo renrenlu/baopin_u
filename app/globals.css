@@ -1125,6 +1125,9 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 .training-work-grid dl div { display: grid; grid-template-columns: 40px 1fr; gap: 8px; font-size: 9px; line-height: 1.5; }
 .training-work-grid dt { color: #969a92; }
 .training-work-grid dd { margin: 0; color: #5e635b; overflow-wrap: anywhere; }
+.training-video-link { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 15px; padding: 11px 12px; border-radius: 8px; background: var(--ink); color: #fff; font-size: 9px; font-weight: 780; transition: transform 160ms ease, background 160ms ease; }
+.training-video-link:hover { transform: translateY(-1px); background: #343832; }
+.training-video-link span:last-child { color: var(--yellow); font-size: 13px; line-height: 1; }
 .training-hook-observation { display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: start; margin-top: 11px; padding: 13px 15px; border: 1px dashed #d8c77f; border-radius: 9px; background: rgba(255, 255, 255, 0.52); }
 .training-hook-observation span { padding-top: 1px; color: #8d7312; font-size: 8px; font-weight: 800; letter-spacing: 0.07em; }
 .training-hook-observation p { margin: 0; color: #716b50; font-size: 9px; line-height: 1.7; }
