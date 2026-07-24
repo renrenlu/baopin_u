@@ -1025,7 +1025,7 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 .training-heatmap-grid i.level-3,
 .training-heatmap-scale i.level-3 { background: #d9aa00; }
 .training-heatmap-grid i.level-4,
-.training-heatmap-scale i.level-4 { background: #6f5700; }
+.training-heatmap-scale i.level-4 { background: #c39a00; }
 .training-heatmap-grid i.future { opacity: 0.3; }
 .training-activity-heatmap > footer { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-top: 10px; color: #8d928a; font-size: 8px; }
 .training-heatmap-scale { display: flex; align-items: center; gap: 4px; }
