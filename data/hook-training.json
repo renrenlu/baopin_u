@@ -13,17 +13,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260722/q01-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260722/q01-right.webp"
             }
           ],
           "correct": "right",
-          "answerLabel": "右图是高赞作品",
+          "answerLabel": "B图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -48,17 +48,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260722/q02-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260722/q02-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -83,17 +83,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260722/q03-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260722/q03-right.webp"
             }
           ],
           "correct": "right",
-          "answerLabel": "右图是高赞作品",
+          "answerLabel": "B图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -118,17 +118,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260722/q04-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260722/q04-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -153,17 +153,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260722/q05-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260722/q05-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -188,17 +188,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260722/q06-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260722/q06-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -223,17 +223,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260722/q07-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260722/q07-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -335,17 +335,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260723/q01-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260723/q01-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -372,17 +372,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260723/q02-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260723/q02-right.webp"
             }
           ],
           "correct": "right",
-          "answerLabel": "右图是高赞作品",
+          "answerLabel": "B图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -409,17 +409,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260723/q03-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260723/q03-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -446,17 +446,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260723/q04-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260723/q04-right.webp"
             }
           ],
           "correct": "right",
-          "answerLabel": "右图是高赞作品",
+          "answerLabel": "B图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -483,17 +483,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260723/q05-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260723/q05-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -520,17 +520,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260723/q06-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260723/q06-right.webp"
             }
           ],
           "correct": "right",
-          "answerLabel": "右图是高赞作品",
+          "answerLabel": "B图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -557,17 +557,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260723/q07-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260723/q07-right.webp"
             }
           ],
           "correct": "right",
-          "answerLabel": "右图是高赞作品",
+          "answerLabel": "B图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -594,17 +594,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260723/q08-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260723/q08-right.webp"
             }
           ],
           "correct": "right",
-          "answerLabel": "右图是高赞作品",
+          "answerLabel": "B图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -631,17 +631,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260723/q09-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260723/q09-right.webp"
             }
           ],
           "correct": "right",
-          "answerLabel": "右图是高赞作品",
+          "answerLabel": "B图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -668,17 +668,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260723/q10-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260723/q10-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -713,17 +713,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260724/q01-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260724/q01-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -750,17 +750,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260724/q02-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260724/q02-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -787,17 +787,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260724/q03-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260724/q03-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -824,17 +824,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260724/q04-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260724/q04-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -861,17 +861,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260724/q05-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260724/q05-right.webp"
             }
           ],
           "correct": "right",
-          "answerLabel": "右图是高赞作品",
+          "answerLabel": "B图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -898,17 +898,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260724/q06-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260724/q06-right.webp"
             }
           ],
           "correct": "left",
-          "answerLabel": "左图是高赞作品",
+          "answerLabel": "A图是高赞作品",
           "works": [
             {
               "level": "高赞",
@@ -935,17 +935,17 @@
           "images": [
             {
               "choice": "left",
-              "label": "左图",
+              "label": "A图",
               "src": "/hooks/20260724/q07-left.webp"
             },
             {
               "choice": "right",
-              "label": "右图",
+              "label": "B图",
               "src": "/hooks/20260724/q07-right.webp"
             }
           ],
           "correct": "right",
-          "answerLabel": "右图是高赞作品",
+          "answerLabel": "B图是高赞作品",
           "works": [
             {
               "level": "高赞",

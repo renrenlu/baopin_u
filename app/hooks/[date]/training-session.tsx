@@ -49,9 +49,22 @@ type SavedProgress = {
   completedAt?: string;
 };
 
+function imageLabel(image: ImageChoice) {
+  if (image.choice === "left") return "A图";
+  if (image.choice === "right") return "B图";
+  return image.label;
+}
+
+function answerLabel(label: string) {
+  return label
+    .replaceAll("左图", "A图")
+    .replaceAll("右图", "B图");
+}
+
 function choiceLabel(question: Question, choice: string) {
   if (question.mode === "judge") return choice === "high" ? "高赞" : "低赞";
-  return question.images.find((image) => image.choice === choice)?.label ?? choice;
+  const image = question.images.find((item) => item.choice === choice);
+  return image ? imageLabel(image) : choice;
 }
 
 export default function TrainingSession({ issue, basePath }: TrainingSessionProps) {
@@ -226,6 +239,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
               <div className={question.mode === "compare" ? "training-visuals compare" : "training-visuals single"}>
                 {question.images.map((image) => {
                   const chosen = selected === image.choice;
+                  const displayLabel = imageLabel(image);
                   const correctVisual = isRevealed && question.mode === "compare" && image.choice === question.correct;
                   const wrongVisual = isRevealed && chosen && image.choice !== question.correct;
                   return (
@@ -237,10 +251,10 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
                       disabled={question.mode !== "compare"}
                       aria-pressed={question.mode === "compare" ? chosen : undefined}
                     >
-                      <span>{image.label}{chosen ? " · 已选择" : ""}</span>
+                      <span>{displayLabel}{chosen ? " · 已选择" : ""}</span>
                       {/* Source frames come directly from the PDF and keep their original aspect ratios. */}
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={`${basePath}${image.src}`} alt={`第 ${question.id} 题${image.label}`} loading="lazy" />
+                      <img src={`${basePath}${image.src}`} alt={`第 ${question.id} 题${displayLabel}`} loading="lazy" />
                     </button>
                   );
                 })}
@@ -285,7 +299,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
                 <div className="training-answer" id={`answer-${question.id}`}>
                   <header>
                     <span>{selected ? (isCorrect ? "判断正确" : "再观察一下") : "参考答案"}</span>
-                    <h3>{question.answerLabel}</h3>
+                    <h3>{answerLabel(question.answerLabel)}</h3>
                   </header>
                   <p>以下为原 PDF 给出的作品数据。</p>
                   <div className="training-work-grid">
