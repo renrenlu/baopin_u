@@ -405,17 +405,16 @@ export default function Home() {
           {sidebarOpen ? "×" : "☰"}
         </button>
       </header>
+      <nav className="gallery-mobile-tabs home-mobile-tabs" aria-label="内容栏目">
+        <a className="active" href="#top">爆品讯息</a>
+        <a href={`${BASE_PATH}/gallery/social/`}>社会热点</a>
+        <a href={`${BASE_PATH}/gallery/reading/`}>读书分享</a>
+        <a href={`${BASE_PATH}/gallery/viral/`}>爆款裂变</a>
+        <a href={`${BASE_PATH}/hooks/`}>钩子训练</a>
+      </nav>
 
       <div className="workspace" id="top">
         <aside className={sidebarOpen ? "sidebar open" : "sidebar"} aria-label="期刊日期导航">
-          <nav className="mobile-category-nav" aria-label="内容栏目">
-            <a className="active" href="#top" onClick={() => setSidebarOpen(false)}>爆品讯息</a>
-            <a href={`${BASE_PATH}/gallery/social/`}>社会热点</a>
-            <a href={`${BASE_PATH}/gallery/reading/`}>读书分享</a>
-            <a href={`${BASE_PATH}/gallery/viral/`}>爆款裂变</a>
-            <a href={`${BASE_PATH}/hooks/`}>钩子训练</a>
-          </nav>
-
           <label className="search-field">
             <span aria-hidden="true">⌕</span>
             <input
