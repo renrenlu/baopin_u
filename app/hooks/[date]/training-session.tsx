@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 type ImageChoice = {
   choice: string;
@@ -42,6 +42,8 @@ type TrainingSessionProps = {
 type SavedProgress = {
   choices?: Record<string, string>;
   revealed?: number[];
+  updatedAt?: string;
+  completedAt?: string;
 };
 
 function choiceLabel(question: Question, choice: string) {
@@ -53,6 +55,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
   const storageKey = `baopin-hook-training:${issue.date}`;
   const [choices, setChoices] = useState<Record<string, string>>({});
   const [revealed, setRevealed] = useState<number[]>([]);
+  const completedAtRef = useRef<string | undefined>(undefined);
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
@@ -61,27 +64,48 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
         const saved = JSON.parse(window.localStorage.getItem(storageKey) ?? "{}") as SavedProgress;
         setChoices(saved.choices ?? {});
         setRevealed(saved.revealed ?? []);
+        completedAtRef.current = saved.completedAt;
       } catch {
         setChoices({});
         setRevealed([]);
+        completedAtRef.current = undefined;
       }
       setReady(true);
     });
     return () => window.cancelAnimationFrame(frame);
   }, [storageKey]);
 
+  const answeredCount = useMemo(
+    () => issue.questions.filter((question) => Boolean(choices[String(question.id)])).length,
+    [choices, issue.questions],
+  );
+  const correctCount = useMemo(
+    () => issue.questions.filter(
+      (question) => choices[String(question.id)] === question.correct,
+    ).length,
+    [choices, issue.questions],
+  );
+  const isComplete = answeredCount === issue.questions.length;
+  const scorePercent = isComplete
+    ? Math.round((correctCount / issue.questions.length) * 100)
+    : 0;
+
   useEffect(() => {
     if (!ready) return;
-    window.localStorage.setItem(storageKey, JSON.stringify({ choices, revealed }));
-  }, [choices, ready, revealed, storageKey]);
-
-  const correctCount = useMemo(
-    () => revealed.filter((id) => {
-      const question = issue.questions.find((item) => item.id === id);
-      return question && choices[String(id)] === question.correct;
-    }).length,
-    [choices, issue.questions, revealed],
-  );
+    const now = new Date().toISOString();
+    if (isComplete && !completedAtRef.current) completedAtRef.current = now;
+    if (!isComplete) completedAtRef.current = undefined;
+    window.localStorage.setItem(
+      storageKey,
+      JSON.stringify({
+        choices,
+        revealed,
+        updatedAt: now,
+        completedAt: completedAtRef.current,
+      }),
+    );
+    window.dispatchEvent(new Event("baopin-hook-progress"));
+  }, [choices, isComplete, ready, revealed, storageKey]);
 
   function choose(questionId: number, choice: string) {
     setChoices((current) => ({ ...current, [String(questionId)]: choice }));
@@ -98,7 +122,9 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
   function reset() {
     setChoices({});
     setRevealed([]);
+    completedAtRef.current = undefined;
     window.localStorage.removeItem(storageKey);
+    window.dispatchEvent(new Event("baopin-hook-progress"));
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -107,11 +133,59 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
       <div className="training-progress" aria-live="polite">
         <div>
           <span>训练进度</span>
-          <strong>{revealed.length} / {issue.questions.length} 题已查看答案</strong>
+          <strong>{answeredCount} / {issue.questions.length} 题已作答</strong>
         </div>
-        <p>{revealed.length ? `已答对 ${correctCount} 题` : "先选答案，再查看结果"}</p>
+        <p>
+          {isComplete
+            ? "全部完成，成绩已保存"
+            : answeredCount
+              ? `还差 ${issue.questions.length - answeredCount} 题`
+              : "先选答案，再查看结果"}
+        </p>
         <button type="button" onClick={reset}>重新练习</button>
       </div>
+
+      {isComplete ? (
+        <section className="training-score-card" aria-live="polite" aria-label={`本期得分 ${scorePercent}%`}>
+          <div className="training-score-value">
+            <span>SCORE</span>
+            <strong>{scorePercent}<small>%</small></strong>
+            <p>{scorePercent >= 80 ? "判断力很稳" : scorePercent >= 60 ? "已经抓到感觉" : "继续对照钩子差异"}</p>
+          </div>
+          <div className="training-score-detail">
+            <div>
+              <span>答对</span>
+              <strong>{correctCount}</strong>
+            </div>
+            <div>
+              <span>答错</span>
+              <strong>{issue.questions.length - correctCount}</strong>
+            </div>
+            <div>
+              <span>已看答案</span>
+              <strong>{revealed.length}</strong>
+            </div>
+          </div>
+          <div className="training-score-dots" aria-label="逐题结果">
+            {issue.questions.map((question) => {
+              const correct = choices[String(question.id)] === question.correct;
+              return (
+                <a
+                  className={correct ? "correct" : "wrong"}
+                  href={`#question-${question.id}`}
+                  aria-label={`第 ${question.id} 题${correct ? "正确" : "错误"}`}
+                  key={question.id}
+                >
+                  {question.id}
+                </a>
+              );
+            })}
+          </div>
+          <a className="training-history-link" href={`${basePath}/hooks/#training-history-title`}>
+            查看每日训练趋势 →
+          </a>
+        </section>
+      ) : null}
 
       <div className="training-question-list">
         {issue.questions.map((question) => {
@@ -197,8 +271,11 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
                   <div className="training-work-grid">
                     {question.works.map((work) => (
                       <article className={work.level === "高赞" ? "high" : "low"} key={`${work.level}-${work.title}`}>
-                        <span>{work.level}</span>
-                        <h4>{work.title}</h4>
+                        <header>
+                          <span>{work.level === "高赞" ? "高赞钩子" : "低赞钩子"}</span>
+                          <small>钩子原文</small>
+                        </header>
+                        <blockquote>{work.title}</blockquote>
                         <dl>
                           <div><dt>博主</dt><dd>{work.blogger ?? "华丽蒙"}</dd></div>
                           <div><dt>点赞</dt><dd>{work.likes}</dd></div>
@@ -207,6 +284,12 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
                       </article>
                     ))}
                   </div>
+                  {question.works.length > 1 ? (
+                    <div className="training-hook-observation">
+                      <span>对比观察</span>
+                      <p>把两句并排读：重点看对象是否明确、冲突是否具体、结果是否可感，以及第一眼有没有继续看的理由。</p>
+                    </div>
+                  ) : null}
                 </div>
               ) : null}
             </section>

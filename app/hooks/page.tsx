@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import trainingData from "@/data/hook-training.json";
 import HookHeader from "./hook-header";
+import TrainingHistory from "./training-history";
 
 type TrainingIssue = (typeof trainingData.issues)[number];
 
@@ -50,6 +51,18 @@ export default function HookArchivePage() {
           </div>
           <p>先凭第一眼做判断，再自己展开答案。<br />每次只练一个动作：识别更有传播力的开头。</p>
         </header>
+
+        <TrainingHistory
+          basePath={BASE_PATH}
+          issues={issues.map((issue) => ({
+            date: issue.date,
+            title: issue.title,
+            questions: issue.questions.map((question) => ({
+              id: question.id,
+              correct: question.correct,
+            })),
+          }))}
+        />
 
         <div className="hook-archive-layout">
           <aside className="hook-calendar-card" aria-label={`${year} 年 ${month} 月训练日历`}>
