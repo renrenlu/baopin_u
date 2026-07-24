@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import trainingData from "@/data/hook-training.json";
 import HookHeader from "./hook-header";
 import TrainingHistory from "./training-history";
+import { getTrainingIssueTitle } from "./training-title";
 
 type TrainingIssue = (typeof trainingData.issues)[number];
 
@@ -56,7 +57,7 @@ export default function HookArchivePage() {
           basePath={BASE_PATH}
           issues={issues.map((issue) => ({
             date: issue.date,
-            title: issue.title,
+            title: getTrainingIssueTitle(issue),
             questions: issue.questions.map((question) => ({
               id: question.id,
               correct: question.correct,
@@ -102,7 +103,7 @@ export default function HookArchivePage() {
                   <span>{String(index + 1).padStart(2, "0")}</span>
                   <time dateTime={issue.date}>{formatDate(issue.date)}</time>
                 </div>
-                <h2><a href={issueHref(issue)}>{issue.title}<span aria-hidden="true">↗</span></a></h2>
+                <h2><a href={issueHref(issue)}>{getTrainingIssueTitle(issue)}<span aria-hidden="true">↗</span></a></h2>
                 <p>{issue.description}</p>
                 <footer>
                   <span>{issue.questions.length} 道题</span>

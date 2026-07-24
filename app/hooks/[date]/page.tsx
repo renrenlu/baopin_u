@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import trainingData from "@/data/hook-training.json";
 import HookHeader from "../hook-header";
+import { getTrainingIssueTitle } from "../training-title";
 import TrainingSession from "./training-session";
 
 type TrainingPageProps = {
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }: TrainingPageProps): Promise<M
   const issue = findIssue(date);
   return issue
     ? {
-        title: `${formatDate(issue.date)}钩子训练｜每日爆品讯息`,
+        title: `${getTrainingIssueTitle(issue)}｜钩子训练｜每日爆品讯息`,
         description: issue.description,
       }
     : {};
@@ -52,7 +53,7 @@ export default async function TrainingPage({ params }: TrainingPageProps) {
             <span>{issue.questions.length} 道题</span>
             <span>答案可自行展开</span>
           </div>
-          <h1>{issue.title}</h1>
+          <h1>{getTrainingIssueTitle(issue)}</h1>
           <p>{issue.description}</p>
           <div className="hook-hero-actions">
             <a href="#question-1">开始答题 ↓</a>
