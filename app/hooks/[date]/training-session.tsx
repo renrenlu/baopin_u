@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { getHookInsight } from "../hook-insights";
+import { recordTrainingAnswer } from "../training-activity";
 
 type ImageChoice = {
   choice: string;
@@ -56,6 +58,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
   const storageKey = `baopin-hook-training:${issue.date}`;
   const [choices, setChoices] = useState<Record<string, string>>({});
   const [revealed, setRevealed] = useState<number[]>([]);
+  const answeredIdsRef = useRef<Set<string>>(new Set());
   const completedAtRef = useRef<string | undefined>(undefined);
   const [ready, setReady] = useState(false);
 
@@ -63,12 +66,19 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
     const frame = window.requestAnimationFrame(() => {
       try {
         const saved = JSON.parse(window.localStorage.getItem(storageKey) ?? "{}") as SavedProgress;
-        setChoices(saved.choices ?? {});
+        const savedChoices = saved.choices ?? {};
+        setChoices(savedChoices);
         setRevealed(saved.revealed ?? []);
+        answeredIdsRef.current = new Set(
+          Object.entries(savedChoices)
+            .filter(([, choice]) => Boolean(choice))
+            .map(([id]) => id),
+        );
         completedAtRef.current = saved.completedAt;
       } catch {
         setChoices({});
         setRevealed([]);
+        answeredIdsRef.current = new Set();
         completedAtRef.current = undefined;
       }
       setReady(true);
@@ -109,7 +119,12 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
   }, [choices, isComplete, ready, revealed, storageKey]);
 
   function choose(questionId: number, choice: string) {
-    setChoices((current) => ({ ...current, [String(questionId)]: choice }));
+    const id = String(questionId);
+    if (!answeredIdsRef.current.has(id)) {
+      answeredIdsRef.current.add(id);
+      recordTrainingAnswer();
+    }
+    setChoices((current) => ({ ...current, [id]: choice }));
   }
 
   function toggleAnswer(questionId: number) {
@@ -123,6 +138,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
   function reset() {
     setChoices({});
     setRevealed([]);
+    answeredIdsRef.current = new Set();
     completedAtRef.current = undefined;
     window.localStorage.removeItem(storageKey);
     window.dispatchEvent(new Event("baopin-hook-progress"));
@@ -193,6 +209,9 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
           const selected = choices[String(question.id)];
           const isRevealed = revealed.includes(question.id);
           const isCorrect = selected === question.correct;
+          const insight = question.works.length > 1
+            ? getHookInsight(issue.date, question.id, question.works)
+            : null;
 
           return (
             <section className="training-question" id={`question-${question.id}`} key={question.id}>
@@ -296,10 +315,26 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
                       </article>
                     ))}
                   </div>
-                  {question.works.length > 1 ? (
+                  {insight ? (
                     <div className="training-hook-observation">
-                      <span>对比观察</span>
-                      <p>把两句并排读：重点看对象是否明确、冲突是否具体、结果是否可感，以及第一眼有没有继续看的理由。</p>
+                      <header>
+                        <span>对比拆解</span>
+                        {insight.likeGap ? <strong>点赞差距约 {insight.likeGap}</strong> : null}
+                      </header>
+                      <div>
+                        <section className="high">
+                          <span>高赞有效点</span>
+                          <p>{insight.highSignal}</p>
+                        </section>
+                        <section className="low">
+                          <span>低赞薄弱点</span>
+                          <p>{insight.lowSignal}</p>
+                        </section>
+                        <section className="takeaway">
+                          <span>直接复用</span>
+                          <p>{insight.takeaway}</p>
+                        </section>
+                      </div>
                     </div>
                   ) : null}
                 </div>

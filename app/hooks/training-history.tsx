@@ -1,6 +1,12 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
+import {
+  localDateKey,
+  readTrainingActivity,
+  type TrainingActivity,
+  writeTrainingActivity,
+} from "./training-activity";
 
 type HistoryQuestion = {
   id: number;
@@ -37,22 +43,43 @@ type TrainingHistoryProps = {
   basePath: string;
 };
 
+type HeatmapDay = {
+  date: string;
+  count: number;
+  level: number;
+  future: boolean;
+};
+
+type HeatmapWeek = {
+  month?: string;
+  days: HeatmapDay[];
+};
+
+const ACTIVITY_MIGRATION_KEY = "baopin-hook-training-activity-migrated:v1";
+
 function formatShortDate(date: string) {
   const [, month, day] = date.split("-");
   return `${Number(month)} 月 ${Number(day)} 日`;
 }
 
+function formatActivityDate(date: string) {
+  const [year, month, day] = date.split("-");
+  return `${year} 年 ${Number(month)} 月 ${Number(day)} 日`;
+}
+
+function readSavedProgress(issue: HistoryIssue): SavedProgress {
+  try {
+    return JSON.parse(
+      window.localStorage.getItem(`baopin-hook-training:${issue.date}`) ?? "{}",
+    ) as SavedProgress;
+  } catch {
+    return {};
+  }
+}
+
 function readResults(issues: HistoryIssue[]): DailyResult[] {
   return issues.map((issue) => {
-    let saved: SavedProgress = {};
-    try {
-      saved = JSON.parse(
-        window.localStorage.getItem(`baopin-hook-training:${issue.date}`) ?? "{}",
-      ) as SavedProgress;
-    } catch {
-      saved = {};
-    }
-
+    const saved = readSavedProgress(issue);
     const choices = saved.choices ?? {};
     const answered = issue.questions.filter((question) => Boolean(choices[String(question.id)])).length;
     const correct = issue.questions.filter(
@@ -75,12 +102,80 @@ function readResults(issues: HistoryIssue[]): DailyResult[] {
   });
 }
 
+function readActivityWithMigration(issues: HistoryIssue[]) {
+  const activity = readTrainingActivity();
+  if (window.localStorage.getItem(ACTIVITY_MIGRATION_KEY)) return activity;
+
+  for (const issue of issues) {
+    const saved = readSavedProgress(issue);
+    const answered = issue.questions.filter(
+      (question) => Boolean(saved.choices?.[String(question.id)]),
+    ).length;
+    if (!answered) continue;
+    const updated = saved.updatedAt ? new Date(saved.updatedAt) : null;
+    const date = updated && !Number.isNaN(updated.getTime())
+      ? localDateKey(updated)
+      : issue.date;
+    activity[date] = (activity[date] ?? 0) + answered;
+  }
+  writeTrainingActivity(activity);
+  window.localStorage.setItem(ACTIVITY_MIGRATION_KEY, "1");
+  return activity;
+}
+
+function heatLevel(count: number) {
+  if (count <= 0) return 0;
+  if (count === 1) return 1;
+  if (count <= 3) return 2;
+  if (count <= 6) return 3;
+  return 4;
+}
+
+function buildHeatmap(activity: TrainingActivity): HeatmapWeek[] {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const end = new Date(today);
+  end.setDate(today.getDate() + (6 - today.getDay()));
+  const start = new Date(end);
+  start.setDate(end.getDate() - 370);
+
+  const weeks: HeatmapWeek[] = [];
+  let previousMonth = -1;
+  for (let weekIndex = 0; weekIndex < 53; weekIndex += 1) {
+    const firstDay = new Date(start);
+    firstDay.setDate(start.getDate() + weekIndex * 7);
+    const month = firstDay.getMonth();
+    const week: HeatmapWeek = {
+      month: month !== previousMonth ? `${month + 1}月` : undefined,
+      days: [],
+    };
+    previousMonth = month;
+
+    for (let dayIndex = 0; dayIndex < 7; dayIndex += 1) {
+      const date = new Date(firstDay);
+      date.setDate(firstDay.getDate() + dayIndex);
+      const key = localDateKey(date);
+      const count = activity[key] ?? 0;
+      week.days.push({
+        date: key,
+        count,
+        level: heatLevel(count),
+        future: date > today,
+      });
+    }
+    weeks.push(week);
+  }
+  return weeks;
+}
+
 export default function TrainingHistory({ issues, basePath }: TrainingHistoryProps) {
   const [results, setResults] = useState<DailyResult[]>([]);
+  const [activity, setActivity] = useState<TrainingActivity>({});
   const [ready, setReady] = useState(false);
 
   const refresh = useCallback(() => {
     setResults(readResults(issues));
+    setActivity(readActivityWithMigration(issues));
     setReady(true);
   }, [issues]);
 
@@ -96,17 +191,24 @@ export default function TrainingHistory({ issues, basePath }: TrainingHistoryPro
   }, [refresh]);
 
   const summary = useMemo(() => {
-    const practiced = results.filter((result) => result.answered > 0);
     const completed = results.filter((result) => result.completed);
-    const totalAnswered = practiced.reduce((sum, result) => sum + result.answered, 0);
-    const totalCorrect = practiced.reduce((sum, result) => sum + result.correct, 0);
+    const activityCounts = Object.values(activity);
+    const totalAnswered = activityCounts.reduce((sum, count) => sum + count, 0);
+    const currentAnswered = results.reduce((sum, result) => sum + result.answered, 0);
+    const totalCorrect = results.reduce((sum, result) => sum + result.correct, 0);
     return {
-      practicedDays: practiced.length,
+      practicedDays: activityCounts.filter((count) => count > 0).length,
       completedDays: completed.length,
       totalAnswered,
-      accuracy: totalAnswered ? Math.round((totalCorrect / totalAnswered) * 100) : 0,
+      accuracy: currentAnswered ? Math.round((totalCorrect / currentAnswered) * 100) : 0,
+      scoredAnswers: currentAnswered,
     };
-  }, [results]);
+  }, [activity, results]);
+
+  const heatmap = useMemo(
+    () => ready ? buildHeatmap(activity) : [],
+    [activity, ready],
+  );
 
   return (
     <section className="training-history" aria-labelledby="training-history-title">
@@ -136,10 +238,59 @@ export default function TrainingHistory({ issues, basePath }: TrainingHistoryPro
         </article>
         <article className="accent">
           <span>累计正确率</span>
-          <strong>{ready && summary.totalAnswered ? `${summary.accuracy}%` : "—"}</strong>
-          <small>{summary.totalAnswered ? "按已答题计算" : "完成训练后生成"}</small>
+          <strong>{ready && summary.scoredAnswers ? `${summary.accuracy}%` : "—"}</strong>
+          <small>{summary.scoredAnswers ? "按当前答题记录" : "完成训练后生成"}</small>
         </article>
       </div>
+
+      <section className="training-activity-heatmap" aria-labelledby="training-activity-title">
+        <header>
+          <div>
+            <span>DAILY ACTIVITY</span>
+            <h3 id="training-activity-title">过去一年答题活跃度</h3>
+          </div>
+          <p>每答完一道新题记一次；颜色越深，当天答得越多。</p>
+        </header>
+        {ready ? (
+          <>
+            <div className="training-heatmap-scroll">
+              <div className="training-heatmap-months" aria-hidden="true">
+                {heatmap.map((week, index) =>
+                  week.month ? (
+                    <span style={{ gridColumn: index + 1 }} key={`${week.month}-${index}`}>
+                      {week.month}
+                    </span>
+                  ) : null
+                )}
+              </div>
+              <div className="training-heatmap-grid" role="img" aria-label="过去一年每日答题数量热力图">
+                {heatmap.flatMap((week) =>
+                  week.days.map((day) => (
+                    <i
+                      className={`level-${day.level}${day.future ? " future" : ""}`}
+                      title={`${formatActivityDate(day.date)}：${day.count} 题`}
+                      aria-label={`${formatActivityDate(day.date)}答题 ${day.count} 道`}
+                      key={day.date}
+                    />
+                  ))
+                )}
+              </div>
+            </div>
+            <footer>
+              <span>过去一年共答 {summary.totalAnswered} 题</span>
+              <div className="training-heatmap-scale" aria-label="颜色由浅到深表示答题数量由少到多">
+                <span>少</span>
+                {[0, 1, 2, 3, 4].map((level) => (
+                  <i className={`level-${level}`} key={level} />
+                ))}
+                <span>多</span>
+              </div>
+            </footer>
+          </>
+        ) : (
+          <p className="training-history-loading">正在读取每日答题记录…</p>
+        )}
+      </section>
 
       <div className="training-history-chart">
         <div className="training-history-legend" aria-hidden="true">

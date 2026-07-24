@@ -304,6 +304,16 @@ const ISSUES: Issue[] = [
     size: "6.4 MB",
     accent: "blue",
   },
+  {
+    date: "2026-07-24",
+    title: "母婴用品：先回应担心，再建立信任",
+    summary: "今天不把这组母婴宠物压成一种公式，先对照三条真实路径：暖腹安腹热灸肚兜的人群场景、德佑婴儿绵柔巾的动作自证、婴儿折叠洗澡盆的价格翻译。",
+    takeaway: "今天不要从母婴宠物倒推固定开头：先判断案例依赖人群场景、动作自证还是价格翻译，再用最强证据决定开场方式。",
+    category: "母婴用品",
+    topics: ["暖腹安腹热灸肚兜", "德佑婴儿绵柔巾", "婴儿折叠洗澡盆"],
+    size: "5.9 MB",
+    accent: "peach",
+  },
 ];
 
 const MONTHS = Array.from(new Set(ISSUES.map((issue) => issue.date.slice(0, 7)))).sort();

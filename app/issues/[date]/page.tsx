@@ -33,6 +33,7 @@ const ISSUE_TITLES: Record<string, string> = {
   "20260721": "食品饮料：先制造食欲，再解释价值",
   "20260722": "滋补保健：先讲处境，再补信任",
   "20260723": "图书教育：让学习安排更可执行",
+  "20260724": "母婴用品：先回应担心，再建立信任",
 };
 
 const ISSUE_DATES = Object.keys(ISSUE_TITLES);

@@ -699,6 +699,345 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-24",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-07-24.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260724/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260724/q01-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "低谷期必看!!2026逆袭爽文!",
+              "likes": "31000",
+              "published": "2026-01-04 18:31:30",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/695a4182000000002102bc27"
+            },
+            {
+              "level": "低赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "很讨厌“人老了做什么都很心酸”和“妈呀大姐",
+              "likes": "501",
+              "published": "2026-07-08 20:12:12",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4e3e9c000000001603f173"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260724/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260724/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "高敏感低精力才是真正的大佬幼年体!",
+              "likes": "34000",
+              "published": "2026-05-10 20:29:11",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a007a170000000036018dca"
+            },
+            {
+              "level": "低赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "20岁年入七位数,一家公司两家店的真实感受",
+              "likes": "992",
+              "published": "2026-07-07 22:38:08",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4d0f50000000001c0268f3"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260724/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260724/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "撒谎是我这辈子做过最值的事",
+              "likes": "61000",
+              "published": "2026-04-19 21:10:45",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69e4d4550000000021012120"
+            },
+            {
+              "level": "低赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "搞钱干货悉数奉上!第一期!",
+              "likes": "252",
+              "published": "2026-07-06 21:09:12",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4ba8f8000000001602567d"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260724/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260724/q04-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "以为快被淹死了,勇敢站起来,水其实很浅",
+              "likes": "32000",
+              "published": "2026-04-10 20:29:39",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69d8ed330000000021013e84"
+            },
+            {
+              "level": "低赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "义乌人出去玩从来不逛特产文创店",
+              "likes": "177",
+              "published": "2026-07-04 19:37:24",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a48f074000000001702fcdd"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260724/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260724/q05-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "如果我想拿捏你,那可太容易了!",
+              "likes": "53000",
+              "published": "2026-02-02 17:28:37",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69806e45000000002203076a"
+            },
+            {
+              "level": "低赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "父母老师绝对不会教的22条社会潜规则",
+              "likes": "198",
+              "published": "2026-07-02 21:13:45",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a466409000000001c0245c3"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260724/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260724/q06-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "史上最全大学生签证指南来啦",
+              "likes": "40000",
+              "published": "2026-01-07 17:40:18",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/695e2a02000000002103de6c"
+            },
+            {
+              "level": "低赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "好女人得到名声,坏女人得到一切?",
+              "likes": "587",
+              "published": "2025-10-02 16:45:22",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68de3ba2000000000302145c"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260724/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260724/q07-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "大脑!就是见不得你好!",
+              "likes": "51000",
+              "published": "2025-12-31 15:09:12",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6954cc17000000002103189c"
+            },
+            {
+              "level": "低赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "为什么观点这个句型,就是一只注射器!",
+              "likes": "555",
+              "published": "2025-09-13 20:27:04",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68c56318000000001d038100"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260724/q08.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "20岁年入七位数,一家公司两家店的真实感受",
+              "likes": "992",
+              "published": "2026-07-07 22:38:08",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4d0f50000000001c0268f3"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260724/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "好女人得到名声,坏女人得到一切?",
+              "likes": "587",
+              "published": "2025-10-02 16:45:22",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68de3ba2000000000302145c"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260724/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "小红书精选采集_江静",
+              "title": "大学生日入1w分享!纯干货!",
+              "likes": "791",
+              "published": "2025-06-29 14:58:46",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6860e426000000001203f9b2"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
