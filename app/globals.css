@@ -1129,6 +1129,7 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 .training-answer-control > div span { color: #969a92; font-size: 8px; font-weight: 750; letter-spacing: 0.08em; }
 .training-answer-control > div strong { font-size: 12px; }
 .training-answer-control > button { min-width: 124px; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 11px 13px; border: 1px solid var(--ink); border-radius: 9px; background: var(--ink); color: #fff; font-size: 10px; font-weight: 750; cursor: pointer; }
+.training-answer-control > button:disabled { border-color: #d7d9d3; background: #eceee9; color: #8d9189; cursor: not-allowed; }
 .training-answer-control > button span { font-size: 16px; line-height: 1; }
 
 .training-answer { margin-top: 18px; padding: 25px; border-radius: 14px; background: #fff9dd; }

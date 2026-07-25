@@ -71,6 +71,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
   const storageKey = `baopin-hook-training:${issue.date}`;
   const [choices, setChoices] = useState<Record<string, string>>({});
   const [revealed, setRevealed] = useState<number[]>([]);
+  const [reviewed, setReviewed] = useState<number[]>([]);
   const answeredIdsRef = useRef<Set<string>>(new Set());
   const completedAtRef = useRef<string | undefined>(undefined);
   const [ready, setReady] = useState(false);
@@ -80,17 +81,20 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
       try {
         const saved = JSON.parse(window.localStorage.getItem(storageKey) ?? "{}") as SavedProgress;
         const savedChoices = saved.choices ?? {};
-        setChoices(savedChoices);
-        setRevealed(saved.revealed ?? []);
-        answeredIdsRef.current = new Set(
+        const answeredIds = new Set(
           Object.entries(savedChoices)
             .filter(([, choice]) => Boolean(choice))
             .map(([id]) => id),
         );
+        setChoices(savedChoices);
+        setRevealed([]);
+        setReviewed((saved.revealed ?? []).filter((id) => answeredIds.has(String(id))));
+        answeredIdsRef.current = answeredIds;
         completedAtRef.current = saved.completedAt;
       } catch {
         setChoices({});
         setRevealed([]);
+        setReviewed([]);
         answeredIdsRef.current = new Set();
         completedAtRef.current = undefined;
       }
@@ -123,13 +127,13 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
       storageKey,
       JSON.stringify({
         choices,
-        revealed,
+        revealed: reviewed,
         updatedAt: now,
         completedAt: completedAtRef.current,
       }),
     );
     window.dispatchEvent(new Event("baopin-hook-progress"));
-  }, [choices, isComplete, ready, revealed, storageKey]);
+  }, [choices, isComplete, ready, reviewed, storageKey]);
 
   function choose(questionId: number, choice: string) {
     const id = String(questionId);
@@ -141,16 +145,22 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
   }
 
   function toggleAnswer(questionId: number) {
+    if (!choices[String(questionId)]) return;
+    const willReveal = !revealed.includes(questionId);
     setRevealed((current) =>
       current.includes(questionId)
         ? current.filter((id) => id !== questionId)
         : [...current, questionId],
     );
+    if (willReveal) {
+      setReviewed((seen) => seen.includes(questionId) ? seen : [...seen, questionId]);
+    }
   }
 
   function reset() {
     setChoices({});
     setRevealed([]);
+    setReviewed([]);
     answeredIdsRef.current = new Set();
     completedAtRef.current = undefined;
     window.localStorage.removeItem(storageKey);
@@ -193,7 +203,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
             </div>
             <div>
               <span>已看答案</span>
-              <strong>{revealed.length}</strong>
+              <strong>{reviewed.length}</strong>
             </div>
           </div>
           <div className="training-score-dots" aria-label="逐题结果">
@@ -220,7 +230,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
       <div className="training-question-list">
         {issue.questions.map((question) => {
           const selected = choices[String(question.id)];
-          const isRevealed = revealed.includes(question.id);
+          const isRevealed = Boolean(selected) && revealed.includes(question.id);
           const isCorrect = selected === question.correct;
           const insight = question.works.length > 1
             ? getHookInsight(issue.date, question.id, question.works)
@@ -289,8 +299,9 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
                   onClick={() => toggleAnswer(question.id)}
                   aria-expanded={isRevealed}
                   aria-controls={`answer-${question.id}`}
+                  disabled={!selected}
                 >
-                  {isRevealed ? "收起答案" : "查看答案"}
+                  {!selected ? "请先作答" : isRevealed ? "收起答案" : "查看答案"}
                   <span aria-hidden="true">{isRevealed ? "−" : "+"}</span>
                 </button>
               </div>
