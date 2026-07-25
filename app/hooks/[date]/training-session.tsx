@@ -355,10 +355,6 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
                           <span>低赞薄弱点</span>
                           <p>{insight.lowSignal}</p>
                         </section>
-                        <section className="takeaway">
-                          <span>直接复用</span>
-                          <p>{insight.takeaway}</p>
-                        </section>
                       </div>
                     </div>
                   ) : null}
