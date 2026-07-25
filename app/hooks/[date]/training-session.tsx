@@ -55,8 +55,11 @@ function imageLabel(image: ImageChoice) {
   return image.label;
 }
 
-function answerLabel(label: string) {
-  return label
+function answerLabel(question: Question) {
+  if (question.mode === "judge") {
+    return `此图是${question.correct === "high" ? "高赞" : "低赞"}作品`;
+  }
+  return question.answerLabel
     .replaceAll("左图", "A图")
     .replaceAll("右图", "B图");
 }
@@ -310,7 +313,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
                 <div className="training-answer" id={`answer-${question.id}`}>
                   <header>
                     <span>{selected ? (isCorrect ? "判断正确" : "再观察一下") : "参考答案"}</span>
-                    <h3>{answerLabel(question.answerLabel)}</h3>
+                    <h3>{answerLabel(question)}</h3>
                   </header>
                   <p>以下为原 PDF 给出的作品数据。</p>
                   <div className="training-work-grid">
