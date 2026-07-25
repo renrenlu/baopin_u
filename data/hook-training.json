@@ -1038,6 +1038,293 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-25",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-07-25.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260725/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260725/q01-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "美丽是对抗熵增的结果",
+              "likes": "17000",
+              "published": "2026-06-10 19:09:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a28c7a10000000016024cbb"
+            },
+            {
+              "level": "低赞",
+              "blogger": "喻小丢",
+              "title": "没关系,日本的大学生30年前就找不到工作了",
+              "likes": "267",
+              "published": "2025-11-02 14:12:58",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6906f66a0000000003038c5d"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260725/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260725/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "生命力就是别问目的,直接活着",
+              "likes": "17000",
+              "published": "2026-03-25 19:01:36",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69c3429f000000001a02b2b6"
+            },
+            {
+              "level": "低赞",
+              "blogger": "喻小丢",
+              "title": "我在相亲机构当嘉宾观察记录2",
+              "likes": "228",
+              "published": "2025-08-30 14:00:39",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68b1110d000000001d03422c"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260725/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260725/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "我好像讨厌一切带有竞技感的环境......",
+              "likes": "22000",
+              "published": "2026-02-05 11:20:40",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69840c88000000002103340b"
+            },
+            {
+              "level": "低赞",
+              "blogger": "喻小丢",
+              "title": "成年人的宿命:一边怕失控,一边又渴望自由",
+              "likes": "94",
+              "published": "2026-07-07 18:45:20",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4cd8c00000000017028f15"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260725/q04.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "美丽是对抗熵增的结果",
+              "likes": "17000",
+              "published": "2026-06-10 19:09:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a28c7a10000000016024cbb"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260725/q05.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "美国斩杀线,中国锁血盾",
+              "likes": "26000",
+              "published": "2025-12-25 11:09:10",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/694caad60000000022033ccb"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260725/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "喻小丢",
+              "title": "我在相亲机构当嘉宾观察记录2",
+              "likes": "228",
+              "published": "2025-08-30 14:00:39",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68b1110d000000001d03422c"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260725/q07.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 B(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "没工作过的朋友说话都有点像放屁",
+              "likes": "7082",
+              "published": "2025-10-31 19:00:52",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/690303930000000003036e6e"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260725/q08.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "生命力就是别问目的,直接活着",
+              "likes": "17000",
+              "published": "2026-03-25 19:01:36",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69c3429f000000001a02b2b6"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260725/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "喻小丢",
+              "title": "没关系,日本的大学生30年前就找不到工作了",
+              "likes": "267",
+              "published": "2025-11-02 14:12:58",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6906f66a0000000003038c5d"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260725/q10.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 B(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "我好像讨厌一切带有竞技感的环境......",
+              "likes": "22000",
+              "published": "2026-02-05 11:20:40",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69840c88000000002103340b"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
