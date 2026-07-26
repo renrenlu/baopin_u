@@ -1325,6 +1325,306 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-26",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-07-26.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260726/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260726/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "灵犀大王",
+              "title": "他不是比你强,他是比你早动手了!",
+              "likes": "17000",
+              "published": "2026-05-09 09:00:40",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69ed7f88000000003502df46"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "如何与那些带给我们“混合体验”的人相处",
+              "likes": "185",
+              "published": "2026-07-09 08:17:42",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4ee8a600000000170282a3"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260726/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260726/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "灵犀大王",
+              "title": "认同你讨厌的人,就是背叛你",
+              "likes": "9184",
+              "published": "2026-04-15 09:39:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69db4bfb000000001a027385"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "顶级强者心法:无关紧要的事,宁可输绝不赢",
+              "likes": "137",
+              "published": "2026-06-24 08:53:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a377c1b0000000021023300"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260726/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260726/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "灵犀大王",
+              "title": "我们怎么让父母把我们当大人???",
+              "likes": "7653",
+              "published": "2026-04-17 09:04:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69db6e03000000001f0044dc"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "INTJ是不是失去谁都可以???",
+              "likes": "163",
+              "published": "2026-06-07 17:16:16",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2536e0000000001702d733"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260726/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260726/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "灵犀大王",
+              "title": "所有人都很喜欢他为什么只有觉得他不对劲",
+              "likes": "5826",
+              "published": "2025-07-12 10:42:35",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6871cb9b000000002201e096"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "花三天做一个明知会被否的方案,但他最聪明",
+              "likes": "157",
+              "published": "2026-06-08 09:20:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2545b900000000220200a0"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260726/q05.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "如何与那些带给我们“混合体验”的人相处",
+              "likes": "185",
+              "published": "2026-07-09 08:17:42",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4ee8a600000000170282a3"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260726/q06.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "灵犀大王",
+              "title": "我们怎么让父母把我们当大人???",
+              "likes": "7653",
+              "published": "2026-04-17 09:04:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69db6e03000000001f0044dc"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260726/q07.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "如果你的上级是草包,怎么从他手下干出来",
+              "likes": "170",
+              "published": "2026-02-12 22:13:32",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/698de00c000000001600a01e"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260726/q08.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "INTJ是不是失去谁都可以???",
+              "likes": "163",
+              "published": "2026-06-07 17:16:16",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2536e0000000001702d733"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260726/q09.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "灵犀大王",
+              "title": "认同你讨厌的人,就是背叛你",
+              "likes": "9184",
+              "published": "2026-04-15 09:39:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69db4bfb000000001a027385"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260726/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "花三天做一个明知会被否的方案,但他最聪明",
+              "likes": "157",
+              "published": "2026-06-08 09:20:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2545b900000000220200a0"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
