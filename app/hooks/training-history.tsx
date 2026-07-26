@@ -293,35 +293,65 @@ export default function TrainingHistory({ issues, basePath }: TrainingHistoryPro
       </section>
 
       <div className="training-history-chart">
-        <div className="training-history-legend" aria-hidden="true">
-          <span className="correct">正确</span>
-          <span className="wrong">错误</span>
-          <span className="unanswered">未答</span>
+        <div className="training-history-chart-heading">
+          <div>
+            <span>RECENT RESULTS</span>
+            <h3>最近 5 期</h3>
+          </div>
+          <div className="training-history-legend" aria-hidden="true">
+            <span className="correct">正确</span>
+            <span className="wrong">错误</span>
+            <span className="unanswered">未答</span>
+          </div>
         </div>
 
-        {ready ? results.map((result) => {
-          const correctWidth = (result.correct / result.total) * 100;
-          const wrongWidth = (result.wrong / result.total) * 100;
-          const unansweredWidth = Math.max(0, 100 - correctWidth - wrongWidth);
-          return (
-            <article className="training-history-row" key={result.date}>
-              <a href={`${basePath}/hooks/${result.date.replaceAll("-", "")}/`}>
-                <time dateTime={result.date}>{formatShortDate(result.date)}</time>
-                <span>{result.completed ? `${result.score}%` : `${result.answered}/${result.total}`}</span>
-              </a>
-              <div
-                className="training-history-bar"
-                role="img"
-                aria-label={`${formatShortDate(result.date)}：答对 ${result.correct} 题，答错 ${result.wrong} 题，未答 ${result.total - result.answered} 题`}
-              >
-                <i className="correct" style={{ width: `${correctWidth}%` }} />
-                <i className="wrong" style={{ width: `${wrongWidth}%` }} />
-                <i className="unanswered" style={{ width: `${unansweredWidth}%` }} />
-              </div>
-              <p>{result.completed ? "已完成" : result.answered ? "进行中" : "未开始"}</p>
-            </article>
-          );
-        }) : (
+        {ready ? (
+          <div className="training-history-results">
+            {results.slice(0, 5).map((result) => {
+              const correctWidth = (result.correct / result.total) * 100;
+              const wrongWidth = (result.wrong / result.total) * 100;
+              const unansweredWidth = Math.max(0, 100 - correctWidth - wrongWidth);
+              const status = result.completed ? "已完成" : result.answered ? "进行中" : "未开始";
+              const statusClass = result.completed ? "complete" : result.answered ? "active" : "idle";
+              return (
+                <a
+                  className="training-history-result"
+                  href={`${basePath}/hooks/${result.date.replaceAll("-", "")}/`}
+                  aria-label={`${formatShortDate(result.date)}训练：${status}`}
+                  key={result.date}
+                >
+                  <header>
+                    <time dateTime={result.date}>{formatShortDate(result.date)}</time>
+                    <span className={statusClass}>{status}</span>
+                  </header>
+                  <div className="training-history-result-score">
+                    <strong>
+                      {result.completed
+                        ? `${result.score}%`
+                        : result.answered
+                          ? `${result.answered}/${result.total}`
+                          : "—"}
+                    </strong>
+                    <small>
+                      {result.answered
+                        ? `${result.correct} 对 · ${result.wrong} 错`
+                        : `${result.total} 道待练`}
+                    </small>
+                  </div>
+                  <div
+                    className="training-history-bar"
+                    role="img"
+                    aria-label={`答对 ${result.correct} 题，答错 ${result.wrong} 题，未答 ${result.total - result.answered} 题`}
+                  >
+                    <i className="correct" style={{ width: `${correctWidth}%` }} />
+                    <i className="wrong" style={{ width: `${wrongWidth}%` }} />
+                    <i className="unanswered" style={{ width: `${unansweredWidth}%` }} />
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        ) : (
           <p className="training-history-loading">正在读取本机训练记录…</p>
         )}
       </div>
