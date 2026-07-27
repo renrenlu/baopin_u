@@ -1625,6 +1625,319 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-27",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-07-27.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260727/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260727/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "AAA麟西",
+              "title": "跟别人比,是统计学;跟自己比,是概率学。",
+              "likes": "37000",
+              "published": "2026-05-02 07:56:06",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69f53d96000000003700d3f1"
+            },
+            {
+              "level": "低赞",
+              "blogger": "AAA麟西",
+              "title": "眼瞎眼拙的一生",
+              "likes": "23",
+              "published": "2026-07-14 07:30:10",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a545607000000001503fa7d"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260727/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260727/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "AAA麟西",
+              "title": "从我妈身上学到的资本家思路",
+              "likes": "9238",
+              "published": "2026-05-09 08:08:56",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69fe7b180000000038023665"
+            },
+            {
+              "level": "低赞",
+              "blogger": "AAA麟西",
+              "title": "做品牌之前要先做战略",
+              "likes": "321",
+              "published": "2026-07-12 09:05:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a40a728000000001702f1c0"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260727/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260727/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "AAA麟西",
+              "title": "你是要赎身,不是要做头牌!",
+              "likes": "8659",
+              "published": "2026-05-04 08:03:57",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69f7e26d000000003601b257"
+            },
+            {
+              "level": "低赞",
+              "blogger": "AAA麟西",
+              "title": "决策者和决策体系是护城河",
+              "likes": "278",
+              "published": "2026-07-08 07:30:09",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a40a170000000001702d362"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260727/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260727/q04-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "AAA麟西",
+              "title": "爱因斯坦说上帝不掷骰子",
+              "likes": "10000",
+              "published": "2026-05-03 08:18:23",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69f6944f0000000037034032"
+            },
+            {
+              "level": "低赞",
+              "blogger": "AAA麟西",
+              "title": "男人为什么喜欢搞事业",
+              "likes": "286",
+              "published": "2026-07-06 07:30:10",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a491a4600000000170296bc"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260727/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260727/q05-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "AAA麟西",
+              "title": "钱的来源决定阶层,而不是钱的数量",
+              "likes": "8111",
+              "published": "2026-04-28 08:03:24",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69eff94c0000000036032613"
+            },
+            {
+              "level": "低赞",
+              "blogger": "AAA麟西",
+              "title": "择校前先想想:你是要躺还是闯",
+              "likes": "372",
+              "published": "2026-06-28 07:30:08",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a3f2324000000001503e8b1"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260727/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "AAA麟西",
+              "title": "男人为什么喜欢搞事业",
+              "likes": "286",
+              "published": "2026-07-06 07:30:10",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a491a4600000000170296bc"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260727/q07.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "AAA麟西",
+              "title": "择校前先想想:你是要躺还是闯",
+              "likes": "372",
+              "published": "2026-06-28 07:30:08",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a3f2324000000001503e8b1"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260727/q08.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 B(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "AAA麟西",
+              "title": "钱的来源决定阶层,而不是钱的数量",
+              "likes": "8111",
+              "published": "2026-04-28 08:03:24",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69eff94c0000000036032613"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260727/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "AAA麟西",
+              "title": "决策者和决策体系是护城河",
+              "likes": "278",
+              "published": "2026-07-08 07:30:09",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a40a170000000001702d362"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260727/q10.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "AAA麟西",
+              "title": "爱因斯坦说上帝不掷骰子",
+              "likes": "10000",
+              "published": "2026-05-03 08:18:23",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69f6944f0000000037034032"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

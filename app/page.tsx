@@ -334,6 +334,16 @@ const ISSUES: Issue[] = [
     size: "5.8 MB",
     accent: "peach",
   },
+  {
+    date: "2026-07-27",
+    title: "家居日用：让问题解决过程可见",
+    summary: "今天不把这组家居日用压成一种公式，先对照三条真实路径：红旗摆件的真实停留点、DEEX/电刻灵动 SE 水的剧情冲突、柳青线的真实停留点。",
+    takeaway: "今天不要从家居日用倒推固定开头：三条案例分别依赖真实停留点和剧情冲突，先找最强证据，再决定开场方式。",
+    category: "家居日用",
+    topics: ["爱国红旗车载摆件", "DEEX 灵动 SE 过滤嘴", "柳青牌百搭缝纫线"],
+    size: "6.7 MB",
+    accent: "lavender",
+  },
 ];
 
 const MONTHS = Array.from(new Set(ISSUES.map((issue) => issue.date.slice(0, 7)))).sort();
