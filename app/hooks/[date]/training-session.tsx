@@ -55,11 +55,8 @@ function imageLabel(image: ImageChoice) {
   return image.label;
 }
 
-function answerLabel(question: Question) {
-  if (question.mode === "judge") {
-    return `此图是${question.correct === "high" ? "高赞" : "低赞"}作品`;
-  }
-  return question.answerLabel
+function answerLabel(label: string) {
+  return label
     .replaceAll("左图", "A图")
     .replaceAll("右图", "B图");
 }
@@ -74,7 +71,6 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
   const storageKey = `baopin-hook-training:${issue.date}`;
   const [choices, setChoices] = useState<Record<string, string>>({});
   const [revealed, setRevealed] = useState<number[]>([]);
-  const [reviewed, setReviewed] = useState<number[]>([]);
   const answeredIdsRef = useRef<Set<string>>(new Set());
   const completedAtRef = useRef<string | undefined>(undefined);
   const [ready, setReady] = useState(false);
@@ -84,20 +80,17 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
       try {
         const saved = JSON.parse(window.localStorage.getItem(storageKey) ?? "{}") as SavedProgress;
         const savedChoices = saved.choices ?? {};
-        const answeredIds = new Set(
+        setChoices(savedChoices);
+        setRevealed(saved.revealed ?? []);
+        answeredIdsRef.current = new Set(
           Object.entries(savedChoices)
             .filter(([, choice]) => Boolean(choice))
             .map(([id]) => id),
         );
-        setChoices(savedChoices);
-        setRevealed([]);
-        setReviewed((saved.revealed ?? []).filter((id) => answeredIds.has(String(id))));
-        answeredIdsRef.current = answeredIds;
         completedAtRef.current = saved.completedAt;
       } catch {
         setChoices({});
         setRevealed([]);
-        setReviewed([]);
         answeredIdsRef.current = new Set();
         completedAtRef.current = undefined;
       }
@@ -130,13 +123,13 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
       storageKey,
       JSON.stringify({
         choices,
-        revealed: reviewed,
+        revealed,
         updatedAt: now,
         completedAt: completedAtRef.current,
       }),
     );
     window.dispatchEvent(new Event("baopin-hook-progress"));
-  }, [choices, isComplete, ready, reviewed, storageKey]);
+  }, [choices, isComplete, ready, revealed, storageKey]);
 
   function choose(questionId: number, choice: string) {
     const id = String(questionId);
@@ -148,22 +141,16 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
   }
 
   function toggleAnswer(questionId: number) {
-    if (!choices[String(questionId)]) return;
-    const willReveal = !revealed.includes(questionId);
     setRevealed((current) =>
       current.includes(questionId)
         ? current.filter((id) => id !== questionId)
         : [...current, questionId],
     );
-    if (willReveal) {
-      setReviewed((seen) => seen.includes(questionId) ? seen : [...seen, questionId]);
-    }
   }
 
   function reset() {
     setChoices({});
     setRevealed([]);
-    setReviewed([]);
     answeredIdsRef.current = new Set();
     completedAtRef.current = undefined;
     window.localStorage.removeItem(storageKey);
@@ -206,7 +193,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
             </div>
             <div>
               <span>已看答案</span>
-              <strong>{reviewed.length}</strong>
+              <strong>{revealed.length}</strong>
             </div>
           </div>
           <div className="training-score-dots" aria-label="逐题结果">
@@ -233,7 +220,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
       <div className="training-question-list">
         {issue.questions.map((question) => {
           const selected = choices[String(question.id)];
-          const isRevealed = Boolean(selected) && revealed.includes(question.id);
+          const isRevealed = revealed.includes(question.id);
           const isCorrect = selected === question.correct;
           const insight = question.works.length > 1
             ? getHookInsight(issue.date, question.id, question.works)
@@ -302,9 +289,8 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
                   onClick={() => toggleAnswer(question.id)}
                   aria-expanded={isRevealed}
                   aria-controls={`answer-${question.id}`}
-                  disabled={!selected}
                 >
-                  {!selected ? "请先作答" : isRevealed ? "收起答案" : "查看答案"}
+                  {isRevealed ? "收起答案" : "查看答案"}
                   <span aria-hidden="true">{isRevealed ? "−" : "+"}</span>
                 </button>
               </div>
@@ -313,7 +299,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
                 <div className="training-answer" id={`answer-${question.id}`}>
                   <header>
                     <span>{selected ? (isCorrect ? "判断正确" : "再观察一下") : "参考答案"}</span>
-                    <h3>{answerLabel(question)}</h3>
+                    <h3>{answerLabel(question.answerLabel)}</h3>
                   </header>
                   <p>以下为原 PDF 给出的作品数据。</p>
                   <div className="training-work-grid">
@@ -357,6 +343,10 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
                         <section className="low">
                           <span>低赞薄弱点</span>
                           <p>{insight.lowSignal}</p>
+                        </section>
+                        <section className="takeaway">
+                          <span>直接复用</span>
+                          <p>{insight.takeaway}</p>
                         </section>
                       </div>
                     </div>
