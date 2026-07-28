@@ -1040,10 +1040,10 @@
       ]
     },
     {
-      "date": "2026-07-27",
+      "date": "2026-07-25",
       "title": "看一眼，判断哪条更容易高赞",
       "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
-      "pdf": "/hooks/钩子训练-2026-07-27.pdf",
+      "pdf": "/hooks/钩子训练-2026-07-25.pdf",
       "questions": [
         {
           "id": 1,
@@ -1053,32 +1053,32 @@
             {
               "choice": "left",
               "label": "左图",
-              "src": "/hooks/20260727/q01-left.webp"
+              "src": "/hooks/20260725/q01-left.webp"
             },
             {
               "choice": "right",
               "label": "右图",
-              "src": "/hooks/20260727/q01-right.webp"
+              "src": "/hooks/20260725/q01-right.webp"
             }
           ],
-          "correct": "right",
-          "answerLabel": "右图是高赞作品",
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
           "works": [
             {
               "level": "高赞",
-              "blogger": "AAA麟西",
-              "title": "跟别人比,是统计学;跟自己比,是概率学。",
-              "likes": "37000",
-              "published": "2026-05-02 07:56:06",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69f53d96000000003700d3f1"
+              "blogger": "喻小丢",
+              "title": "美丽是对抗熵增的结果",
+              "likes": "17000",
+              "published": "2026-06-10 19:09:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a28c7a10000000016024cbb"
             },
             {
               "level": "低赞",
-              "blogger": "AAA麟西",
-              "title": "眼瞎眼拙的一生",
-              "likes": "23",
-              "published": "2026-07-14 07:30:10",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a545607000000001503fa7d"
+              "blogger": "喻小丢",
+              "title": "没关系,日本的大学生30年前就找不到工作了",
+              "likes": "267",
+              "published": "2025-11-02 14:12:58",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6906f66a0000000003038c5d"
             }
           ]
         },
@@ -1090,32 +1090,32 @@
             {
               "choice": "left",
               "label": "左图",
-              "src": "/hooks/20260727/q02-left.webp"
+              "src": "/hooks/20260725/q02-left.webp"
             },
             {
               "choice": "right",
               "label": "右图",
-              "src": "/hooks/20260727/q02-right.webp"
+              "src": "/hooks/20260725/q02-right.webp"
             }
           ],
-          "correct": "right",
-          "answerLabel": "右图是高赞作品",
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
           "works": [
             {
               "level": "高赞",
-              "blogger": "AAA麟西",
-              "title": "从我妈身上学到的资本家思路",
-              "likes": "9238",
-              "published": "2026-05-09 08:08:56",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69fe7b180000000038023665"
+              "blogger": "喻小丢",
+              "title": "生命力就是别问目的,直接活着",
+              "likes": "17000",
+              "published": "2026-03-25 19:01:36",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69c3429f000000001a02b2b6"
             },
             {
               "level": "低赞",
-              "blogger": "AAA麟西",
-              "title": "做品牌之前要先做战略",
-              "likes": "321",
-              "published": "2026-07-12 09:05:01",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a40a728000000001702f1c0"
+              "blogger": "喻小丢",
+              "title": "我在相亲机构当嘉宾观察记录2",
+              "likes": "228",
+              "published": "2025-08-30 14:00:39",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68b1110d000000001d03422c"
             }
           ]
         },
@@ -1127,86 +1127,12 @@
             {
               "choice": "left",
               "label": "左图",
-              "src": "/hooks/20260727/q03-left.webp"
+              "src": "/hooks/20260725/q03-left.webp"
             },
             {
               "choice": "right",
               "label": "右图",
-              "src": "/hooks/20260727/q03-right.webp"
-            }
-          ],
-          "correct": "left",
-          "answerLabel": "左图是高赞作品",
-          "works": [
-            {
-              "level": "高赞",
-              "blogger": "AAA麟西",
-              "title": "你是要赎身,不是要做头牌!",
-              "likes": "8659",
-              "published": "2026-05-04 08:03:57",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69f7e26d000000003601b257"
-            },
-            {
-              "level": "低赞",
-              "blogger": "AAA麟西",
-              "title": "决策者和决策体系是护城河",
-              "likes": "278",
-              "published": "2026-07-08 07:30:09",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a40a170000000001702d362"
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "mode": "compare",
-          "prompt": "哪一张是高赞作品？",
-          "images": [
-            {
-              "choice": "left",
-              "label": "左图",
-              "src": "/hooks/20260727/q04-left.webp"
-            },
-            {
-              "choice": "right",
-              "label": "右图",
-              "src": "/hooks/20260727/q04-right.webp"
-            }
-          ],
-          "correct": "left",
-          "answerLabel": "左图是高赞作品",
-          "works": [
-            {
-              "level": "高赞",
-              "blogger": "AAA麟西",
-              "title": "爱因斯坦说上帝不掷骰子",
-              "likes": "10000",
-              "published": "2026-05-03 08:18:23",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69f6944f0000000037034032"
-            },
-            {
-              "level": "低赞",
-              "blogger": "AAA麟西",
-              "title": "男人为什么喜欢搞事业",
-              "likes": "286",
-              "published": "2026-07-06 07:30:10",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a491a4600000000170296bc"
-            }
-          ]
-        },
-        {
-          "id": 5,
-          "mode": "compare",
-          "prompt": "哪一张是高赞作品？",
-          "images": [
-            {
-              "choice": "left",
-              "label": "左图",
-              "src": "/hooks/20260727/q05-left.webp"
-            },
-            {
-              "choice": "right",
-              "label": "右图",
-              "src": "/hooks/20260727/q05-right.webp"
+              "src": "/hooks/20260725/q03-right.webp"
             }
           ],
           "correct": "right",
@@ -1214,19 +1140,67 @@
           "works": [
             {
               "level": "高赞",
-              "blogger": "AAA麟西",
-              "title": "钱的来源决定阶层,而不是钱的数量",
-              "likes": "8111",
-              "published": "2026-04-28 08:03:24",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69eff94c0000000036032613"
+              "blogger": "喻小丢",
+              "title": "我好像讨厌一切带有竞技感的环境......",
+              "likes": "22000",
+              "published": "2026-02-05 11:20:40",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69840c88000000002103340b"
             },
             {
               "level": "低赞",
-              "blogger": "AAA麟西",
-              "title": "择校前先想想:你是要躺还是闯",
-              "likes": "372",
-              "published": "2026-06-28 07:30:08",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a3f2324000000001503e8b1"
+              "blogger": "喻小丢",
+              "title": "成年人的宿命:一边怕失控,一边又渴望自由",
+              "likes": "94",
+              "published": "2026-07-07 18:45:20",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4cd8c00000000017028f15"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260725/q04.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "美丽是对抗熵增的结果",
+              "likes": "17000",
+              "published": "2026-06-10 19:09:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a28c7a10000000016024cbb"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260725/q05.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "美国斩杀线,中国锁血盾",
+              "likes": "26000",
+              "published": "2025-12-25 11:09:10",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/694caad60000000022033ccb"
             }
           ]
         },
@@ -1238,19 +1212,19 @@
             {
               "choice": "work",
               "label": "待判断作品",
-              "src": "/hooks/20260727/q06.webp"
+              "src": "/hooks/20260725/q06.webp"
             }
           ],
           "correct": "low",
-          "answerLabel": "正确选项 A(低赞)",
+          "answerLabel": "正确选项 B(低赞)",
           "works": [
             {
               "level": "低赞",
-              "blogger": "AAA麟西",
-              "title": "男人为什么喜欢搞事业",
-              "likes": "286",
-              "published": "2026-07-06 07:30:10",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a491a4600000000170296bc"
+              "blogger": "喻小丢",
+              "title": "我在相亲机构当嘉宾观察记录2",
+              "likes": "228",
+              "published": "2025-08-30 14:00:39",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68b1110d000000001d03422c"
             }
           ]
         },
@@ -1262,19 +1236,19 @@
             {
               "choice": "work",
               "label": "待判断作品",
-              "src": "/hooks/20260727/q07.webp"
+              "src": "/hooks/20260725/q07.webp"
             }
           ],
-          "correct": "low",
-          "answerLabel": "正确选项 A(低赞)",
+          "correct": "high",
+          "answerLabel": "正确选项 B(高赞)",
           "works": [
             {
-              "level": "低赞",
-              "blogger": "AAA麟西",
-              "title": "择校前先想想:你是要躺还是闯",
-              "likes": "372",
-              "published": "2026-06-28 07:30:08",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a3f2324000000001503e8b1"
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "没工作过的朋友说话都有点像放屁",
+              "likes": "7082",
+              "published": "2025-10-31 19:00:52",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/690303930000000003036e6e"
             }
           ]
         },
@@ -1286,19 +1260,19 @@
             {
               "choice": "work",
               "label": "待判断作品",
-              "src": "/hooks/20260727/q08.webp"
+              "src": "/hooks/20260725/q08.webp"
             }
           ],
           "correct": "high",
-          "answerLabel": "正确选项 B(高赞)",
+          "answerLabel": "正确选项 A(高赞)",
           "works": [
             {
               "level": "高赞",
-              "blogger": "AAA麟西",
-              "title": "钱的来源决定阶层,而不是钱的数量",
-              "likes": "8111",
-              "published": "2026-04-28 08:03:24",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69eff94c0000000036032613"
+              "blogger": "喻小丢",
+              "title": "生命力就是别问目的,直接活着",
+              "likes": "17000",
+              "published": "2026-03-25 19:01:36",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69c3429f000000001a02b2b6"
             }
           ]
         },
@@ -1310,7 +1284,7 @@
             {
               "choice": "work",
               "label": "待判断作品",
-              "src": "/hooks/20260727/q09.webp"
+              "src": "/hooks/20260725/q09.webp"
             }
           ],
           "correct": "low",
@@ -1318,11 +1292,11 @@
           "works": [
             {
               "level": "低赞",
-              "blogger": "AAA麟西",
-              "title": "决策者和决策体系是护城河",
-              "likes": "278",
-              "published": "2026-07-08 07:30:09",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a40a170000000001702d362"
+              "blogger": "喻小丢",
+              "title": "没关系,日本的大学生30年前就找不到工作了",
+              "likes": "267",
+              "published": "2025-11-02 14:12:58",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6906f66a0000000003038c5d"
             }
           ]
         },
@@ -1334,7 +1308,211 @@
             {
               "choice": "work",
               "label": "待判断作品",
-              "src": "/hooks/20260727/q10.webp"
+              "src": "/hooks/20260725/q10.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 B(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "我好像讨厌一切带有竞技感的环境......",
+              "likes": "22000",
+              "published": "2026-02-05 11:20:40",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69840c88000000002103340b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-07-26.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260726/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260726/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "灵犀大王",
+              "title": "他不是比你强,他是比你早动手了!",
+              "likes": "17000",
+              "published": "2026-05-09 09:00:40",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69ed7f88000000003502df46"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "如何与那些带给我们“混合体验”的人相处",
+              "likes": "185",
+              "published": "2026-07-09 08:17:42",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4ee8a600000000170282a3"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260726/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260726/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "灵犀大王",
+              "title": "认同你讨厌的人,就是背叛你",
+              "likes": "9184",
+              "published": "2026-04-15 09:39:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69db4bfb000000001a027385"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "顶级强者心法:无关紧要的事,宁可输绝不赢",
+              "likes": "137",
+              "published": "2026-06-24 08:53:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a377c1b0000000021023300"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260726/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260726/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "灵犀大王",
+              "title": "我们怎么让父母把我们当大人???",
+              "likes": "7653",
+              "published": "2026-04-17 09:04:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69db6e03000000001f0044dc"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "INTJ是不是失去谁都可以???",
+              "likes": "163",
+              "published": "2026-06-07 17:16:16",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2536e0000000001702d733"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260726/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260726/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "灵犀大王",
+              "title": "所有人都很喜欢他为什么只有觉得他不对劲",
+              "likes": "5826",
+              "published": "2025-07-12 10:42:35",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6871cb9b000000002201e096"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "花三天做一个明知会被否的方案,但他最聪明",
+              "likes": "157",
+              "published": "2026-06-08 09:20:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2545b900000000220200a0"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260726/q05.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "如何与那些带给我们“混合体验”的人相处",
+              "likes": "185",
+              "published": "2026-07-09 08:17:42",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4ee8a600000000170282a3"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260726/q06.webp"
             }
           ],
           "correct": "high",
@@ -1342,11 +1520,107 @@
           "works": [
             {
               "level": "高赞",
-              "blogger": "AAA麟西",
-              "title": "爱因斯坦说上帝不掷骰子",
-              "likes": "10000",
-              "published": "2026-05-03 08:18:23",
-              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69f6944f0000000037034032"
+              "blogger": "灵犀大王",
+              "title": "我们怎么让父母把我们当大人???",
+              "likes": "7653",
+              "published": "2026-04-17 09:04:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69db6e03000000001f0044dc"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260726/q07.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "如果你的上级是草包,怎么从他手下干出来",
+              "likes": "170",
+              "published": "2026-02-12 22:13:32",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/698de00c000000001600a01e"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260726/q08.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "INTJ是不是失去谁都可以???",
+              "likes": "163",
+              "published": "2026-06-07 17:16:16",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2536e0000000001702d733"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260726/q09.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "灵犀大王",
+              "title": "认同你讨厌的人,就是背叛你",
+              "likes": "9184",
+              "published": "2026-04-15 09:39:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69db4bfb000000001a027385"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260726/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "花三天做一个明知会被否的方案,但他最聪明",
+              "likes": "157",
+              "published": "2026-06-08 09:20:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2545b900000000220200a0"
             }
           ]
         }
