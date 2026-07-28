@@ -1938,6 +1938,358 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-28",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-07-28.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260728/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260728/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "便宜占多了,脑子就值钱了.....",
+              "likes": "77000",
+              "published": "2026-07-05 22:35:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4a4ee60000000006032dc9"
+            },
+            {
+              "level": "低赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "虽然是销冠但我真的没那么有钱....",
+              "likes": "423",
+              "published": "2025-12-22 12:20:47",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69483626000000001e0230f9"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260728/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260728/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "打工三年,突然发现谈客户越松弛越能签单",
+              "likes": "100000",
+              "published": "2026-03-20 23:41:06",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69bd6a92000000002301ee37"
+            },
+            {
+              "level": "低赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "女生一旦过了25岁之后......",
+              "likes": "227",
+              "published": "2025-12-19 21:04:15",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6943e1d5000000001e02a228"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260728/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260728/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "自从做了销售,才听懂了各行各业的“黑话”",
+              "likes": "100000",
+              "published": "2026-03-15 23:33:48",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69b6d15c0000000022000120"
+            },
+            {
+              "level": "低赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "本人遇到差评的态度be like......",
+              "likes": "412",
+              "published": "2025-12-07 23:58:39",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6935a42f000000001b021015"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260728/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260728/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "真没留过学,纯中国的义务教育英语骗过老外",
+              "likes": "47000",
+              "published": "2026-02-18 21:27:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6994a484000000001a01f31a"
+            },
+            {
+              "level": "低赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "通勤两小时,真的要打工,真的要上班......",
+              "likes": "378",
+              "published": "2025-11-03 17:00:52",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69084e6f0000000004005db8"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260728/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260728/q05-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "当客户比价的时候就是我兴奋的时候",
+              "likes": "59000",
+              "published": "2025-11-29 23:35:56",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/692b12dc000000000d034261"
+            },
+            {
+              "level": "低赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "普通人下班后如何做自媒体(喂饭版)",
+              "likes": "505",
+              "published": "2025-09-23 19:38:55",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68d286cf000000001301cbe4"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260728/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260728/q06-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "眼观六路耳听八方|爱在公司做老黄牛的进...",
+              "likes": "85000",
+              "published": "2025-11-04 19:55:33",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6909e9b5000000000401058d"
+            },
+            {
+              "level": "低赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "面对讨厌的同事,真不用撕破脸",
+              "likes": "215",
+              "published": "2025-09-17 18:51:38",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68ca92ba000000001301204a"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260728/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260728/q07-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "相信我,你可以胜任任何工作...",
+              "likes": "69000",
+              "published": "2025-08-24 22:20:15",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68ab1f9f000000001c036def"
+            },
+            {
+              "level": "低赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "职场技能过期,如何用现有存量换破局增量",
+              "likes": "268",
+              "published": "2025-09-15 18:08:02",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68c6424c000000001d01476e"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260728/q08-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260728/q08-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "找不到工作而已,天塌不下来!",
+              "likes": "43000",
+              "published": "2025-08-15 22:18:43",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/689f1440000000001d010209"
+            },
+            {
+              "level": "低赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "咱是说打工皇后是不可能苦了自己的!",
+              "likes": "467",
+              "published": "2025-09-14 21:21:30",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68c6c15a000000001d017360"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260728/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "通勤两小时,真的要打工,真的要上班......",
+              "likes": "378",
+              "published": "2025-11-03 17:00:52",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69084e6f0000000004005db8"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260728/q10.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 B(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "相信我,你可以胜任任何工作...",
+              "likes": "69000",
+              "published": "2025-08-24 22:20:15",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68ab1f9f000000001c036def"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

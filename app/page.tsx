@@ -344,6 +344,16 @@ const ISSUES: Issue[] = [
     size: "6.7 MB",
     accent: "lavender",
   },
+  {
+    date: "2026-07-28",
+    title: "食品饮料：先制造食欲，再解释价值",
+    summary: "今天不把这组食品饮料压成一种公式，先对照三条真实路径：西奥图意大利面的人群场景、馋小乖藤椒素牛肉粒的真实停留点、东鹏特饮补水啦的价格翻译。",
+    takeaway: "今天不要从食品饮料倒推固定开头：三条案例分别依赖暑假家庭做饭场景、食物拆包质地和品牌价格惊讶，先找最强证据，再决定开场方式。",
+    category: "食品饮料",
+    topics: ["西奥图意大利面", "馋小乖藤椒素牛肉粒", "东鹏特饮补水啦"],
+    size: "6.9 MB",
+    accent: "lime",
+  },
 ];
 
 const MONTHS = Array.from(new Set(ISSUES.map((issue) => issue.date.slice(0, 7)))).sort();
