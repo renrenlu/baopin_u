@@ -354,6 +354,16 @@ const ISSUES: Issue[] = [
     size: "6.9 MB",
     accent: "lime",
   },
+  {
+    date: "2026-07-29",
+    title: "滋补保健：先讲处境，再补信任",
+    summary: "今天不把这组滋补保健压成一种公式，先对照三条真实路径：喜纯椰香七白粉的真实停留点、宁之春六味地黄人参原浆饮的动作自证、fiboo 元气铁补剂的结果变化。",
+    takeaway: "今天不要从滋补保健倒推固定开头：三条案例分别依赖治愈感画面、价格对打和健身平台期痛点，先找最强证据，再决定开场方式。",
+    category: "滋补保健",
+    topics: ["喜纯椰香七白粉", "宁之春六味地黄人参原浆饮", "fiboo 元气铁补剂"],
+    size: "6.1 MB",
+    accent: "lime",
+  },
 ];
 
 const MONTHS = Array.from(new Set(ISSUES.map((issue) => issue.date.slice(0, 7)))).sort();

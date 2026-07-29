@@ -2290,6 +2290,384 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-29",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-07-29.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260729/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260729/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "打破信息差,如何靠审美变现?",
+              "likes": "22000",
+              "published": "2025-11-15 20:04:40",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69186c58000000000d034250"
+            },
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "设计不是好看就行|怎么做省钱赚钱的设计?",
+              "likes": "148",
+              "published": "2025-10-09 02:31:30",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68e6ae02000000000302381d"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260729/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260729/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "如何让设计变现?从心机到心意",
+              "likes": "8754",
+              "published": "2026-01-20 23:51:34",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/696fa48600000000210281a2"
+            },
+            {
+              "level": "低赞",
+              "blogger": "整理师Anne",
+              "title": "人活得累,都是被「拥有」困住了。#个人成长[话题]# #自我提升[话题]# #人生智慧[话题]# #极简主义[话题]#",
+              "likes": "42",
+              "published": "2026-07-25_09-00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5f1e64000000000503b0c8"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260729/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260729/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "进击的李李",
+              "title": "一招就能无痛拥有恐怖执行力的秘诀",
+              "likes": "24000",
+              "published": "2025-07-15 21:22:31",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68765617000000000d01af05"
+            },
+            {
+              "level": "低赞",
+              "blogger": "进击的李李",
+              "title": "听劝,双非文科就别深耕了!该转行就转",
+              "likes": "304",
+              "published": "2024-10-19 17:26:36",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/67137b4c0000000021006f28"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260729/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260729/q04-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "进击的李李",
+              "title": "发现普通人变强最快的秘诀:戒掉粘稠感",
+              "likes": "13000",
+              "published": "2026-01-25 23:31:03",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69763737000000000a031867"
+            },
+            {
+              "level": "低赞",
+              "blogger": "进击的李李",
+              "title": "难以置信我竟然转行做编导",
+              "likes": "249",
+              "published": "2024-10-25 21:30:03",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/671b84c3000000002100a9c9"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260729/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260729/q05-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "拉开人和人的差距是找信息的能力",
+              "likes": "6716",
+              "published": "2025-10-28 19:10:19",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6900a49b00000000030112cb"
+            },
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "看完没收获你骂翻我",
+              "likes": "332",
+              "published": "2025-10-09 17:09:19",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68e77bbf000000000300d8c1"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260729/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260729/q06-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "如何让审美变现:技术越好,越难变现",
+              "likes": "11000",
+              "published": "2026-03-15 01:03:15",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69b594d3000000002102e75d"
+            },
+            {
+              "level": "低赞",
+              "blogger": "炸老师爱说话",
+              "title": "可能是全网最另辟蹊径的,“消除疲惫”方法论",
+              "likes": "86",
+              "published": "2025-12-05 20:49:48",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6932d4ec000000001b021a4e"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260729/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260729/q07-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "如何让作品变现?从品牌物料洞察新机会",
+              "likes": "32000",
+              "published": "2025-12-25 23:42:37",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/694d5b6d000000002103c19c"
+            },
+            {
+              "level": "低赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "父母催婚的背后是权利游戏吗?",
+              "likes": "371",
+              "published": "2025-07-18 23:20:49",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/687a66510000000010010fdf"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260729/q08-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260729/q08-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "如何让设计变现,哑巴设计师的新思路",
+              "likes": "10000",
+              "published": "2026-02-28 21:30:08",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69a29cda000000001b01794e"
+            },
+            {
+              "level": "低赞",
+              "blogger": "我是桃子",
+              "title": "看似聪明实则吃大亏,我亲身踩过的三个坑",
+              "likes": "98",
+              "published": "2026-07-24_18-14",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a60974a000000001101864b"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260729/q09-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260729/q09-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "文创/插画/手作/设计购买理由和变现原因",
+              "likes": "4692",
+              "published": "2026-05-21 21:07:50",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a0f03a6000000003601aa30"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "成年人的疏远不是一种情绪而是一种决定",
+              "likes": "134",
+              "published": "2025-11-09 15:58:46",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/691049b6000000000700827d"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260729/q10-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260729/q10-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "真正获得法国设计金奖的,不只是一件制服",
+              "likes": "56000",
+              "published": "2026-07-11 12:20:26",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a51c1f4000000001702d36d"
+            },
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "设计师活路在哪了?抓住新的设计趋势",
+              "likes": "370",
+              "published": "2025-09-30 21:40:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68dbddb1000000000300eee2"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
