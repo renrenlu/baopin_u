@@ -107,6 +107,7 @@ export default async function GalleryTextPage({ params }: GalleryTextPageProps) 
             </a>
           ))}
           <a href={`${BASE_PATH}/hooks/`}>钩子训练</a>
+          <a href={`${BASE_PATH}/hook-games/`}>钩子游戏</a>
         </nav>
       </header>
 
@@ -118,6 +119,7 @@ export default async function GalleryTextPage({ params }: GalleryTextPageProps) 
           </a>
         ))}
         <a href={`${BASE_PATH}/hooks/`}>钩子训练</a>
+        <a href={`${BASE_PATH}/hook-games/`}>钩子游戏</a>
       </nav>
 
       <article className="gallery-detail-page">

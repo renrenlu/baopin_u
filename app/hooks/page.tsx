@@ -50,7 +50,10 @@ export default function HookArchivePage() {
             <span>HOOK PRACTICE · 按日期训练</span>
             <h1>钩子训练</h1>
           </div>
-          <p>先凭第一眼做判断，再自己展开答案。<br />每次只练一个动作：识别更有传播力的开头。</p>
+          <div className="hook-archive-intro">
+            <p>先凭第一眼做判断，再自己展开答案。<br />每次只练一个动作：识别更有传播力的开头。</p>
+            <a href={`${BASE_PATH}/hook-games/`}>进入钩子游戏 →</a>
+          </div>
         </header>
 
         <TrainingHistory

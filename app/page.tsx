@@ -454,6 +454,7 @@ export default function Home() {
           <a href={`${BASE_PATH}/gallery/reading/`}>读书分享</a>
           <a href={`${BASE_PATH}/gallery/viral/`}>爆款裂变</a>
           <a href={`${BASE_PATH}/hooks/`}>钩子训练</a>
+          <a href={`${BASE_PATH}/hook-games/`}>钩子游戏</a>
         </nav>
         <button
           className="mobile-menu"
@@ -471,6 +472,7 @@ export default function Home() {
         <a href={`${BASE_PATH}/gallery/reading/`}>读书分享</a>
         <a href={`${BASE_PATH}/gallery/viral/`}>爆款裂变</a>
         <a href={`${BASE_PATH}/hooks/`}>钩子训练</a>
+        <a href={`${BASE_PATH}/hook-games/`}>钩子游戏</a>
       </nav>
 
       <div className="workspace" id="top">

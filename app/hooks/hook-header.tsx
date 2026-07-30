@@ -1,6 +1,10 @@
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
-export default function HookHeader() {
+type HookHeaderProps = {
+  active?: "hooks" | "games";
+};
+
+export default function HookHeader({ active = "hooks" }: HookHeaderProps) {
   return (
     <>
       <header className="topbar">
@@ -14,7 +18,8 @@ export default function HookHeader() {
           <a href={`${BASE_PATH}/gallery/social/`}>社会热点</a>
           <a href={`${BASE_PATH}/gallery/reading/`}>读书分享</a>
           <a href={`${BASE_PATH}/gallery/viral/`}>爆款裂变</a>
-          <a className="active" href={`${BASE_PATH}/hooks/`}>钩子训练</a>
+          <a className={active === "hooks" ? "active" : undefined} href={`${BASE_PATH}/hooks/`}>钩子训练</a>
+          <a className={active === "games" ? "active" : undefined} href={`${BASE_PATH}/hook-games/`}>钩子游戏</a>
         </nav>
       </header>
       <nav className="gallery-mobile-tabs" aria-label="内容栏目">
@@ -22,7 +27,8 @@ export default function HookHeader() {
         <a href={`${BASE_PATH}/gallery/social/`}>社会热点</a>
         <a href={`${BASE_PATH}/gallery/reading/`}>读书分享</a>
         <a href={`${BASE_PATH}/gallery/viral/`}>爆款裂变</a>
-        <a className="active" href={`${BASE_PATH}/hooks/`}>钩子训练</a>
+        <a className={active === "hooks" ? "active" : undefined} href={`${BASE_PATH}/hooks/`}>钩子训练</a>
+        <a className={active === "games" ? "active" : undefined} href={`${BASE_PATH}/hook-games/`}>钩子游戏</a>
       </nav>
     </>
   );
