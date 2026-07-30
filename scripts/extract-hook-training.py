@@ -64,27 +64,35 @@ def parse_answers(text: str) -> dict[int, dict[str, Any]]:
         r"(.*?)(?=第\s*\d+\s*题答案[（(]方式[一二][）)][:：]|$)"
     )
     work = re.compile(
-        r"(?:【(?P<prefix_level>高赞|低赞)】\s*)?"
+        r"(?:【(?P<bracket_level>高赞|低赞)】\s*)?"
         r"博主[:：]\s*(?P<blogger>.*?)\s*档位[:：]\s*(?P<level>高赞|低赞)\s*"
         r"标题[:：]\s*(?P<title>.*?)\s*点赞[:：]\s*(?P<likes>[^\s]+)\s*"
-        r"发布时间[:：]\s*(?P<published>\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}(?::\d{2})?)"
+        r"发布时间[:：]\s*"
+        r"(?P<published>\d{4}-\d{2}-\d{2}(?:\s+|_)\d{2}(?::|-)\d{2}(?:(?::|-)\d{2})?)"
     )
     answers: dict[int, dict[str, Any]] = {}
     for match in header.finditer(text):
         number = int(match.group(1))
         mode = match.group(2)
         block = match.group(3).strip()
-        answer_label = re.split(r"【|博主[:：]", block, maxsplit=1)[0].strip()
-        works = [
-            {
-                "level": item.group("prefix_level") or item.group("level"),
-                "blogger": item.group("blogger").strip(),
-                "title": item.group("title").strip(),
-                "likes": item.group("likes").strip(),
-                "published": item.group("published").strip(),
-            }
-            for item in work.finditer(block)
-        ]
+        answer_label = re.split(
+            r"(?:【(?:高赞|低赞)】\s*)?博主[:：]",
+            block,
+            maxsplit=1,
+        )[0].strip()
+        works = []
+        for item in work.finditer(block):
+            published = item.group("published").replace("_", " ")
+            date_part, time_part = published.split(maxsplit=1)
+            works.append(
+                {
+                    "level": item.group("level"),
+                    "blogger": item.group("blogger").strip(),
+                    "title": item.group("title").strip(),
+                    "likes": item.group("likes").strip(),
+                    "published": f"{date_part} {time_part.replace('-', ':')}",
+                }
+            )
         answers[number] = {
             "mode": mode,
             "answerLabel": answer_label,

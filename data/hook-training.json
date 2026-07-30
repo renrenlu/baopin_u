@@ -2668,6 +2668,254 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-30",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-07-30.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260730/q01.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "此人又在歹毒地思考",
+              "title": "一个薅羊毛爱好者决定不过双十一了",
+              "likes": "26",
+              "published": "2025-11-14 22:42",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69173fc1000000000402ae2e"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260730/q02.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "此人又在歹毒地思考",
+              "title": "老鼠人找东西的~超实用方法~",
+              "likes": "10",
+              "published": "2025-10-16 20:39",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68f0e7730000000005012c54"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260730/q03.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "设计师不敢露脸,怕没有流量的方法",
+              "likes": "222",
+              "published": "2025-10-16 00:42:17",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68efcee900000000040022bc"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260730/q04.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "如何与那些带给我们“混合体验”的人相处",
+              "likes": "185",
+              "published": "2026-07-09 08:17:42",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4ee8a600000000170282a3"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260730/q05.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "AAA麟西",
+              "title": "眼瞎眼拙的一生",
+              "likes": "23",
+              "published": "2026-07-14 07:30:10",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a545607000000001503fa7d"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260730/q06.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 B(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "生命力就是别问目的,直接活着",
+              "likes": "17000",
+              "published": "2026-03-25 19:01:36",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69c3429f000000001a02b2b6"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260730/q07.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "炸老师爱说话",
+              "title": "多与自己和食物对话!别吃那些你不想吃的!",
+              "likes": "257",
+              "published": "2025-01-02 10:33:56",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6775fb14000000000b023e32"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260730/q08.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "江静",
+              "title": "搞钱干货悉数奉上!第一期!",
+              "likes": "252",
+              "published": "2026-07-06 21:09:12",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4ba8f8000000001602567d"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260730/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "喻小丢",
+              "title": "成年人的宿命:一边怕失控,一边又渴望自由",
+              "likes": "94",
+              "published": "2026-07-07 18:45:20",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4cd8c00000000017028f15"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260730/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "江静",
+              "title": "很讨厌“人老了做什么都很心酸”和“妈呀大姐",
+              "likes": "501",
+              "published": "2026-07-08 20:12:12",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4e3e9c000000001603f173"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
