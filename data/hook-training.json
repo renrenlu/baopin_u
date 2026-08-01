@@ -2916,6 +2916,345 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-31",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-07-31.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260731/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260731/q01-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "此人又在歹毒地思考",
+              "title": "很震惊也很无奈",
+              "likes": "1972",
+              "published": "2026-06-15 22:21",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a300a56000000002200b483"
+            },
+            {
+              "level": "低赞",
+              "blogger": "此人又在歹毒地思考",
+              "title": "口播做到一半打算去修闭口禅o_O",
+              "likes": "11",
+              "published": "2025-12-01 22:13",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/692da2a1000000001e028955"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260731/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260731/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "鹿冰冰",
+              "title": "我与文字的关系一直相当谨慎",
+              "likes": "4028",
+              "published": "2026-05-31 10:36:39",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a1b9eb700000000070102e0"
+            },
+            {
+              "level": "低赞",
+              "blogger": "鹿冰冰",
+              "title": "竭尽全力,只为轻盈一跃",
+              "likes": "704",
+              "published": "2026-01-29 17:22:31",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6979e6e3000000000e03edf2"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260731/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260731/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "鹿冰冰",
+              "title": "我时常感觉我的命运压在自己的舌根",
+              "likes": "4709",
+              "published": "2026-05-29 18:31:43",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a196b0f000000000602363c"
+            },
+            {
+              "level": "低赞",
+              "blogger": "鹿冰冰",
+              "title": "米德尔马契后续来啦",
+              "likes": "427",
+              "published": "2026-01-26 11:49:23",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6976e443000000000d009b04"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260731/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260731/q04-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "鹿冰冰",
+              "title": "12min讲清如何拥有惊人的表达能力",
+              "likes": "100000",
+              "published": "2026-05-10 12:05:31",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a00040b0000000007027f37"
+            },
+            {
+              "level": "低赞",
+              "blogger": "鹿冰冰",
+              "title": "为什么会感到不好意思",
+              "likes": "952",
+              "published": "2026-01-09 21:28:03",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69610263000000000d0091d6"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260731/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260731/q05-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "鹿冰冰",
+              "title": "三只小猪的故事毁了我的一生",
+              "likes": "28000",
+              "published": "2026-05-02 18:05:49",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69f5cc7d000000001e00fd75"
+            },
+            {
+              "level": "低赞",
+              "blogger": "鹿冰冰",
+              "title": "馄饨酒馆里的外五县中年人",
+              "likes": "973",
+              "published": "2026-01-06 19:16:20",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/695cef04000000000e00ee52"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260731/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260731/q06-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "福将文玩",
+              "title": "你喜欢什么运动,就是什么性格#性格决定命运[话题]# #运动[话题]# #知识分享家[话题]# #心理学知识[话题]#",
+              "likes": "11000",
+              "published": "2026-07-05 21:03",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4a5628000000002101a0ca"
+            },
+            {
+              "level": "低赞",
+              "blogger": "此人又在歹毒地思考",
+              "title": "不构成任何建议!",
+              "likes": "9",
+              "published": "2026-06-18 21:47",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a33f7080000000006037d89"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260731/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260731/q07-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "鹿冰冰",
+              "title": "在平稳的列车上,没人会想要抓紧扶手",
+              "likes": "16000",
+              "published": "2025-12-07 18:16:27",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/693553fb000000001f005eb8"
+            },
+            {
+              "level": "低赞",
+              "blogger": "此人又在歹毒地思考",
+              "title": "因为年龄+转行焦虑疯狂吐槽后逐渐平静",
+              "likes": "9",
+              "published": "2026-06-16 19:55",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a3139940000000007021788"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260731/q08.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "鹿冰冰",
+              "title": "为什么会感到不好意思",
+              "likes": "952",
+              "published": "2026-01-09 21:28:03",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69610263000000000d0091d6"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260731/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "此人又在歹毒地思考",
+              "title": "因为年龄+转行焦虑疯狂吐槽后逐渐平静",
+              "likes": "9",
+              "published": "2026-06-16 19:55",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a3139940000000007021788"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260731/q10.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 B(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "鹿冰冰",
+              "title": "我与文字的关系一直相当谨慎",
+              "likes": "4028",
+              "published": "2026-05-31 10:36:39",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a1b9eb700000000070102e0"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
