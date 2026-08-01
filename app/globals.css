@@ -982,9 +982,12 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 
 .hook-archive-layout { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 64px; padding-top: 48px; }
 .hook-calendar-card { position: sticky; top: 104px; align-self: start; padding: 24px; border: 1px solid var(--line); border-radius: 18px; background: #fafbf8; }
-.hook-calendar-heading { display: grid; gap: 6px; margin-bottom: 24px; }
-.hook-calendar-heading span { color: #969a93; font-size: 9px; font-weight: 750; letter-spacing: 0.1em; }
-.hook-calendar-heading strong { font-size: 18px; }
+.hook-calendar-heading { display: grid; grid-template-columns: 34px 1fr 34px; align-items: center; gap: 8px; margin-bottom: 24px; }
+.hook-calendar-heading > span { grid-column: 1 / -1; color: #969a93; font-size: 9px; font-weight: 750; letter-spacing: 0.1em; }
+.hook-calendar-heading strong { font-size: 18px; text-align: center; }
+.hook-calendar-heading button { width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid #dfe1dc; border-radius: 9px; background: #fff; color: #5e625b; font-size: 22px; line-height: 1; cursor: pointer; transition: border-color 150ms ease, background 150ms ease; }
+.hook-calendar-heading button:hover:not(:disabled) { border-color: #d0aa0a; background: var(--yellow-soft); }
+.hook-calendar-heading button:disabled { opacity: 0.22; cursor: default; }
 .hook-weekdays,
 .hook-calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; }
 .hook-weekdays { margin-bottom: 7px; }

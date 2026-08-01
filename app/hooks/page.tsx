@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import trainingData from "@/data/hook-training.json";
+import HookCalendar from "./hook-calendar";
 import HookHeader from "./hook-header";
 import TrainingHistory from "./training-history";
 import { getTrainingIssueTitle } from "./training-title";
@@ -7,7 +8,6 @@ import { getTrainingIssueTitle } from "./training-title";
 type TrainingIssue = (typeof trainingData.issues)[number];
 
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-const WEEKDAYS = ["一", "二", "三", "四", "五", "六", "日"];
 const issues = [...trainingData.issues].sort((a, b) => b.date.localeCompare(a.date));
 
 export const metadata: Metadata = {
@@ -25,21 +25,6 @@ function formatDate(date: string) {
 }
 
 export default function HookArchivePage() {
-  const latest = issues[0];
-  const [yearText, monthText] = latest.date.split("-");
-  const year = Number(yearText);
-  const month = Number(monthText);
-  const firstWeekday = (new Date(year, month - 1, 1).getDay() + 6) % 7;
-  const daysInMonth = new Date(year, month, 0).getDate();
-  const issueByDay = new Map(
-    issues
-      .filter((issue) => issue.date.startsWith(`${yearText}-${monthText}`))
-      .map((issue) => [Number(issue.date.slice(-2)), issue]),
-  );
-  const calendarCells = Array.from({ length: firstWeekday + daysInMonth }, (_, index) =>
-    index < firstWeekday ? null : index - firstWeekday + 1,
-  );
-
   return (
     <main className="hook-shell" id="top">
       <HookHeader />
@@ -69,27 +54,7 @@ export default function HookArchivePage() {
         />
 
         <div className="hook-archive-layout">
-          <aside className="hook-calendar-card" aria-label={`${year} 年 ${month} 月训练日历`}>
-            <div className="hook-calendar-heading">
-              <span>训练日历</span>
-              <strong>{year} 年 {month} 月</strong>
-            </div>
-            <div className="hook-weekdays" aria-hidden="true">
-              {WEEKDAYS.map((day) => <span key={day}>{day}</span>)}
-            </div>
-            <div className="hook-calendar-grid">
-              {calendarCells.map((day, index) => {
-                if (day === null) return <span key={`empty-${index}`} />;
-                const issue = issueByDay.get(day);
-                return issue ? (
-                  <a href={issueHref(issue)} key={day} aria-label={`进入 ${formatDate(issue.date)}钩子训练`}>
-                    {day}<i aria-hidden="true" />
-                  </a>
-                ) : <span className="empty-day" key={day}>{day}</span>;
-              })}
-            </div>
-            <p>从 2026 年 7 月 22 日开始归档</p>
-          </aside>
+          <HookCalendar basePath={BASE_PATH} issues={issues.map((issue) => ({ date: issue.date }))} />
 
           <section className="hook-issue-list" aria-labelledby="hook-issue-heading">
             <div className="hook-list-heading">
