@@ -3255,6 +3255,293 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-01",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-01.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260801/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260801/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "右图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "一个不知名的ip又又又又诞生的背后趋势洞察",
+              "likes": "18000",
+              "published": "2026-06-12 00:24:47",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2ae14f000000001700b25f"
+            },
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "靠画画做文创/手工?先拆透新疆小羊变现密码",
+              "likes": "210",
+              "published": "2026-06-29 23:44:54",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4292f60000000016027356"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260801/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260801/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "不做奴隶,看懂视频背后的市场和时代变化",
+              "likes": "6093",
+              "published": "2026-06-20 00:31:27",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a356edf000000001c025cbe"
+            },
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "设计师如何正确抄爆款变现的2个方法",
+              "likes": "281",
+              "published": "2025-11-13 00:28:04",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6914b594000000000d03db10"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "左图",
+              "src": "/hooks/20260801/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "右图",
+              "src": "/hooks/20260801/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "左图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "两个“人设”拆解夏美和王洋洋内容套路逻辑",
+              "likes": "9960",
+              "published": "2026-06-04 23:41:13",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a219c99000000003601b06a"
+            },
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "好作品会说话?信你个der",
+              "likes": "229",
+              "published": "2025-11-07 00:31:26",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/690ccd5e000000000301dfbd"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260801/q04.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "靠画画做文创/手工?先拆透新疆小羊变现密码",
+              "likes": "210",
+              "published": "2026-06-29 23:44:54",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4292f60000000016027356"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260801/q05.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "一个不知名的ip又又又又诞生的背后趋势洞察",
+              "likes": "18000",
+              "published": "2026-06-12 00:24:47",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2ae14f000000001700b25f"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260801/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "小眼睛不过百 ,4个方法自查",
+              "likes": "116",
+              "published": "2025-10-20 23:14:32",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68f651d80000000003021aa1"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260801/q07.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "设计师哪来时间做视频?这两招试试",
+              "likes": "156",
+              "published": "2025-10-13 21:47:03",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68ed02d700000000040118d5"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260801/q08.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "设计师如何正确抄爆款变现的2个方法",
+              "likes": "281",
+              "published": "2025-11-13 00:28:04",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6914b594000000000d03db10"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260801/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "福将文玩",
+              "title": "#失业焦虑[话题]# #心理疏导[话题]# #求职季[话题]# #思维启蒙[话题]#",
+              "likes": "6",
+              "published": "2026-07-29 14:52",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6819ba000000000f013213"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260801/q10.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "两个“人设”拆解夏美和王洋洋内容套路逻辑",
+              "likes": "9960",
+              "published": "2026-06-04 23:41:13",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a219c99000000003601b06a"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

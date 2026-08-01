@@ -384,6 +384,16 @@ const ISSUES: Issue[] = [
     size: "4.8 MB",
     accent: "peach",
   },
+  {
+    date: "2026-08-01",
+    title: "美妆个护：让效果先被看见",
+    summary: "今天不把这组个人护理压成一种公式,先对照三条真实路径:【重磅新品】usmile的动作自证、湿巾的真实停留点、【活动特惠】薇诺娜舒护安的动作自证。",
+    takeaway: "今天不要从个人护理倒推固定开头:【重磅新品】usmile用“手抓羊肉开吃的生活画面钩”;湿巾用“用真实使用场景来加强产品的卖点”;【活动特惠】薇诺娜舒护",
+    category: "美妆个护",
+    topics: ["usmile笑容加冷光色修牙膏…","德佑冰感毛巾降温冰巾凉感夏季解…","薇诺娜舒护安肤睡眠面膜60g …"],
+    size: "7.0 MB",
+    accent: "peach",
+  },
 ];
 
 const MONTHS = Array.from(new Set(ISSUES.map((issue) => issue.date.slice(0, 7)))).sort();
