@@ -215,7 +215,7 @@ def extract(pdf: Path, output_dir: Path | None, public_prefix: str) -> dict[str,
         ]
         compare = number <= mode_one
         if compare:
-            specs = [("left", "左图"), ("right", "右图")]
+            specs = [("left", "A图"), ("right", "B图")]
             correct_match = re.search(r"(左|右)图", answer["answerLabel"])
             if not correct_match:
                 raise ValueError(f"第 {number} 题无法识别左右答案")
@@ -250,7 +250,7 @@ def extract(pdf: Path, output_dir: Path | None, public_prefix: str) -> dict[str,
                 "prompt": "哪一张是高赞作品？" if compare else "这张作品是高赞还是低赞？",
                 "images": images,
                 "correct": correct,
-                "answerLabel": answer["answerLabel"],
+                "answerLabel": answer["answerLabel"].replace("左图", "A图").replace("右图", "B图"),
                 "works": works,
             }
         )
