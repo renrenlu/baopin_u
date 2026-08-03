@@ -43,6 +43,7 @@ const ISSUE_TITLES: Record<string, string> = {
   "20260731": "母婴用品：先回应担心，再建立信任",
   "20260801": "美妆个护：让效果先被看见",
   "20260802": "美妆个护：让效果先被看见",
+  "20260803": "家居日用：让问题解决过程可见",
 };
 
 const ISSUE_DATES = Object.keys(ISSUE_TITLES);

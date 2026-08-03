@@ -3894,6 +3894,293 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-03",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-03.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260803/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260803/q01-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "胡楚靓",
+              "title": "普通人赚钱第一步,先别小看自己会的东西",
+              "likes": "44000",
+              "published": "2026-07-27 21:20:42",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a675b2a000000000f00b03c"
+            },
+            {
+              "level": "低赞",
+              "blogger": "Villa_闲记",
+              "title": "离职后,我主要干了这三件事",
+              "likes": "22",
+              "published": "2026-06-24 18:04",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a3babab0000000008025f8d"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260803/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260803/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "胡楚靓",
+              "title": "自卑的人要学会欣赏",
+              "likes": "28000",
+              "published": "2025-11-09 08:50:50",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/690fe56a00000000050000b2"
+            },
+            {
+              "level": "低赞",
+              "blogger": "Villa_闲记",
+              "title": "不要被无所谓的人和事,偷走你宝贵的精气神",
+              "likes": "12",
+              "published": "2026-05-28 19:59",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a182e36000000000702f2cb"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260803/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260803/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "胡楚靓",
+              "title": "终于知道为什么我一直很瘦了!!!",
+              "likes": "85000",
+              "published": "2025-04-19 20:42:41",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68039a41000000001d02e8e5"
+            },
+            {
+              "level": "低赞",
+              "blogger": "Villa_闲记",
+              "title": "怎么无痛提离职?",
+              "likes": "54",
+              "published": "2026-05-28 23:38",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a186178000000000803088e"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260803/q04.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "Villa_闲记",
+              "title": "离职后,我主要干了这三件事",
+              "likes": "22",
+              "published": "2026-06-24 18:04",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a3babab0000000008025f8d"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260803/q05.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "Villa_闲记",
+              "title": "不要被无所谓的人和事,偷走你宝贵的精气神",
+              "likes": "12",
+              "published": "2026-05-28 19:59",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a182e36000000000702f2cb"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260803/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "Villa_闲记",
+              "title": "怎么无痛提离职?",
+              "likes": "54",
+              "published": "2026-05-28 23:38",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a186178000000000803088e"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260803/q07.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "胡楚靓",
+              "title": "普通人赚钱第一步,先别小看自己会的东西",
+              "likes": "44000",
+              "published": "2026-07-27 21:20:42",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a675b2a000000000f00b03c"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260803/q08.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 B(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "胡楚靓",
+              "title": "自卑的人要学会欣赏",
+              "likes": "28000",
+              "published": "2025-11-09 08:50:50",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/690fe56a00000000050000b2"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260803/q09.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 B(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "胡楚靓",
+              "title": "终于知道为什么我一直很瘦了!!!",
+              "likes": "85000",
+              "published": "2025-04-19 20:42:41",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68039a41000000001d02e8e5"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260803/q10.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 B(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "喻小丢",
+              "title": "没工作过的朋友说话都有点像放屁",
+              "likes": "7082",
+              "published": "2025-10-31 19:00:52",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/690303930000000003036e6e"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

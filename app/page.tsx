@@ -404,6 +404,16 @@ const ISSUES: Issue[] = [
     size: "6.9 MB",
     accent: "peach",
   },
+  {
+    date: "2026-08-03",
+    title: "家居日用：让问题解决过程可见",
+    summary: "今天不把这组家居日用压成一种公式,先对照三条真实路径:红旗摆件的动作自证、boxlamp星空灯语音的真实停留点、云感泡芙双层纱床笠三件套的结果变化。",
+    takeaway: "今天不要从家居日用倒推固定开头:红旗摆件用“手持双旗摆件加“真这么灵”悬念钩”;boxlamp星空灯语音用““这星空壁画灯真的好用吗”反应式悬念钩”;云感",
+    category: "家居日用",
+    topics: ["⻋载摆件红旗中控台办公室摆件办…","boxlamp星空灯语音声控卧…","云感泡芙双层纱床笠三件套全包防…"],
+    size: "6.2 MB",
+    accent: "lavender",
+  },
 ];
 
 const MONTHS = Array.from(new Set(ISSUES.map((issue) => issue.date.slice(0, 7)))).sort();
