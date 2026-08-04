@@ -4181,6 +4181,358 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-04",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-04.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260804/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260804/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "建议:2026所有女生都去好好养磁场!真的有用",
+              "likes": "1962",
+              "published": "2026-02-04 20:03:32",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6982c8c8000000002102b992"
+            },
+            {
+              "level": "低赞",
+              "blogger": "此人又在歹毒地思考",
+              "title": "我的时间不属于我",
+              "likes": "5",
+              "published": "2026-07-10 20:10",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a50e1360000000007027ce1"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260804/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260804/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "女生必看!!人赚不到“气血”承受范围之外的钱",
+              "likes": "1375",
+              "published": "2025-10-30 20:07:36",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69019eba00000000030378fc"
+            },
+            {
+              "level": "低赞",
+              "blogger": "此人又在歹毒地思考",
+              "title": "总结如下",
+              "likes": "6",
+              "published": "2026-07-11 17:40",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a520f70000000000702a890"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260804/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260804/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "女生真的一定要主动!!!越主动的人生越顺遂!",
+              "likes": "8548",
+              "published": "2026-03-03 20:00:04",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69a68658000000001d0267e7"
+            },
+            {
+              "level": "低赞",
+              "blogger": "炸老师爱说话",
+              "title": "大风天模拟半马21km竟获得目前最好成绩!",
+              "likes": "22",
+              "published": "2025-02-11 10:06:06",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/67aab08e000000001701d6a0"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260804/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260804/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "真的!不再期待任何人的感觉好爽啊啊啊!!",
+              "likes": "16000",
+              "published": "2026-05-09 20:00:14",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69fea5b40000000037035bfb"
+            },
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "嫌弃预制菜?你的设计才是真垃圾",
+              "likes": "129",
+              "published": "2025-09-18 15:54:08",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68cbbaa0000000001302913b"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260804/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260804/q05-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "很准的容貌玄学!!原来面相真的会影响运气..",
+              "likes": "10000",
+              "published": "2025-06-23 18:02:48",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6858f157000000001301036a"
+            },
+            {
+              "level": "低赞",
+              "blogger": "炸老师爱说话",
+              "title": "对“做时间的朋友”有了深层次的思考",
+              "likes": "173",
+              "published": "2025-01-14 11:35:31",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6785db83000000001800ecec"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260804/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260804/q06-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "不得不信!人生真的是会突然变好的!!",
+              "likes": "3794",
+              "published": "2026-01-20 20:02:14",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/696f3e1400000000220234a3"
+            },
+            {
+              "level": "低赞",
+              "blogger": "此人又在歹毒地思考",
+              "title": "从零开始的自媒体生活",
+              "likes": "35",
+              "published": "2026-07-12 18:51",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5371b70000000006034360"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260804/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260804/q07-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "女生要使劲打扮自己,然后大胆跟宇宙要东西!",
+              "likes": "1979",
+              "published": "2025-10-04 18:38:06",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68db529600000000030124b8"
+            },
+            {
+              "level": "低赞",
+              "blogger": "Chai",
+              "title": "AI博主纠结内容形式的时候可以参考下美食区",
+              "likes": "82",
+              "published": "2026-07-21 15:27",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5f1f50000000000301e7b9"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260804/q08-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260804/q08-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "身弱的人不要太上进?越摆烂反而能量越高?",
+              "likes": "1298",
+              "published": "2025-04-12 01:13:27",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/67f94db7000000000b02f805"
+            },
+            {
+              "level": "低赞",
+              "blogger": "兰宗晓成长盈",
+              "title": "把人性玩明白活得有多爽!",
+              "likes": "99",
+              "published": "2026-07-24 18:41",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5db4c7000000000402aff1"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260804/q09.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 B(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "准到离谱!!!改气运的第一步养好面相",
+              "likes": "4896",
+              "published": "2025-08-21 18:39:24",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68a6e101000000001d034444"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260804/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "赚钱的设计师账号类型+如何找到自己的定位",
+              "likes": "305",
+              "published": "2025-10-13 10:58:59",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68ec6af3000000000301f5b1"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
