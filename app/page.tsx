@@ -424,6 +424,16 @@ const ISSUES: Issue[] = [
     size: "7.6 MB",
     accent: "lime",
   },
+  {
+    date: "2026-08-05",
+    title: "滋补保健：先讲处境，再补信任",
+    summary: "今天不把这组滋补保健压成一种公式,先对照三条真实路径:fiboo她练爆料蛋白粉的结果变化、肌肉博士肌酸软糖90粒装的剧情冲突、ONEADAY拜耳男士复的真实停留点。",
+    takeaway: "今天不要从滋补保健倒推固定开头:fiboo她练爆料蛋白粉用“先给出纤细腰腹,再抛出“常年维持88斤、放纵后怎”;肌肉博士肌酸软糖90粒装用“肌肉型真人举起",
+    category: "滋补保健",
+    topics: ["fiboo她练爆料蛋白粉高蛋白…","肌肉博士肌酸软糖90粒装橙子蓝…","ONEADAY拜耳男士复合型维…"],
+    size: "7.1 MB",
+    accent: "lime",
+  },
 ];
 
 const MONTHS = Array.from(new Set(ISSUES.map((issue) => issue.date.slice(0, 7)))).sort();

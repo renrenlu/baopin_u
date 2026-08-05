@@ -4533,6 +4533,358 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-05",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-05.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260805/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260805/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "李盈满要争气",
+              "title": "一些对女性有利的想法",
+              "likes": "4939",
+              "published": "2026-07-29 21:25",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a69ff44000000001c00d426"
+            },
+            {
+              "level": "低赞",
+              "blogger": "李盈满要争气",
+              "title": "长自媒体脑子最快的方式:挖体系",
+              "likes": "32",
+              "published": "2026-08-04 11:34",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a715dcb000000002500a7a9"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260805/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260805/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "闻域Willa",
+              "title": "搞钱思维丨快速试错,低成本测试结果",
+              "likes": "2733",
+              "published": "2026-07-07 19:28",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4cdf7d000000001702d67c"
+            },
+            {
+              "level": "低赞",
+              "blogger": "闻域Willa",
+              "title": "从小就有但没重视过的表达能力训练",
+              "likes": "62",
+              "published": "2026-05-04 20:11",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69f88d02000000003700c7e7"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260805/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260805/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "闻域Willa",
+              "title": "再糟糕,都要有解决问题的决心",
+              "likes": "2477",
+              "published": "2026-06-14 22:51",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2ebfd9000000001603df96"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵创业董士源",
+              "title": "白手起家的有钱人,有三个秘密~",
+              "likes": "12",
+              "published": "2026-07-24 19:19",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a634a36000000000301cad0"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260805/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260805/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "准到发疯的美女感吸引力法则,养成福相脸!!!",
+              "likes": "1513",
+              "published": "2025-07-29 20:04:41",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6888a35a0000000005004b12"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵创业董士源",
+              "title": "女人做事业,警惕男性模式~",
+              "likes": "25",
+              "published": "2026-07-19 19:50",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5cba04000000000101f223"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260805/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260805/q05-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "闻域Willa",
+              "title": "分享3步,如何演一场自信的面试?",
+              "likes": "5713",
+              "published": "2026-07-09 18:47",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4f56120000000016026d4a"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵创业董士源",
+              "title": "汉字的力量,让绝望的人不必绝望~",
+              "likes": "29",
+              "published": "2026-07-14 15:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a55d7980000000016026d31"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260805/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260805/q06-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "闻域Willa",
+              "title": "想练表达的女生,成长口播是最好的训练场",
+              "likes": "5297",
+              "published": "2026-05-27 19:18",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a168ec6000000003601ac6a"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵创业董士源",
+              "title": "高灵性的人,别追趋势,自建财富风口~",
+              "likes": "44",
+              "published": "2026-07-30 10:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6ab02e0000000005039a35"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260805/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260805/q07-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "3个很准的玄学提示!!!过得好不好全在脸上",
+              "likes": "2470",
+              "published": "2025-07-21 18:38:03",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/687dfead0000000017037e9f"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵创业董士源",
+              "title": "愿力&业力:业力也是动力~",
+              "likes": "51",
+              "published": "2026-07-11 11:48",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a51bd0b000000001c026743"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260805/q08-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260805/q08-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "闻域Willa",
+              "title": "你在什么地方就会成为什么样的人",
+              "likes": "4186",
+              "published": "2026-04-03 11:55",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69ce08e0000000001a027d1e"
+            },
+            {
+              "level": "低赞",
+              "blogger": "李盈满要争气",
+              "title": "普通人唯一的出路,自媒体!",
+              "likes": "51",
+              "published": "2026-07-23 12:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a61921b000000001c00ef80"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260805/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "灵创业董士源",
+              "title": "高灵性/高敏感的人必看~",
+              "likes": "81",
+              "published": "2026-07-29 08:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a68e2380000000001031deb"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260805/q10.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "闻域Willa",
+              "title": "千万不要等你准备好了再出发,钱不会等你",
+              "likes": "4705",
+              "published": "2026-06-16 18:49",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2e796f000000001702b6db"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
