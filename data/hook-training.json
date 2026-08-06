@@ -4885,6 +4885,358 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-06",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-06.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260806/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260806/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "珠光宝气萌妞妞",
+              "title": "高考是一场近乎逼出极限的考验。",
+              "likes": "35000",
+              "published": "2026-06-04 19:04",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a215bcc0000000036018f7a"
+            },
+            {
+              "level": "低赞",
+              "blogger": "碳水狂蛋崽",
+              "title": "没想到建立了自己的屏蔽系统后这么爽!",
+              "likes": "345",
+              "published": "2025-09-08 19:17:05",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68bebb31000000001c035ce7"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260806/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260806/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "珠光宝气萌妞妞",
+              "title": "作为父母,我们的代管再延长一点吧",
+              "likes": "9471",
+              "published": "2026-07-17 14:55",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a59d1e3000000000401c3fa"
+            },
+            {
+              "level": "低赞",
+              "blogger": "哥本哈根大师",
+              "title": "别人已经有人做了你只能做你自己",
+              "likes": "3",
+              "published": "2026-08-02 11:53",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6e1b100000000006004ce5"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260806/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260806/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "珠光宝气萌妞妞",
+              "title": "草根将军,对游牧式草根英雄的管理手段",
+              "likes": "12000",
+              "published": "2026-07-01 17:29",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a44de0f00000000150279c5"
+            },
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "小眼睛不过百 ,4个方法自查",
+              "likes": "116",
+              "published": "2025-10-20 23:14:32",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68f651d80000000003021aa1"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260806/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260806/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "珠光宝气萌妞妞",
+              "title": "中年婚姻类综艺是绝佳的观察样本",
+              "likes": "93000",
+              "published": "2026-07-12 15:49",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a53470b0000000016026aa1"
+            },
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "嫌弃预制菜?你的设计才是真垃圾",
+              "likes": "129",
+              "published": "2025-09-18 15:54:08",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68cbbaa0000000001302913b"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260806/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260806/q05-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "珠光宝气萌妞妞",
+              "title": "有没有可能不是我们想象的那样?",
+              "likes": "16000",
+              "published": "2026-07-04 10:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4778f3000000001c02577e"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "成年人的疏远不是一种情绪而是一种决定",
+              "likes": "134",
+              "published": "2025-11-09 15:58:46",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/691049b6000000000700827d"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260806/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260806/q06-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "珠光宝气萌妞妞",
+              "title": "实实在在的影响因素,到底是什么",
+              "likes": "11000",
+              "published": "2026-07-24 21:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6361f5000000000301e5fc"
+            },
+            {
+              "level": "低赞",
+              "blogger": "灵犀大王",
+              "title": "顶级强者心法:无关紧要的事,宁可输绝不赢",
+              "likes": "137",
+              "published": "2026-06-24 08:53:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a377c1b0000000021023300"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260806/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260806/q07-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "珠光宝气萌妞妞",
+              "title": "反而是提升精力和能量显化的省力取巧办法。",
+              "likes": "13000",
+              "published": "2026-06-29 14:37",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4212c30000000015025296"
+            },
+            {
+              "level": "低赞",
+              "blogger": "进击的李李",
+              "title": "替大家试过了,裸辞之后人生并不会重启",
+              "likes": "146",
+              "published": "2025-06-27 13:30:38",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/685e114d000000000b02f21d"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260806/q08-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260806/q08-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "珠光宝气萌妞妞",
+              "title": "包装修饰出来的公平,也是一种能力,一种素质",
+              "likes": "37000",
+              "published": "2026-06-24 18:12",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a3bada4000000001702b569"
+            },
+            {
+              "level": "低赞",
+              "blogger": "野生涌动鲤",
+              "title": "设计不是好看就行|怎么做省钱赚钱的设计?",
+              "likes": "148",
+              "published": "2025-10-09 02:31:30",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68e6ae02000000000302381d"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260806/q09.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "珠光宝气萌妞妞",
+              "title": "离异家庭子女,早熟是一种必然。",
+              "likes": "20000",
+              "published": "2026-07-15 16:54",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a574ad800000000160249c6"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260806/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "迟煜.",
+              "title": "人生真相100%专注自己就一定能成功",
+              "likes": "62",
+              "published": "2026-08-02 20:21",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6f3640000000002202ea49"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
