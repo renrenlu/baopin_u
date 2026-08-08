@@ -33,9 +33,12 @@ const hookVaultDir = path.join(vaultRoot, "07-钩子");
 const hookManifestPath = path.join(projectRoot, "data/hook-training.json");
 const hookPublicDir = path.join(projectRoot, "public/hooks");
 const hookExtractorPath = path.join(projectRoot, "scripts/extract-hook-training.py");
-const hookPython =
-  process.env.BAOPIN_PDF_PYTHON ??
-  "/Users/mt/Library/Application Support/U哥PDF工作流/.venv/bin/python";
+const hookPythonCandidates = [
+  process.env.BAOPIN_PDF_PYTHON,
+  "/Users/mt/Library/Application Support/U哥PDF工作流/.venv312/bin/python",
+  "/Users/mt/Library/Application Support/U哥PDF工作流/.venv/bin/python",
+].filter(Boolean);
+const hookPython = hookPythonCandidates.find((candidate) => existsSync(candidate)) ?? hookPythonCandidates[0];
 
 const GALLERY_SOURCES = [
   {

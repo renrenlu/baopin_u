@@ -14,6 +14,8 @@
   </array>
   <key>ProcessType</key>
   <string>Background</string>
+  <key>WorkingDirectory</key>
+  <string>/Users/mt/Library/Application Support/U哥PDF网站发布</string>
   <key>StandardOutPath</key>
   <string>/Users/mt/Library/Application Support/U哥PDF工作流/logs/website-publish-launchd.log</string>
   <key>StandardErrorPath</key>
