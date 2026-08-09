@@ -5941,6 +5941,358 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-09",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-09.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260809/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260809/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "治愈果(kakki在说啥)",
+              "title": "说真的,任何关系都需要调教(心理学和人性",
+              "likes": "3179",
+              "published": "2026-07-14 20:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a560c920000000007011bac"
+            },
+            {
+              "level": "低赞",
+              "blogger": "Suki邪修学英语",
+              "title": "人只有跳出单一系统才能看清自己原来的系统",
+              "likes": "13",
+              "published": "2026-07-16 14:32",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a587b1a000000000402a70c"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260809/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260809/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "治愈果(kakki在说啥)",
+              "title": "你不是你的身体,你是流经身体的能量?",
+              "likes": "2424",
+              "published": "2026-07-31 19:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6c5ce60000000022031801"
+            },
+            {
+              "level": "低赞",
+              "blogger": "Suki邪修学英语",
+              "title": "第一次出国,英语不好真的会很慌",
+              "likes": "24",
+              "published": "2026-08-06 10:23",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a73f0340000000022030d90"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260809/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260809/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "锄田光司",
+              "title": "锄田光司|当你没有一个东西就没资格批评它",
+              "likes": "4463",
+              "published": "2026-04-23 16:51",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69e9dd8c000000001b022b41"
+            },
+            {
+              "level": "低赞",
+              "blogger": "Suki邪修学英语",
+              "title": "真正地道的英文,藏着极其霸道的主体性思维",
+              "likes": "27",
+              "published": "2026-08-08 21:29",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a772f1c000000002402f24f"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260809/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260809/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "锄田光司",
+              "title": "锄田光司|初中辍学率为什么小于高中",
+              "likes": "7618",
+              "published": "2026-01-06 12:34",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/695c90d5000000001a024303"
+            },
+            {
+              "level": "低赞",
+              "blogger": "Suki邪修学英语",
+              "title": "这才是最适合中国人的英语语法学习方法!!!",
+              "likes": "60",
+              "published": "2026-08-08 12:19",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a76ae65000000002403e6f9"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260809/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260809/q05-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "大理寺",
+              "title": "三个月35斤无痛维持五年教程",
+              "likes": "1217",
+              "published": "2026-08-01 16:58",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6db53f000000003301d2a9"
+            },
+            {
+              "level": "低赞",
+              "blogger": "Suki邪修学英语",
+              "title": "我们既是偏见的受害者无意识中又成为加害者",
+              "likes": "79",
+              "published": "2026-08-05 23:33",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7357b4000000002402d798"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260809/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260809/q06-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "治愈果(kakki在说啥)",
+              "title": "关于提升魅力的三点分享?(魅力的本质)",
+              "likes": "14000",
+              "published": "2026-06-12 20:03",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2be75b00000000070126c0"
+            },
+            {
+              "level": "低赞",
+              "blogger": "治愈果(kakki在说啥)",
+              "title": "改善情绪的三个思路?(生物-心理-社会模型",
+              "likes": "214",
+              "published": "2026-07-30 19:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6af876000000001002a471"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260809/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260809/q07-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "转运提示请你每天把自己打扮漂亮!!!",
+              "likes": "1957",
+              "published": "2025-07-15 19:45:09",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6874d55b0000000017032740"
+            },
+            {
+              "level": "低赞",
+              "blogger": "哥本哈根大师",
+              "title": "你的网名有什么故事?",
+              "likes": "3",
+              "published": "2026-07-23 20:05",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a62038b000000000101ce5f"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260809/q08-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260809/q08-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "准到发疯的美女感吸引力法则,养成福相脸!!!",
+              "likes": "1513",
+              "published": "2025-07-29 20:04:41",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6888a35a0000000005004b12"
+            },
+            {
+              "level": "低赞",
+              "blogger": "酸汤毒唯",
+              "title": "一些很重要但没人教的能力",
+              "likes": "7",
+              "published": "2026-08-01 22:55",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6e08e70000000028006dd7"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260809/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A(低赞)",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "锄田光司",
+              "title": "锄田光司|给我气的真是龙马精神了",
+              "likes": "894",
+              "published": "2026-02-24 10:43",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/699d1060000000000e00da1a"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260809/q10.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A(高赞)",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "华丽蒙",
+              "title": "0经验跨行第四期",
+              "likes": "100000",
+              "published": "2025-11-08 17:02:42",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/690f07310000000005039c5d"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
