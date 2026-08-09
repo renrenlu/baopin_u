@@ -464,6 +464,16 @@ const ISSUES: Issue[] = [
     size: "6.7 MB",
     accent: "lavender",
   },
+  {
+    date: "2026-08-09",
+    title: "美妆个护：让效果先被看见",
+    summary: "今天不把这组美妆压成一种公式，先对照三条真实路径：漫步星球粉底液的剧情冲突、Doll 双眼皮贴的动作自证、puco 唇粉霜的人群场景。",
+    takeaway: "今天不要从美妆倒推固定开头：漫步星球粉底液用“分屏亮出商家给我的和商家想要的，再拿梳子摩擦验货”；Doll 双眼皮贴用“第一秒夹起双眼皮贴直接妆后上眼”；puco 唇粉霜用“车内承诺不管怎么干饭都不掉色”。三条分别依赖剧情冲突、动作自证和人群场景，先找最强证据，再决定开场方式。",
+    category: "美妆个护",
+    topics: ["漫步星球粉底液商家反向验货实测…","肿眼泡双眼皮贴一步成双大外双…","puco唇粉霜黄皮显白年轻好几…"],
+    size: "5.5 MB",
+    accent: "peach",
+  },
 ];
 
 const MONTHS = Array.from(new Set(ISSUES.map((issue) => issue.date.slice(0, 7)))).sort();
