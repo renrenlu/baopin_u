@@ -6293,6 +6293,358 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-10",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-10.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260810/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260810/q01-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "西西里柠檬",
+              "title": "优秀是你跟我对话的门槛，不是我爱你的原因",
+              "likes": "1714",
+              "published": "2026-08-09 08:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a77c02d00000000050324c2"
+            },
+            {
+              "level": "低赞",
+              "blogger": "三岁（成长版）",
+              "title": "过度珍惜，其实也是一种挥霍",
+              "likes": "15",
+              "published": "2026-08-08 22:19",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a773b01000000002c006508"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260810/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260810/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "鱼尾葵",
+              "title": "存钱上瘾 其实是个赋魅行为……",
+              "likes": "5311",
+              "published": "2026-08-08 17:40",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6431fb000000001d0211af"
+            },
+            {
+              "level": "低赞",
+              "blogger": "鱼尾葵",
+              "title": "不躺不摆不生气",
+              "likes": "73",
+              "published": "2026-07-25 11:48",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a76f99a000000003302ecc1"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260810/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260810/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "西西里柠檬",
+              "title": "分享一个让我的人生一直在走运的关键秘诀",
+              "likes": "6951",
+              "published": "2026-07-08 19:52",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4e39e600000000150273e0"
+            },
+            {
+              "level": "低赞",
+              "blogger": "三岁（成长版）",
+              "title": "《贫穷的本质》穷人到底缺什么？",
+              "likes": "41",
+              "published": "2026-08-04 23:50",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a720a35000000002c002bce"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260810/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260810/q04-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "西西里柠檬",
+              "title": "如何与家境悬殊的人，开启一段平等的恋爱",
+              "likes": "67000",
+              "published": "2026-08-02 08:30",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6e819d000000002403f4b3"
+            },
+            {
+              "level": "低赞",
+              "blogger": "西西里柠檬",
+              "title": "硬核干货 艺术生毕业论文到底怎么写",
+              "likes": "197",
+              "published": "2026-05-15 19:08",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a06de84000000003603089c"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260810/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260810/q05-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "三岁（成长版）",
+              "title": "分享一个永远不会孤单寂寞的方法（科学版）",
+              "likes": "9843",
+              "published": "2026-04-17 21:11",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69e2316c000000001d0184df"
+            },
+            {
+              "level": "低赞",
+              "blogger": "快乐的小青蛙",
+              "title": "大部分女生意识到经济独立会过的更好",
+              "likes": "8",
+              "published": "2026-08-04 19:35",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a709d3a0000000025017fd0"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260810/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260810/q06-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "西西里柠檬",
+              "title": "低谷不是对你的惩罚，而是人生的常态",
+              "likes": "3088",
+              "published": "2026-07-31 19:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6c606500000000250077d8"
+            },
+            {
+              "level": "低赞",
+              "blogger": "哥本哈根大师",
+              "title": "纳瓦尔宝典之财富的定义",
+              "likes": "9",
+              "published": "2026-07-30 11:23",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6ac3b0000000000100e847"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260810/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260810/q07-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "西西里柠檬",
+              "title": "“我的爱，是愿意让你拥有未来离开我的能力”",
+              "likes": "8344",
+              "published": "2026-05-23 10:30",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a10f7260000000038022985"
+            },
+            {
+              "level": "低赞",
+              "blogger": "酸汤毒唯",
+              "title": "刷完这条视频就行动起来吧～周末愉快",
+              "likes": "9",
+              "published": "2026-08-07 22:48",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a75f044000000003300f14f"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260810/q08-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260810/q08-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "三岁（成长版）",
+              "title": "【干货长文预警】永远不会孤单寂寞的方法升级",
+              "likes": "6627",
+              "published": "2026-07-31 12:05",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6c1efc0000000032021309"
+            },
+            {
+              "level": "低赞",
+              "blogger": "酸汤毒唯",
+              "title": "我真的建议人人都能做到这三个字",
+              "likes": "10",
+              "published": "2026-07-27 22:47",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a676f99000000000f011923"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260810/q09.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A（高赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "三岁（成长版）",
+              "title": "分享一个永远都不会孤单寂寞的方法（2.0升级",
+              "likes": "16000",
+              "published": "2026-04-09 22:04",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69d7b1e9000000002302783f"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260810/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "三岁（成长版）",
+              "title": "普通人改命的底层逻辑，全网独一份专业分析",
+              "likes": "290",
+              "published": "2025-09-10 21:27",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68c17cbb000000001d00d085"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
