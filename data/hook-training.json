@@ -6645,6 +6645,358 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-11",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-11.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260811/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260811/q01-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "焱森森淼",
+              "title": "别做小三",
+              "likes": "1444",
+              "published": "2026-08-09 19:07",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a785f850000000028001465"
+            },
+            {
+              "level": "低赞",
+              "blogger": "焱森森淼",
+              "title": "别出轨",
+              "likes": "4",
+              "published": "2026-08-10 13:30",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7962080000000025010673"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260811/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260811/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "徐大金",
+              "title": "无家庭示范乖乖女打工人 狂刷这5部电视剧！",
+              "likes": "100000",
+              "published": "2025-07-10 17:23:25",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/686f868d0000000017031637"
+            },
+            {
+              "level": "低赞",
+              "blogger": "徐大金",
+              "title": "谁懂？一个人过年 真的超级有意思的！",
+              "likes": "219",
+              "published": "2026-02-20 18:43:24",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69983acc000000001600afcc"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260811/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260811/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "轻宣",
+              "title": "一期视频看透人心",
+              "likes": "11000",
+              "published": "2026-01-03 19:42",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/695900b5000000002202ea37"
+            },
+            {
+              "level": "低赞",
+              "blogger": "轻宣",
+              "title": "恭喜你刷到了这期视频",
+              "likes": "206",
+              "published": "2026-07-22 17:55",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a609385000000000301c323"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260811/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260811/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "轻宣",
+              "title": "实践模板交给你",
+              "likes": "2804",
+              "published": "2025-12-25 17:16",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/694d00d20000000022020fae"
+            },
+            {
+              "level": "低赞",
+              "blogger": "焱森森淼",
+              "title": "为什么王阳明能成圣",
+              "likes": "6",
+              "published": "2026-08-07 20:44",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a75d33b00000000280099b1"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260811/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260811/q05-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "轻宣",
+              "title": "识人技巧（感情篇）",
+              "likes": "1251",
+              "published": "2026-01-20 21:33",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/696f8425000000002102a04b"
+            },
+            {
+              "level": "低赞",
+              "blogger": "焱森森淼",
+              "title": "很多人助了张柏芝",
+              "likes": "56",
+              "published": "2026-08-06 22:13",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a74969e0000000005020ab9"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260811/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260811/q06-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "轻宣",
+              "title": "高敏感自救指南",
+              "likes": "1739",
+              "published": "2026-01-18 14:51",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/696c82fb0000000022009234"
+            },
+            {
+              "level": "低赞",
+              "blogger": "哥本哈根大师",
+              "title": "如何让财运找上门",
+              "likes": "10",
+              "published": "2026-08-06 08:04",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a736ba1000000002403d8a0"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260811/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260811/q07-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "轻宣",
+              "title": "如何一眼看透别人？",
+              "likes": "2345",
+              "published": "2026-05-28 12:55",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a17cad5000000003701da1d"
+            },
+            {
+              "level": "低赞",
+              "blogger": "哥本哈根大师",
+              "title": "纳瓦尔谈年轻人最值得有用的杠杆",
+              "likes": "11",
+              "published": "2026-08-01 08:39",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6ccea100000000050314bf"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260811/q08-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260811/q08-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "轻宣",
+              "title": "兴趣爱好（人生支点）",
+              "likes": "23000",
+              "published": "2026-06-01 10:14",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a1ceb17000000003601c4bc"
+            },
+            {
+              "level": "低赞",
+              "blogger": "轻宣",
+              "title": "自己过得挺好，还需要结婚吗？",
+              "likes": "252",
+              "published": "2026-08-09 13:12",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a780c32000000002402e456"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260811/q09.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A（高赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "轻宣",
+              "title": "#自律[话题]# #口才[话题]# 你们自己截图跟着练",
+              "likes": "36000",
+              "published": "2025-12-05 19:58",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6932c8e6000000001b020daa"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260811/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "轻宣",
+              "title": "有想法，但就是落实不下去？",
+              "likes": "436",
+              "published": "2026-07-14 16:04",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a55ed9f000000001503fc21"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
