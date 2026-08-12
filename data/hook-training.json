@@ -6997,6 +6997,358 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-12",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-12.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260812/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260812/q01-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "发光白小姐",
+              "title": "大佬手把手教我两面三刀",
+              "likes": "2842",
+              "published": "2026-07-29 20:13",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a69ee8400000000110100ad"
+            },
+            {
+              "level": "低赞",
+              "blogger": "发光白小姐",
+              "title": "一个问题打动上亿老板｜案例拆解",
+              "likes": "68",
+              "published": "2026-07-15 19:10",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a576ac200000000110069f2"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260812/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260812/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "徐大金",
+              "title": "妈妈 没有过渡期 此时此刻 就是全部的人生",
+              "likes": "1225",
+              "published": "2026-07-26 15:08:51",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6504a4000000000301f4af"
+            },
+            {
+              "level": "低赞",
+              "blogger": "舒姐情感疏解",
+              "title": "感情里最掉价的就是，你揭穿了一个男人，又离不开他。#情感[话题]# #男人女人[话题]# #人间清醒[话题]# #女性觉醒[话题]# #感情[话题]#",
+              "likes": "1",
+              "published": "2026-08-06 10:34",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a73f2bd000000002500ae6e"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260812/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260812/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿吕你别跑",
+              "title": "裸辞这半年，你知道我是怎么过的吗！！",
+              "likes": "1925",
+              "published": "2025-09-16 18:51",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a73f5af000000002202d590"
+            },
+            {
+              "level": "低赞",
+              "blogger": "舒姐情感疏解",
+              "title": "男人忘记一个女人，需要多长时间 #扎心[话题]# #扎心情感[话题]# #情感[话题]# #女人[话题]# #男人[话题]#",
+              "likes": "2",
+              "published": "2026-08-06 10:47",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68c9412e000000000b03e240"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260812/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260812/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "徐大金",
+              "title": "职场环境真的很差 好好的人突然烂掉了！",
+              "likes": "38000",
+              "published": "2025-09-20 17:44:35",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68cd0a75000000001300d44e"
+            },
+            {
+              "level": "低赞",
+              "blogger": "马甜max",
+              "title": "我是如何偷学一个女性角色身上的力量的",
+              "likes": "281",
+              "published": "2026-06-09 19:08",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a27f443000000003502505e"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260812/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260812/q05-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "徐大金",
+              "title": "人贪婪的想掌控未来，于是得到了报应…",
+              "likes": "73000",
+              "published": "2026-05-27 17:21:37",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a168553000000003701ee74"
+            },
+            {
+              "level": "低赞",
+              "blogger": "马甜max",
+              "title": "在北大上完营销课后对高消费有了一些改观…",
+              "likes": "366",
+              "published": "2026-07-04 21:15",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a49075a000000001101edf1"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260812/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260812/q06-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "银河系李老幺",
+              "title": "请务必相信，你老公是你当下能找到的最好的",
+              "likes": "2673",
+              "published": "2026-03-15 22:09",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69b6bdb4000000002202a192"
+            },
+            {
+              "level": "低赞",
+              "blogger": "银河系李老幺",
+              "title": "你越逼自己，大脑越摆烂 真正的高手只做这一件事 #认知觉醒[话题]# #大脑[话题]# #女性成长[话题]#",
+              "likes": "62",
+              "published": "2026-08-11 20:22",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7b14040000000025015e0b"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260812/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260812/q07-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿吕你别跑",
+              "title": "不要再把自己的时间，按批发价卖给公司了！",
+              "likes": "3464",
+              "published": "2025-09-14 20:14",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68c6b189000000001b0359df"
+            },
+            {
+              "level": "低赞",
+              "blogger": "陈暴撕",
+              "title": "认知高的人，要拒绝深聊！",
+              "likes": "18",
+              "published": "2026-08-08 21:09",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a772a8900000000330180e0"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260812/q08-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260812/q08-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "进击的李李",
+              "title": "3个200%让贵人心甘情愿主动帮你的方法",
+              "likes": "7696",
+              "published": "2026-06-17 20:30:03",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a32889e000000000f00710f"
+            },
+            {
+              "level": "低赞",
+              "blogger": "巴斯可可",
+              "title": "信我！强女都不太好搞",
+              "likes": "49",
+              "published": "2026-08-09 08:31",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a77a11a000000000502a676"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260812/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "银河系李老幺",
+              "title": "被99%的人误解的“无为”，才是顶级破局心法！#国学智慧[话题]# #人生哲学[话题]# #认知提升[话题]#",
+              "likes": "74",
+              "published": "2025-12-08 19:30",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6936b6c9000000001e032a0a"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260812/q10.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 A（高赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "轻宣",
+              "title": "前5天数字练习法，后面的时间用我所说的技巧，这个属于是口才跟练视频的2.0（重新更改了一次 第一个版本不够详细 没有去讲说话的语速，语调 表情管理和感染力）这期视频方便你们更好的实践。#口才[话题]# #感染力[话题]# #自信[话题]#",
+              "likes": "9267",
+              "published": "2025-12-25 17:18",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/694d0177000000002103dc8c"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
