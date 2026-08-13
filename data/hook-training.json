@@ -7349,6 +7349,358 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-13",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-13.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260813/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260813/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "徐大金",
+              "title": "三无应届生4个快速找好工作渠道！（实操可行",
+              "likes": "1197",
+              "published": "2025-08-02 18:53",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/688c997d000000000500b1d7"
+            },
+            {
+              "level": "低赞",
+              "blogger": "自由淼淼",
+              "title": "人生中有很多比上班更重要的事情！",
+              "likes": "87",
+              "published": "2025-08-19 18:08",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68a44505000000001c032a93"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260813/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260813/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "自由淼淼",
+              "title": "失业/gap低谷期如何平稳过渡？",
+              "likes": "1728",
+              "published": "2025-12-31 19:11",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6953859c000000001e02e7c4"
+            },
+            {
+              "level": "低赞",
+              "blogger": "自由淼淼",
+              "title": "职场小白存钱法，怎么存才能利息高又安全？",
+              "likes": "58",
+              "published": "2025-12-12 13:20",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/693ba60c000000001e02f18f"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260813/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260813/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "自由淼淼",
+              "title": "HR最想听的5个空窗期理由，屡试不爽！",
+              "likes": "3073",
+              "published": "2025-12-07 15:02",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69352669000000001e030888"
+            },
+            {
+              "level": "低赞",
+              "blogger": "自由淼淼",
+              "title": "私藏的短视频创作神器！",
+              "likes": "58",
+              "published": "2025-08-18 16:09",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68a2ca69000000001c00dcf2"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260813/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260813/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "自由淼淼",
+              "title": "你心累就是太把上班当回事！",
+              "likes": "6137",
+              "published": "2025-08-20 21:02",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68a5c776000000001c00a841"
+            },
+            {
+              "level": "低赞",
+              "blogger": "自由淼淼",
+              "title": "职场人年底冲业绩就靠它了",
+              "likes": "35",
+              "published": "2025-11-21 18:41",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/691ed077000000001e02ddaa"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260813/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260813/q05-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "自由淼淼",
+              "title": "9个面试反问，让面试官下定决心录用你",
+              "likes": "6750",
+              "published": "2025-11-22 12:24",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69213aec000000001e039bfd"
+            },
+            {
+              "level": "低赞",
+              "blogger": "自由淼淼",
+              "title": "宝子来看好职位！",
+              "likes": "47",
+              "published": "2025-08-15 22:20",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/689ef052000000001c00c371"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260813/q06-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260813/q06-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "轻宣",
+              "title": "为什么你就喜欢不回消息的那个人？",
+              "likes": "3486",
+              "published": "2026-05-31 12:09",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a1bb4890000000038035803"
+            },
+            {
+              "level": "低赞",
+              "blogger": "自由淼淼",
+              "title": "帮企业号搭个客服团队，留资率直接翻倍！",
+              "likes": "48",
+              "published": "2025-10-24 19:35",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68fb46ee0000000005013b87"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260813/q07-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260813/q07-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "西西里柠檬",
+              "title": "怎么变得非常会聊天？",
+              "likes": "19000",
+              "published": "2026-07-26 08:03",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a654eb5000000000301ed3b"
+            },
+            {
+              "level": "低赞",
+              "blogger": "徐大金",
+              "title": "人！但行好事！莫问前程！世间一切！皆有因果！",
+              "likes": "481",
+              "published": "2026-05-10 14:22",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a0024180000000038034e16"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260813/q08-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260813/q08-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "金富江Kimdelvey",
+              "title": "你不是真的内耗。",
+              "likes": "6693",
+              "published": "2026-07-30 18:24",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6b1f5d0000000033009e7e"
+            },
+            {
+              "level": "低赞",
+              "blogger": "自由淼淼",
+              "title": "体制内牛马朋友凌晨还在改稿，看不下去了",
+              "likes": "46",
+              "published": "2025-08-25 16:15",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68ac1806000000001c03146b"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260813/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 B（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "徐大金",
+              "title": "因为先替别人命名了苦难，才产生拯救的冲动",
+              "likes": "501",
+              "published": "2026-08-06 14:19",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a74275500000000250065b0"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品是高赞还是低赞？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260813/q10.webp"
+            }
+          ],
+          "correct": "high",
+          "answerLabel": "正确选项 B（高赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "纯纯",
+              "title": "一个女生没有完成社会化那一定一直在吃亏",
+              "likes": "1022",
+              "published": "2026-04-26 18:23",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69ede7a9000000003502f952"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
