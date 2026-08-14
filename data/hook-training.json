@@ -7701,6 +7701,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-14",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-14.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260814/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260814/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "珠光宝气萌妞妞",
+              "title": "无意间从我婆婆身上窥见一种有福的晚年形态",
+              "likes": "39000",
+              "published": "2026-06-14 11:11",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2e1bfd000000001503ed67"
+            },
+            {
+              "level": "低赞",
+              "blogger": "自由淼淼",
+              "title": "一个人不能干多个人的活，就是你能力不行！",
+              "likes": "461",
+              "published": "2025-12-09 18:39",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6937f983000000001e02c145"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260814/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260814/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "珠光宝气萌妞妞",
+              "title": "亲身经历，平静，是可以练出来的。",
+              "likes": "21000",
+              "published": "2026-06-21 12:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a3689a7000000001702c1f7"
+            },
+            {
+              "level": "低赞",
+              "blogger": "自由淼淼",
+              "title": "我面试成功的3个tips, 帮你顺利拿offer!",
+              "likes": "417",
+              "published": "2025-09-16 21:47",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68c96a5b000000000e031a43"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260814/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260814/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "珠光宝气萌妞妞",
+              "title": "警惕无风无雨的，消费层面的虚假同频共鸣",
+              "likes": "44000",
+              "published": "2026-08-04 17:06",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a71ab8d0000000025006c3c"
+            },
+            {
+              "level": "低赞",
+              "blogger": "自由淼淼",
+              "title": "再好的工作也会被差劲的领导毁掉！",
+              "likes": "881",
+              "published": "2025-08-27 18:37",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68aedff7000000001c0114d0"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260814/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260814/q04-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "闻域Willa",
+              "title": "分享3步，如何演一场自信的面试？",
+              "likes": "5713",
+              "published": "2026-07-09 18:47",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4f56120000000016026d4a"
+            },
+            {
+              "level": "低赞",
+              "blogger": "自由淼淼",
+              "title": "失业崩溃睡不着嚼2片蓝莓糖！39块救我狗命",
+              "likes": "71",
+              "published": "2025-08-06 17:52",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68930c47000000002202157f"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260814/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260814/q05-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "闻域Willa",
+              "title": "搞钱思维丨快速试错，低成本测试结果",
+              "likes": "2733",
+              "published": "2026-07-07 19:28",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4cdf7d000000001702d67c"
+            },
+            {
+              "level": "低赞",
+              "blogger": "巴斯可可",
+              "title": "听懂的人基本可以驾驭人际关系",
+              "likes": "57",
+              "published": "2026-08-10 22:18",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a79dda70000000025004a68"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260814/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "银河系李老幺",
+              "title": "清一色的减脂恋爱穿搭，正在偷走你的人生选择权 #女性自我认知[话题]# #女性成长力量[话题]# #女性自我觉醒[话题]#",
+              "likes": "91",
+              "published": "2026-07-22 17:20",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5db4e9000000001302655a"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260814/q07.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "轻宣",
+              "title": "把迷茫写下来",
+              "likes": "432",
+              "published": "2026-01-11 21:45",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6963a984000000002202d141"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260814/q08.webp"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "闻域Willa",
+              "title": "想练表达的女生，成长口播是最好的训练场",
+              "likes": "5297",
+              "published": "2026-05-27 19:18",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a168ec6000000003601ac6a"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260814/q09.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "西西里柠檬",
+              "title": "分享一下我在欧洲英语突飞猛进的决定性瞬间",
+              "likes": "908",
+              "published": "2026-04-30 19:02",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69f324a30000000036030647"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260814/q10.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "三岁（成长版）",
+              "title": "如果一个人就过得好，为什么还需要谈恋爱？",
+              "likes": "273",
+              "published": "2026-07-04 23:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a49203a000000000f00738b"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

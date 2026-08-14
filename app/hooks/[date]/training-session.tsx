@@ -27,6 +27,7 @@ type Question = {
   correct: string;
   answerLabel: string;
   works: Work[];
+  options?: { choice: string; label: string }[];
 };
 
 type TrainingIssue = {
@@ -55,9 +56,17 @@ function imageLabel(image: ImageChoice) {
   return image.label;
 }
 
+function judgeOptions(question: Question) {
+  return question.options ?? [
+    { choice: "high", label: "高赞" },
+    { choice: "low", label: "低赞" },
+  ];
+}
+
 function answerLabel(question: Question) {
   if (question.mode === "judge") {
-    return `此图是${question.correct === "high" ? "高赞" : "低赞"}作品`;
+    const option = judgeOptions(question).find((item) => item.choice === question.correct);
+    return `此图是${option?.label ?? "低赞"}作品`;
   }
   return question.answerLabel
     .replaceAll("左图", "A图")
@@ -65,7 +74,10 @@ function answerLabel(question: Question) {
 }
 
 function choiceLabel(question: Question, choice: string) {
-  if (question.mode === "judge") return choice === "high" ? "高赞" : "低赞";
+  if (question.mode === "judge") {
+    const option = judgeOptions(question).find((item) => item.choice === choice);
+    return option?.label ?? choice;
+  }
   const image = question.images.find((item) => item.choice === choice);
   return image ? imageLabel(image) : choice;
 }
@@ -275,10 +287,7 @@ export default function TrainingSession({ issue, basePath }: TrainingSessionProp
 
               {question.mode === "judge" ? (
                 <div className="training-judge-options" role="group" aria-label={`第 ${question.id} 题选项`}>
-                  {[
-                    ["high", "高赞"],
-                    ["low", "低赞"],
-                  ].map(([value, label]) => (
+                  {judgeOptions(question).map(({ choice: value, label }) => (
                     <button
                       className={selected === value ? "selected" : undefined}
                       type="button"
