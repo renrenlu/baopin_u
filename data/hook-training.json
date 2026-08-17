@@ -8467,6 +8467,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-17",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-17.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260817/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260817/q01-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "徐大金",
+              "title": "人 别害怕找工作！其实面试可以作弊的！",
+              "likes": "1271",
+              "published": "2025-06-10 17:36",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6847b0e4000000001101c835"
+            },
+            {
+              "level": "低赞",
+              "blogger": "快乐的小青蛙",
+              "title": "分享一个很厉害的心态",
+              "likes": "48",
+              "published": "2026-07-24 11:21",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a622a68000000000e0357df"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260817/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260817/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "李盈满要争气",
+              "title": "一些对女性有利的想法",
+              "likes": "4939",
+              "published": "2026-07-29 21:25",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a69ff44000000001c00d426"
+            },
+            {
+              "level": "低赞",
+              "blogger": "小黑在思考",
+              "title": "非常有发言权的一期",
+              "likes": "29",
+              "published": "2026-07-30 19:14",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6b322f0000000025015c4f"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260817/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260817/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "闻域Willa",
+              "title": "千万不要等你准备好了再出发，钱不会等你",
+              "likes": "4705",
+              "published": "2026-06-16 18:49",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2e796f000000001702b6db"
+            },
+            {
+              "level": "低赞",
+              "blogger": "美玉说高敏（主体性训练一对一指导）",
+              "title": "你极度渴望高浓度的爱，是你急需这种“共生关系”#高敏感人[话题]##自我觉醒[话题]#",
+              "likes": "33",
+              "published": "2026-06-24 19:07",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a3bba65000000001700bc8b"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260817/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260817/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "闻域Willa",
+              "title": "再糟糕，都要有解决问题的决心",
+              "likes": "2477",
+              "published": "2026-06-14 22:51",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2ebfd9000000001603df96"
+            },
+            {
+              "level": "低赞",
+              "blogger": "快乐的小青蛙",
+              "title": "父母不会教你的13条变强方法",
+              "likes": "53",
+              "published": "2026-08-02 11:09",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6e05c600000000330338b9"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260817/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260817/q05-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "闻域Willa",
+              "title": "你在什么地方就会成为什么样的人",
+              "likes": "4186",
+              "published": "2026-04-03 11:55",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69ce08e0000000001a027d1e"
+            },
+            {
+              "level": "低赞",
+              "blogger": "哥本哈根大师",
+              "title": "普通人的致富公式",
+              "likes": "29",
+              "published": "2026-07-31 08:44",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6b639a000000002402c7ce"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260817/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "童姐姐",
+              "title": "强女心法自我托举才是下半生的人生解法",
+              "likes": "15",
+              "published": "2026-08-03 23:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a70ad0e000000000502af1d"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260817/q07.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "治愈果（kakki在说啥）",
+              "title": "过度强调主体性，正在杀死关系？",
+              "likes": "587",
+              "published": "2026-07-18 21:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a578b540000000016024586"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260817/q08.webp"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "新年大扫除|3步显化!!!扫脏迎新过大年！",
+              "likes": "9323",
+              "published": "2026-01-16 20:05",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69661e96000000002103d315"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260817/q09.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "锄田光司",
+              "title": "锄田光司｜用的是美图设计室",
+              "likes": "246",
+              "published": "2026-06-18 14:54",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a33963e000000002103f04c"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260817/q10.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "锄田光司",
+              "title": "锄田光司｜所有人不许禁欲了",
+              "likes": "880",
+              "published": "2026-06-06 22:37",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2430b20000000007013c9f"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
