@@ -8850,6 +8850,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-18",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-18.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260818/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260818/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "尤其女生!!建议马上停止对自己的灾难化想象",
+              "likes": "6740",
+              "published": "2025-11-06 20:46",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/690b21d7000000000301d209"
+            },
+            {
+              "level": "低赞",
+              "blogger": "小黑在思考",
+              "title": "你不是缺机会，你只是卡在第一步",
+              "likes": "37",
+              "published": "2026-08-03 16:23",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a704ffd00000000330340e8"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260818/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260818/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "3个很准的玄学提示!!!过得好不好全在脸上",
+              "likes": "2470",
+              "published": "2025-07-21 18:38",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/687dfead0000000017037e9f"
+            },
+            {
+              "level": "低赞",
+              "blogger": "美玉说高敏（主体性训练一对一指导）",
+              "title": "不要毫无保留的交代你的人生#高敏感人[话题]##拿回主体性[话题]##打探隐私[话题]#",
+              "likes": "45",
+              "published": "2026-08-03 20:49",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a708e5800000000050315ac"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260818/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260818/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "分享一个超厉害，超绝的心态！#女生一定要懂",
+              "likes": "10000",
+              "published": "2025-07-14 23:15",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68751f20000000001203011a"
+            },
+            {
+              "level": "低赞",
+              "blogger": "锄田光司",
+              "title": "锄田光司｜对出片Say yes！",
+              "likes": "415",
+              "published": "2026-04-25 12:44",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69ec46bc0000000022026c11"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260818/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260818/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "准到发疯!!!真的永远都不要放弃打扮自己！",
+              "likes": "2023",
+              "published": "2025-10-11 18:38",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68e789c500000000030206f4"
+            },
+            {
+              "level": "低赞",
+              "blogger": "纯纯",
+              "title": "如果25岁前知道这6个真相至少少走3年弯路",
+              "likes": "66",
+              "published": "2026-08-02 01:02",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6e269f0000000032020189"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260818/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260818/q05-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "身弱女生!!!!真心建议都给我这样去谈恋爱！",
+              "likes": "1547",
+              "published": "2025-07-10 18:38",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/686f6b60000000001202cd2a"
+            },
+            {
+              "level": "低赞",
+              "blogger": "李盈满要争气",
+              "title": "普通人唯一的出路，自媒体！",
+              "likes": "51",
+              "published": "2026-07-23 12:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a61921b000000001c00ef80"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260818/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "李盈满要争气",
+              "title": "为什么有些账号数据很好，就是不赚米？",
+              "likes": "51",
+              "published": "2026-07-17 16:55",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a59ede6000000000c0166fa"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260818/q07.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "大理寺",
+              "title": "140-98|坚持的念头松动时请反复观看",
+              "likes": "126",
+              "published": "2026-08-06 18:54",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a74638600000000330330fd"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260818/q08.webp"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "阿紫哈哈",
+              "title": "灵气消失警告油头扁塌真的会偷走运气",
+              "likes": "2358",
+              "published": "2025-05-14 19:04",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68245ec9000000000f0387fe"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260818/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "灵创业董士源",
+              "title": "汉字的力量，让绝望的人不必绝望～",
+              "likes": "29",
+              "published": "2026-07-14 15:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a55d7980000000016026d31"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260818/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "灵创业董士源",
+              "title": "不被爱是因为你太容易付出了",
+              "likes": "63",
+              "published": "2026-07-04 17:25",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a48d179000000001603d031"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
