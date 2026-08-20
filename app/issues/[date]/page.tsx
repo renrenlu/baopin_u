@@ -58,6 +58,7 @@ const ISSUE_TITLES: Record<string, string> = {
   "20260816": "美妆个护：先把变化拍出来，再教怎么复刻",
   "20260817": "家居日用：把最难的测试放在第一秒",
   "20260818": "食品饮料：先给动作和冲突，再讲味道",
+  "20260819": "健康养生：先用状态或价差留人，再谈成分",
 };
 
 const ISSUE_DATES = Object.keys(ISSUE_TITLES);

@@ -9233,6 +9233,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-19",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-19.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260819/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260819/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "君君在成长",
+              "title": "普通人如何规划生活，离“提前退休”更近",
+              "likes": "5361",
+              "published": "2026-06-17 17:58",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a32665e0000000006022feb"
+            },
+            {
+              "level": "低赞",
+              "blogger": "周嘻嘻要早睡",
+              "title": "原来早睡后生活质量可以这么高！",
+              "likes": "66",
+              "published": "2026-08-03 20:11",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a70857100000000250042c5"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260819/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260819/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "君君在成长",
+              "title": "上班一定要避免奴性太强责任心过重",
+              "likes": "7498",
+              "published": "2026-08-12 18:13",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7c3fbd000000002501017f"
+            },
+            {
+              "level": "低赞",
+              "blogger": "说点什么",
+              "title": "有时候能力没那么重要",
+              "likes": "60",
+              "published": "2026-07-13 22:59",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a54fd52000000002100a5eb"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260819/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260819/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "周嘻嘻要早睡",
+              "title": "我们这辈子不需要满足任何人的期待",
+              "likes": "1543",
+              "published": "2026-07-23 11:57",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a609fde000000000402931b"
+            },
+            {
+              "level": "低赞",
+              "blogger": "说点什么",
+              "title": "不要正能量霸凌自己",
+              "likes": "71",
+              "published": "2026-08-10 23:39",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a79f0bc000000002500e55d"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260819/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260819/q04-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "说点什么",
+              "title": "可是我们做的所有的一切只是为了好好活着",
+              "likes": "1978",
+              "published": "2026-05-29 19:56",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a197edb0000000007029828"
+            },
+            {
+              "level": "低赞",
+              "blogger": "说点什么",
+              "title": "急让我开始便秘…",
+              "likes": "70",
+              "published": "2026-08-12 21:52",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7c7aa0000000002202c127"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260819/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260819/q05-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "说点什么",
+              "title": "你要意识到自己是有一票否决权的",
+              "likes": "4584",
+              "published": "2026-05-28 19:32",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a1827e20000000007028a4b"
+            },
+            {
+              "level": "低赞",
+              "blogger": "周嘻嘻要早睡",
+              "title": "低能量低精力人群怎么靠自媒体养活自己",
+              "likes": "62",
+              "published": "2026-07-29 21:31",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6a009a000000000101cb45"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260819/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "说点什么",
+              "title": "做自媒体最忌讳过度准备",
+              "likes": "59",
+              "published": "2026-07-31 21:41",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6ca5ed0000000028033cf8"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260819/q07.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "君君在成长",
+              "title": "强女思维：永远不要提前焦虑和害怕",
+              "likes": "418",
+              "published": "2026-08-11 16:31",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7addeb000000002800ab91"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260819/q08.webp"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "22顶呱呱的哇",
+              "title": "普通人早期致富的一条公式（牢牢记住）",
+              "likes": "4231",
+              "published": "2026-05-21 18:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a0ebcc6000000003802269f"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260819/q09.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "君君在成长",
+              "title": "上班一定要用最小心力 | i人适用",
+              "likes": "667",
+              "published": "2026-08-14 15:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7eaf0c000000003400e3c6"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260819/q10.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "君君在成长",
+              "title": "不想一辈子打工就照着干",
+              "likes": "654",
+              "published": "2026-07-22 15:56",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5de02c000000000903439e"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
