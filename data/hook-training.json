@@ -8086,6 +8086,389 @@
       ]
     },
     {
+      "date": "2026-08-15",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-15.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260815/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260815/q01-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "自由淼淼",
+              "title": "你根本没必要担心找不到工作！",
+              "likes": "11000",
+              "published": "2026-06-03 20:51",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a20049b000000002201713f"
+            },
+            {
+              "level": "低赞",
+              "blogger": "三岁（成长版）",
+              "title": "如何向上管理？如何正确汇报工作？",
+              "likes": "181",
+              "published": "2026-06-14 21:12",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2ea8b2000000002202be8f"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260815/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260815/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "自由淼淼",
+              "title": "女孩子见世面，一定要打破信息茧房！！",
+              "likes": "14000",
+              "published": "2026-07-01 18:40",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4397590000000006033bbb"
+            },
+            {
+              "level": "低赞",
+              "blogger": "三岁（成长版）",
+              "title": "什么样的人是不可以错过的伴侣？",
+              "likes": "147",
+              "published": "2026-05-18 23:04",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a0b2a69000000003501e10b"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260815/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260815/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "徐大金",
+              "title": "权力存在于一切关系！每个人应对所有人负责！",
+              "likes": "1238",
+              "published": "2026-07-22 17:11",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a605d30000000000301c153"
+            },
+            {
+              "level": "低赞",
+              "blogger": "快乐的小青蛙",
+              "title": "不扭曲性格的建立边界",
+              "likes": "57",
+              "published": "2026-07-24 07:57",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6229b9000000001002858a"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260815/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260815/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "徐大金",
+              "title": "一定要选你真正热爱、又有巨大杠杆的工作！",
+              "likes": "1204",
+              "published": "2026-04-18 17:48",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69e212c2000000001a024ea7"
+            },
+            {
+              "level": "低赞",
+              "blogger": "快乐的小青蛙",
+              "title": "20~45岁的女孩子想翻身不要去打工",
+              "likes": "35",
+              "published": "2026-07-24 21:29",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6368c70000000005039cef"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260815/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260815/q05-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "自由淼淼",
+              "title": "4招让人感觉你工作能力很强的小技巧！",
+              "likes": "34000",
+              "published": "2026-07-28 23:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a633e70000000000f011152"
+            },
+            {
+              "level": "低赞",
+              "blogger": "三岁（成长版）",
+              "title": "说话不要有奴才相（讨好型人格必看！）",
+              "likes": "283",
+              "published": "2026-05-17 22:33",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a09d1cd000000003501ce5c"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260815/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "快乐的小青蛙",
+              "title": "任何一个人发财前都是有征兆的",
+              "likes": "47",
+              "published": "2026-07-24 12:34",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a62eb66000000001003e35f"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260815/q07.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "三岁（成长版）",
+              "title": "如何克服灾难化想象？普通人只需要3步",
+              "likes": "875",
+              "published": "2026-05-16 21:28",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a0870e0000000003502229c"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260815/q08.webp"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "自由淼淼",
+              "title": "4招让人感觉你工作能力很强的小技巧！",
+              "likes": "3568",
+              "published": "2026-08-06 19:57",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7476b6000000002800a14e"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260815/q09.webp"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "自由淼淼",
+              "title": "推荐5个好进外企的渠道",
+              "likes": "100000",
+              "published": "2026-01-24 09:46",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6974246b000000002801fa8d"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260815/q10.webp"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "徐大金",
+              "title": "大城市独居 把日子过好的女人没一个孬种！",
+              "likes": "35000",
+              "published": "2026-01-18 17:38",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/696ca189000000002202e241"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-08-16",
       "title": "看一眼，判断哪条更容易高赞",
       "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
