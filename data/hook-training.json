@@ -10765,6 +10765,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-22",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-22.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260822/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260822/q01-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "周小满",
+              "title": "月入4万的真实经验分享（从-1到1的过程）",
+              "likes": "1630",
+              "published": "2026-08-10 21:30",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a79d28f00000000330345af"
+            },
+            {
+              "level": "低赞",
+              "blogger": "卉卉爱分享2000",
+              "title": "普通人如何用一年月入3000到月入20000？",
+              "likes": "53",
+              "published": "2026-08-21 17:30",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a87070a0000000014024932"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260822/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260822/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "周小满",
+              "title": "AI推演5年人生规划 2步做对人生决策",
+              "likes": "15000",
+              "published": "2026-06-28 19:53",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a410b2900000000070291d5"
+            },
+            {
+              "level": "低赞",
+              "blogger": "创业的小王同学",
+              "title": "分享几条赚钱路子！",
+              "likes": "116",
+              "published": "2026-08-07 19:45",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a75c54a000000000801061e"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260822/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260822/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "周小满",
+              "title": "长脑子最快的方式就是跟顶级好脑聊天！",
+              "likes": "29000",
+              "published": "2026-06-08 18:57",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a26a0040000000008001998"
+            },
+            {
+              "level": "低赞",
+              "blogger": "创业的小王同学",
+              "title": "经济越差越有人暴富？这不是运气是规律",
+              "likes": "205",
+              "published": "2026-08-06 20:11",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7479ef000000000600464d"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260822/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260822/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "许哈哈",
+              "title": "如何拥有清晰通透的人生？用投资思维经营..",
+              "likes": "4669",
+              "published": "2026-03-10 22:08",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69b025ef0000000015031e9a"
+            },
+            {
+              "level": "低赞",
+              "blogger": "卉卉爱分享2000",
+              "title": "裸辞半年，我并没有想象中的快乐……",
+              "likes": "39",
+              "published": "2026-08-19 16:35",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a856ac5000000000503169b"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260822/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260822/q05-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "如何把自己的视频救回来？流量不好怎么办",
+              "likes": "14000",
+              "published": "2026-04-10 23:22",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69d915bc000000001a026b45"
+            },
+            {
+              "level": "低赞",
+              "blogger": "创业的小王同学",
+              "title": "新手做电商，只要做好这几步",
+              "likes": "172",
+              "published": "2026-07-12 11:57",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5310c5000000001603ea8f"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260822/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "许哈哈",
+              "title": "普通女生如何在赚钱上，快速开悟",
+              "likes": "92",
+              "published": "2026-07-30 21:36",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6b535300000000050288f8"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260822/q07.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "周小满",
+              "title": "放弃状态洁癖 释放行动力",
+              "likes": "293",
+              "published": "2026-07-26 20:09",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a65f8f20000000014007038"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260822/q08.webp"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "野生涌动鲤",
+              "title": "如何让审美变现：复古+自然的风格趋势",
+              "likes": "7051",
+              "published": "2025-11-22 00:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69208cc1000000001b0223ca"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260822/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "许哈哈",
+              "title": "不顺迷茫的时候，多出去走走，真的能换运",
+              "likes": "59",
+              "published": "2026-07-21 22:32",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5f83020000000004028c02"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260822/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "小琼148",
+              "title": "别幻想靠打工翻身，你的底气要自己造#打工#",
+              "likes": "4",
+              "published": "2026-08-21 20:57",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a884b450000000028002af5"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
