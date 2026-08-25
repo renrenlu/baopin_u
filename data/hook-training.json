@@ -11914,6 +11914,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-25",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-25.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260825/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260825/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "华丽蒙",
+              "title": "高敏感+社会化＝王炸",
+              "likes": "59000",
+              "published": "2025-11-15 18:39",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6918585b00000000050310c0"
+            },
+            {
+              "level": "低赞",
+              "blogger": "周小满",
+              "title": "1天顶2天！你真正需要的是规则的制定",
+              "likes": "262",
+              "published": "2026-02-07 22:29",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69874c57000000001a025afe"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260825/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260825/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "华丽蒙",
+              "title": "太听话耽误正事",
+              "likes": "100000",
+              "published": "2026-06-30 22:12",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a43b1f80000000008025cb6"
+            },
+            {
+              "level": "低赞",
+              "blogger": "华丽蒙",
+              "title": "《找工作经验贴》如何快速找到工作",
+              "likes": "430",
+              "published": "2025-08-19 21:07",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68a47726000000001b0235d0"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260825/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260825/q03-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "华丽蒙",
+              "title": "这事儿必须由我来做吗",
+              "likes": "92000",
+              "published": "2026-05-25 15:18",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a11936300000000070232ce"
+            },
+            {
+              "level": "低赞",
+              "blogger": "华丽蒙",
+              "title": "我自己每次创造新颖话题的方法",
+              "likes": "969",
+              "published": "2026-05-09 17:21",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69fefc92000000001b0231d6"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260825/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260825/q04-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "华丽蒙",
+              "title": "钱都流向不缺钱的，爱都流向不缺爱的",
+              "likes": "31000",
+              "published": "2025-12-23 21:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/694a9259000000001e03804b"
+            },
+            {
+              "level": "低赞",
+              "blogger": "华丽蒙",
+              "title": "钱都流向不缺钱的人，爱都流向不缺爱的人",
+              "likes": "236",
+              "published": "2026-01-09 20:12",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6960c47f000000000e00c964"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260825/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260825/q05-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "华丽蒙",
+              "title": "如何让贵人主动帮你 | 你有三种稀缺价值",
+              "likes": "100000",
+              "published": "2026-01-08 18:03",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/695f80fd000000000d00900f"
+            },
+            {
+              "level": "低赞",
+              "blogger": "炸老师爱说话",
+              "title": "全网最另辟蹊径的“建立高配得感”指南",
+              "likes": "391",
+              "published": "2026-06-05 12:08",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a224bd8000000003601ddf9"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260825/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "日立酱酱",
+              "title": "浓郁的叙事收获极端的认可",
+              "likes": "85",
+              "published": "2026-07-21 01:19",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5e58b100000000130246a6"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260825/q07.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "炸老师爱说话",
+              "title": "全网最另辟蹊径的建立自信底层逻辑&方法论",
+              "likes": "743",
+              "published": "2026-05-30 10:05",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a1a45d1000000003802165a"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260825/q08.webp"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "华丽蒙",
+              "title": "高敏感 + 极简＝王炸",
+              "likes": "67000",
+              "published": "2026-03-24 22:21",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69c29de2000000001f00770c"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260825/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "日立酱酱",
+              "title": "赚钱逻辑会影响到一个人的任何动作",
+              "likes": "78",
+              "published": "2026-08-10 19:14",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a79b29c000000002500b4a2"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260825/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "王木木",
+              "title": "博客推荐：不活给别人看，从穿搭到生活方式",
+              "likes": "63",
+              "published": "2026-08-14 21:20",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7f161100000000250048cd"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
