@@ -12297,6 +12297,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-26",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-26.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260826/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260826/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "葡萄柚茶茶",
+              "title": "帮助是假的，不尊重倒是真的",
+              "likes": "2833",
+              "published": "2026-07-18 19:48",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5b6810000000001101774a"
+            },
+            {
+              "level": "低赞",
+              "blogger": "小林views大湾区",
+              "title": "workbuddy实战｜单人自媒体降维打法",
+              "likes": "37",
+              "published": "2026-08-18 19:18",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a843f6900000000320321d4"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260826/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260826/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "葡萄柚茶茶",
+              "title": "敌意打探用的是和关心一样的话术",
+              "likes": "3817",
+              "published": "2026-08-07 19:53",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a75c72200000000250029f2"
+            },
+            {
+              "level": "低赞",
+              "blogger": "戒糖包子",
+              "title": "多说一句话少亏十几万",
+              "likes": "35",
+              "published": "2026-08-22 13:29",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a8933a50000000029026255"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260826/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260826/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "小林views大湾区",
+              "title": "好看女生去学workbuddy，相当于05年北京买房",
+              "likes": "3340",
+              "published": "2026-08-24 12:43",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a8bcc010000000029027787"
+            },
+            {
+              "level": "低赞",
+              "blogger": "戒糖包子",
+              "title": "拒绝被割韭菜人间清醒消费指南！",
+              "likes": "26",
+              "published": "2026-08-23 20:48",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a8aec1c000000002802f217"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260826/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260826/q04-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "麦子熟了",
+              "title": "反复长痘真的很烦啊，养成不长痘体质的方法",
+              "likes": "1532",
+              "published": "2026-07-15 19:09",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a56df220000000007021e4d"
+            },
+            {
+              "level": "低赞",
+              "blogger": "戒糖包子",
+              "title": "普通女孩搞钱，第一件事是动脑子",
+              "likes": "3",
+              "published": "2026-08-25 19:12",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a8d7888000000002303eb19"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260826/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260826/q05-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "华丽蒙",
+              "title": "0经验跨行第六期",
+              "likes": "100000",
+              "published": "2026-01-17 18:01",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/696b5e17000000000d0092c0"
+            },
+            {
+              "level": "低赞",
+              "blogger": "葡萄柚茶茶",
+              "title": "既保证主线又踩死小人的策略思路",
+              "likes": "392",
+              "published": "2026-07-30 19:59",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6b3c9b00000000240245c6"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260826/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "麦子熟了",
+              "title": "如何判断自己是什么体质，方法分享",
+              "likes": "52",
+              "published": "2026-08-04 19:32",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a71cdbb0000000033011f4a"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260826/q07.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "葡萄柚茶茶",
+              "title": "4个关键指标判断你是强者还是阿Q",
+              "likes": "202",
+              "published": "2026-07-26 19:10",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a65eb26000000001102ffe3"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260826/q08.webp"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "华丽蒙",
+              "title": "人际关系 | 如何摆脱讨好",
+              "likes": "58000",
+              "published": "2025-12-26 21:22",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/694e8c22000000001e035205"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260826/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "麦子熟了",
+              "title": "学会腹式呼吸，自查一下呼吸模式",
+              "likes": "24",
+              "published": "2026-07-29 20:28",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a69f1fa0000000006012eac"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260826/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "麦子熟了",
+              "title": "气血不足不爱运动的姊妹都去试试八段锦",
+              "likes": "50",
+              "published": "2026-07-27 21:47",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a67618d0000000009034561"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
