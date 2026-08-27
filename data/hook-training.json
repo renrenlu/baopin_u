@@ -12680,6 +12680,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-27",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-27.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260827/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260827/q01-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "卡猫卡（心机小猫卡姐）",
+              "title": "和过去最好的朋友全部断联，是性格缺陷吗？",
+              "likes": "6162",
+              "published": "2026-08-22 21:32",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a89a4ea0000000022022f4c"
+            },
+            {
+              "level": "低赞",
+              "blogger": "木可很可",
+              "title": "突然发现语言会坍缩，真正的智慧只能“体验”",
+              "likes": "48",
+              "published": "2026-08-24 21:14",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a8c43c100000000160236cb"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260827/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260827/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "乌龙杨杨（接咨询）",
+              "title": "轻微的冒犯，别人反而会更尊重你",
+              "likes": "2945",
+              "published": "2026-08-21 21:20",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a88509e000000002202f082"
+            },
+            {
+              "level": "低赞",
+              "blogger": "木可很可",
+              "title": "细思极恐 现实世界只是意识和注意力生成的",
+              "likes": "58",
+              "published": "2026-08-22 21:47",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a89a87a0000000017003ef1"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260827/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260827/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "拾梦",
+              "title": "不扭捏，跟任何人打交道都落落大方的秘诀",
+              "likes": "10000",
+              "published": "2026-08-06 22:38",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a749c6e0000000022030fa3"
+            },
+            {
+              "level": "低赞",
+              "blogger": "卡猫卡（心机小猫卡姐）",
+              "title": "笑死，活了30年，我喜欢的人全不喜欢我",
+              "likes": "378",
+              "published": "2026-08-17 19:00",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a82e9cd0000000029031f21"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260827/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260827/q04-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "木可很可",
+              "title": "一个心想事成的秘诀：“装”让我过上了理想生",
+              "likes": "2274",
+              "published": "2026-07-31 21:04",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6c9d5e000000002402e7b6"
+            },
+            {
+              "level": "低赞",
+              "blogger": "乌龙杨杨（接咨询）",
+              "title": "习惯于被欺负的小透明状态",
+              "likes": "85",
+              "published": "2026-08-18 20:51",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a8455650000000025002e7e"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260827/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260827/q05-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "小Q（无畏布施版）",
+              "title": "在北京摸爬滚打了四年的总结",
+              "likes": "16000",
+              "published": "2026-08-12 19:24",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7c4df4000000002500df5b"
+            },
+            {
+              "level": "低赞",
+              "blogger": "乌龙杨杨（接咨询）",
+              "title": "因为他发现，你骨子里还是个软柿子",
+              "likes": "136",
+              "published": "2026-08-26 00:08",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a8dbde00000000024004f80"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260827/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "乌龙杨杨（接咨询）",
+              "title": "有毒的环境里，好人活得痛苦",
+              "likes": "57",
+              "published": "2026-08-18 14:52",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a8401180000000021020c10"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260827/q07.webp"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "乌龙杨杨（接咨询）",
+              "title": "所谓对事不对人，其实就是针对你",
+              "likes": "150",
+              "published": "2026-08-26 00:56",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a8dc940000000001f0035ee"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260827/q08.webp"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "level": "高赞",
+              "blogger": "小Q（无畏布施版）",
+              "title": "分享一些非常省钱省时间省精力的办法",
+              "likes": "1959",
+              "published": "2026-06-15 19:20",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2fdffa0000000021022a0f"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260827/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "拾梦",
+              "title": "看懂规则，运用规则，制定规则！",
+              "likes": "30",
+              "published": "2026-08-14 22:16",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7f233f0000000025014208"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260827/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "level": "低赞",
+              "blogger": "拾梦",
+              "title": "其实你所有的爱好都能拿来赚钱！！",
+              "likes": "24",
+              "published": "2026-08-12 19:36",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7c5ab5000000003301126d"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
