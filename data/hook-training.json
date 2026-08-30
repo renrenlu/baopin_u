@@ -13446,6 +13446,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-30",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-30.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260830/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260830/q01-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "不折姐姐",
+              "level": "高赞",
+              "likes": "2585",
+              "published": "2026-08-19 19:59",
+              "title": "穷人的孩子都是父母灵魂的傀儡",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a859ab30000000005033a68"
+            },
+            {
+              "blogger": "不折姐姐",
+              "level": "低赞",
+              "likes": "86",
+              "published": "2026-08-04 14:16",
+              "title": "爱孩子最高的境界就三句话",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7183bd00000000220317fc"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260830/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260830/q02-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "U哥帮你破局",
+              "level": "高赞",
+              "likes": "3862",
+              "published": "2025-06-09 13:51",
+              "title": "提升表现力的课程我都看了，亲测总结的经验",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6846767a0000000012005617"
+            },
+            {
+              "blogger": "不折姐姐",
+              "level": "低赞",
+              "likes": "89",
+              "published": "2026-08-03 16:13",
+              "title": "一招终结完美主义",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a704db0000000002403f478"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260830/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260830/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "U哥帮你破局",
+              "level": "高赞",
+              "likes": "10000",
+              "published": "2025-10-14 11:31",
+              "title": "每个普通人都有讲不完的爆款内容",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68edc3ff0000000003037ae2"
+            },
+            {
+              "blogger": "不折姐姐",
+              "level": "低赞",
+              "likes": "190",
+              "published": "2026-08-20 17:13",
+              "title": "不重视你睡眠的人不是蠢就是坏",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a86c5200000000027028256"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260830/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260830/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "U哥帮你破局",
+              "level": "高赞",
+              "likes": "8702",
+              "published": "2025-06-06 19:24",
+              "title": "真人出镜怕被熟人看见？不存在的啦",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6842cfe30000000021008467"
+            },
+            {
+              "blogger": "麦子熟了",
+              "level": "低赞",
+              "likes": "38",
+              "published": "2025-03-02 18:45",
+              "title": "头发像枯草怎么改善？",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/67c436c0000000000d01632a"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260830/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260830/q05-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "U哥帮你破局",
+              "level": "高赞",
+              "likes": "4321",
+              "published": "2025-05-29 19:48",
+              "title": "真的别用打工思维做自媒体了！字字肺腑之言",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/683849890000000021006dd3"
+            },
+            {
+              "blogger": "芝士燃燃",
+              "level": "低赞",
+              "likes": "56",
+              "published": "2026-08-09 17:40",
+              "title": "什么样的女生能上嫁？",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a784b2a00000000320325dc"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260830/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "下一站小悦",
+              "level": "低赞",
+              "likes": "64",
+              "published": "2026-08-13 21:08",
+              "title": "人生不需要太努力，用正确的力，最少的力",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7dc1c1000000002202dc01"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260830/q07.webp"
+            }
+          ],
+          "correct": "hundred",
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "不折姐姐",
+              "level": "低赞",
+              "likes": "213",
+              "published": "2026-08-12 10:35",
+              "title": "心智成熟的必经之路是不以线性因果看问题",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7bdbec000000002403d658"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260830/q08.webp"
+            }
+          ],
+          "correct": "thousand",
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "blogger": "小Q（无畏布施版）",
+              "level": "高赞",
+              "likes": "13000",
+              "published": "2026-05-15 18:02",
+              "title": "虽然有些不是很体面，但是！租房用真的很爽",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a06e9b1000000003701fc29"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260830/q09.webp"
+            }
+          ],
+          "correct": "hundred",
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "不折姐姐",
+              "level": "低赞",
+              "likes": "144",
+              "published": "2026-07-14 19:57",
+              "title": "抱怨他人何尝又不是将自己置于牢笼",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a562414000000001c024075"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260830/q10.webp"
+            }
+          ],
+          "correct": "hundred",
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "不折姐姐",
+              "level": "低赞",
+              "likes": "160",
+              "published": "2026-07-05 09:47",
+              "title": "爱自己不是自恋而是脚踏实地自强",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a49b7bf000000001603e799"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
