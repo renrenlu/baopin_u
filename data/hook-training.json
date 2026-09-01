@@ -13829,6 +13829,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-31",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-08-31.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260831/q01-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260831/q01-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "小Q（无畏布施版）",
+              "level": "高赞",
+              "likes": "32000",
+              "published": "2026-03-06 18:15",
+              "title": "分享一个租房邪邪邪修",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69aa62e0000000002303a599"
+            },
+            {
+              "blogger": "不折姐姐",
+              "level": "低赞",
+              "likes": "157",
+              "published": "2026-06-22 17:04",
+              "title": "黄仁勋说东亚文化的小孩一辈子需要心理医生",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a38fa9d000000001702bff8"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260831/q02-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260831/q02-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "小Q（无畏布施版）",
+              "level": "高赞",
+              "likes": "25000",
+              "published": "2026-02-04 13:36",
+              "title": "怎么花小钱办大事？——适用于绝大部分商品",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6982ca6f0000000028020600"
+            },
+            {
+              "blogger": "不折姐姐",
+              "level": "低赞",
+              "likes": "270",
+              "published": "2026-06-12 16:35",
+              "title": "高颜值高敏感高认知都不适合生活在底层",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2bc4e2000000001503ff88"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260831/q03-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260831/q03-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "小Q（无畏布施版）",
+              "level": "高赞",
+              "likes": "26000",
+              "published": "2025-11-04 23:59",
+              "title": "我也被老人打过，来总结两个暴论",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/690a22c8000000000700d36c"
+            },
+            {
+              "blogger": "不折姐姐",
+              "level": "低赞",
+              "likes": "120",
+              "published": "2026-06-10 11:05",
+              "title": "尽早建立痛苦配额，把苦吃在刀刃上",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a28d466000000001702c09c"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260831/q04-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260831/q04-right.webp"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "小Q（无畏布施版）",
+              "level": "高赞",
+              "likes": "54000",
+              "published": "2025-10-06 15:44",
+              "title": "适合无副业0存款宝宝的躺平攻略",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68e373770000000007022393"
+            },
+            {
+              "blogger": "麦子熟了",
+              "level": "低赞",
+              "likes": "720",
+              "published": "2026-07-06 20:41",
+              "title": "超级低成本的养发方法，炸毛体验",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4ba2760000000021023354"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "mode": "compare",
+          "prompt": "哪一张是高赞作品？",
+          "images": [
+            {
+              "choice": "left",
+              "label": "A图",
+              "src": "/hooks/20260831/q05-left.webp"
+            },
+            {
+              "choice": "right",
+              "label": "B图",
+              "src": "/hooks/20260831/q05-right.webp"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "进击的李李",
+              "level": "高赞",
+              "likes": "16000",
+              "published": "2026-05-07 17:21",
+              "title": "职场魅魔之性格扭捏的人如何才能松弛大方",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69fc52ca000000003502cce8"
+            },
+            {
+              "blogger": "炸老师爱说话",
+              "level": "低赞",
+              "likes": "221",
+              "published": "2025-11-08 23:35",
+              "title": "可能是全网最另辟蹊径的戒掉“讨好感”方法论",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/690f6359000000000301ee0a"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260831/q06.webp"
+            }
+          ],
+          "correct": "low",
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "十一程",
+              "level": "低赞",
+              "likes": "76",
+              "published": "2026-04-01 19:19",
+              "title": "我们对赚钱的想象力太贫瘠了",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69ccff49000000001a025d58"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260831/q07.webp"
+            }
+          ],
+          "correct": "hundred",
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "进击的李李",
+              "level": "低赞",
+              "likes": "828",
+              "published": "2025-02-10 22:45",
+              "title": "只需一招，任何事情都能轻松简单化！！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/67aa10f2000000002902d4ec"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260831/q08.webp"
+            }
+          ],
+          "correct": "thousand",
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "blogger": "进击的李李",
+              "level": "高赞",
+              "likes": "16000",
+              "published": "2025-03-19 00:16",
+              "title": "7天找到满意的工作全流程",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/67d99c6c000000001b027c7b"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260831/q09.webp"
+            }
+          ],
+          "correct": "low",
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "小琼148",
+              "level": "低赞",
+              "likes": "3",
+              "published": "2026-08-21 21:01",
+              "title": "你的收入，不能由别人说了算#打工#收入#工资",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a884c3e0000000033020f38"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "mode": "judge",
+          "prompt": "这张作品属于哪个点赞量级？",
+          "images": [
+            {
+              "choice": "work",
+              "label": "待判断作品",
+              "src": "/hooks/20260831/q10.webp"
+            }
+          ],
+          "correct": "low",
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "创业的小王同学",
+              "level": "低赞",
+              "likes": "35",
+              "published": "2026-08-21 14:27",
+              "title": "大环境不好，普通人做什么赚钱？",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a87efe300000000230216dd"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
