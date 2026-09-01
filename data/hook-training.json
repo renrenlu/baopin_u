@@ -14212,6 +14212,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-09-01",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-09-01.pdf",
+      "questions": [
+        {
+          "id": "q01",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260901/q01-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260901/q01-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "炸老师爱说话",
+              "level": "高赞",
+              "likes": "9893",
+              "published": "2026-02-26 13:30",
+              "title": "全网最另辟蹊径的一份“祛魅母爱”报告",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/699fda65000000001502261e"
+            },
+            {
+              "blogger": "创业的小王同学",
+              "level": "低赞",
+              "likes": "66",
+              "published": "2026-08-19 12:30",
+              "title": "一定要研究 一个人就能干的生意",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a85317a000000002402feae"
+            }
+          ]
+        },
+        {
+          "id": "q02",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260901/q02-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260901/q02-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "江静",
+              "level": "高赞",
+              "likes": "34000",
+              "published": "2026-05-10 20:29",
+              "title": "高敏感低精力才是真正的大佬幼年体！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a007a170000000036018dca"
+            },
+            {
+              "blogger": "炸老师爱说话",
+              "level": "低赞",
+              "likes": "162",
+              "published": "2025-02-05 19:00",
+              "title": "跑步让我更懂得“做时间朋友”的真谛",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/67a344d7000000001801309e"
+            }
+          ]
+        },
+        {
+          "id": "q03",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260901/q03-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260901/q03-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "江静",
+              "level": "高赞",
+              "likes": "32000",
+              "published": "2026-04-10 20:29",
+              "title": "以为快被淹死了，勇敢站起来，水其实很浅",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69d8ed330000000021013e84"
+            },
+            {
+              "blogger": "江静",
+              "level": "低赞",
+              "likes": "177",
+              "published": "2026-07-04 19:37",
+              "title": "义乌人出去玩从来不逛特产文创店",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a48f074000000001702fcdd"
+            }
+          ]
+        },
+        {
+          "id": "q04",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260901/q04-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260901/q04-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "江静",
+              "level": "高赞",
+              "likes": "53000",
+              "published": "2026-02-02 17:28",
+              "title": "如果我想拿捏你，那可太容易了！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69806e45000000002203076a"
+            },
+            {
+              "blogger": "江静",
+              "level": "低赞",
+              "likes": "198",
+              "published": "2026-07-02 21:13",
+              "title": "父母老师绝对不会教的22条社会潜规则",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a466409000000001c0245c3"
+            }
+          ]
+        },
+        {
+          "id": "q05",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260901/q05-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260901/q05-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "江静",
+              "level": "高赞",
+              "likes": "40000",
+              "published": "2026-01-07 17:40",
+              "title": "史上最全大学生签证指南来啦",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/695e2a02000000002103de6c"
+            },
+            {
+              "blogger": "江静",
+              "level": "低赞",
+              "likes": "587",
+              "published": "2025-10-02 16:45",
+              "title": "好女人得到名声，坏女人得到一切？",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68de3ba2000000000302145c"
+            }
+          ]
+        },
+        {
+          "id": "q06",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260901/q06.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "创业的小王同学",
+              "level": "低赞",
+              "likes": "71",
+              "published": "2026-08-21 21:28",
+              "title": "在电商里 赚钱的都是哪些人？",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a8852720000000026039682"
+            }
+          ]
+        },
+        {
+          "id": "q07",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260901/q07.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "江静",
+              "level": "低赞",
+              "likes": "555",
+              "published": "2025-09-13 20:27",
+              "title": "为什么观点这个句型，就是一只注射器！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68c56318000000001d038100"
+            }
+          ]
+        },
+        {
+          "id": "q08",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260901/q08.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "blogger": "江静",
+              "level": "高赞",
+              "likes": "31000",
+              "published": "2026-01-04 18:31",
+              "title": "低谷期必看！！2026逆袭爽文！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/695a4182000000002102bc27"
+            }
+          ]
+        },
+        {
+          "id": "q09",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260901/q09.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "灵创业董士源",
+              "level": "低赞",
+              "likes": "51",
+              "published": "2026-07-11 11:48",
+              "title": "愿力&业力：业力也是动力～",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a51bd0b000000001c026743"
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260901/q10.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "灵创业董士源",
+              "level": "低赞",
+              "likes": "57",
+              "published": "2026-05-11 20:00",
+              "title": "瞬变人生：做生意的姑娘们请发财吧～",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a01c4cd000000003701c5a0"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
