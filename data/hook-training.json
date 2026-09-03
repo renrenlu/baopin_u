@@ -14595,6 +14595,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-09-02",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-09-02.pdf",
+      "questions": [
+        {
+          "id": "q01",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260902/q01-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260902/q01-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "江静",
+              "level": "高赞",
+              "likes": "51000",
+              "published": "2025-12-31 15:09",
+              "title": "大脑！就是见不得你好！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6954cc17000000002103189c"
+            },
+            {
+              "blogger": "江静",
+              "level": "低赞",
+              "likes": "791",
+              "published": "2025-06-29 14:58",
+              "title": "大学生日入1w分享！纯干货！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6860e426000000001203f9b2"
+            }
+          ]
+        },
+        {
+          "id": "q02",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260902/q02-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260902/q02-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "喻小丢",
+              "level": "高赞",
+              "likes": "17000",
+              "published": "2026-06-10 19:09",
+              "title": "美丽是对抗熵增的结果",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a28c7a10000000016024cbb"
+            },
+            {
+              "blogger": "喻小丢",
+              "level": "低赞",
+              "likes": "228",
+              "published": "2025-08-30 14:00",
+              "title": "我在相亲机构当嘉宾 观察记录2",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68b1110d000000001d03422c"
+            }
+          ]
+        },
+        {
+          "id": "q03",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260902/q03-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260902/q03-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "喻小丢",
+              "level": "高赞",
+              "likes": "22000",
+              "published": "2026-02-05 11:20",
+              "title": "我好像讨厌一切带有竞技感的环境……",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69840c88000000002103340b"
+            },
+            {
+              "blogger": "灵犀大王",
+              "level": "低赞",
+              "likes": "157",
+              "published": "2026-06-08 09:20",
+              "title": "花三天做一个明知会被否的方案，但他最聪明",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2545b900000000220200a0"
+            }
+          ]
+        },
+        {
+          "id": "q04",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260902/q04-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260902/q04-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "灵犀大王",
+              "level": "高赞",
+              "likes": "17000",
+              "published": "2026-05-09 09:00",
+              "title": "他不是比你强，他是比你早动手了！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69ed7f88000000003502df46"
+            },
+            {
+              "blogger": "灵犀大王",
+              "level": "低赞",
+              "likes": "163",
+              "published": "2026-06-07 17:16",
+              "title": "INTJ是不是失去谁都可以？？？",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2536e0000000001702d733"
+            }
+          ]
+        },
+        {
+          "id": "q05",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260902/q05-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260902/q05-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "灵犀大王",
+              "level": "高赞",
+              "likes": "5826",
+              "published": "2025-07-12 10:42",
+              "title": "所有人都很喜欢他 为什么只有觉得他不对劲",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6871cb9b000000002201e096"
+            },
+            {
+              "blogger": "华丽蒙",
+              "level": "低赞",
+              "likes": "65",
+              "published": "2026-07-15 19:47",
+              "title": "infj/高敏感的出路--博主",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5627210000000008026305"
+            }
+          ]
+        },
+        {
+          "id": "q06",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260902/q06.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "炸老师爱说话",
+              "level": "低赞",
+              "likes": "58",
+              "published": "2024-12-23 15:06",
+              "title": "跑步跑的这是人生啊！！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/67690bdc000000000b00ee1e"
+            }
+          ]
+        },
+        {
+          "id": "q07",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260902/q07.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "灵犀大王",
+              "level": "低赞",
+              "likes": "170",
+              "published": "2026-02-12 22:13",
+              "title": "如果你的上级是草包，怎么从他手下干出来",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/698de00c000000001600a01e"
+            }
+          ]
+        },
+        {
+          "id": "q08",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260902/q08.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "blogger": "碳水狂蛋崽",
+              "level": "高赞",
+              "likes": "77000",
+              "published": "2026-07-05 22:35",
+              "title": "便宜占多了，脑子就值钱了.....",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4a4ee60000000006032dc9"
+            }
+          ]
+        },
+        {
+          "id": "q09",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260902/q09.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "炸老师爱说话",
+              "level": "低赞",
+              "likes": "79",
+              "published": "2024-11-12 18:04",
+              "title": "买这个被婆婆打了",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/67332837000000003c01e379"
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260902/q10.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "碳水狂蛋崽",
+              "level": "低赞",
+              "likes": "227",
+              "published": "2025-12-19 21:04",
+              "title": "女生一旦过了25岁之后…...",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6943e1d5000000001e02a228"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
