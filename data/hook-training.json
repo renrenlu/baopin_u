@@ -15361,6 +15361,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-09-03",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-09-03.pdf",
+      "questions": [
+        {
+          "id": "q01",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260903/q01-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260903/q01-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "碳水狂蛋崽",
+              "level": "高赞",
+              "likes": "85000",
+              "published": "2025-11-04 19:55",
+              "title": "眼观六路耳听八方｜爱在公司做老黄牛的进...",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6909e9b5000000000401058d"
+            },
+            {
+              "blogger": "碳水狂蛋崽",
+              "level": "低赞",
+              "likes": "378",
+              "published": "2025-11-03 17:00",
+              "title": "通勤两小时，真的要打工，真的要上班……",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69084e6f0000000004005db8"
+            }
+          ]
+        },
+        {
+          "id": "q02",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260903/q02-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260903/q02-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "碳水狂蛋崽",
+              "level": "高赞",
+              "likes": "69000",
+              "published": "2025-08-24 22:20",
+              "title": "相信我，你可以胜任任何工作...",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68ab1f9f000000001c036def"
+            },
+            {
+              "blogger": "碳水狂蛋崽",
+              "level": "低赞",
+              "likes": "505",
+              "published": "2025-09-23 19:38",
+              "title": "普通人下班后如何做自媒体（喂饭版）",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68d286cf000000001301cbe4"
+            }
+          ]
+        },
+        {
+          "id": "q03",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260903/q03-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260903/q03-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "野生涌动鲤",
+              "level": "高赞",
+              "likes": "10000",
+              "published": "2026-02-28 21:30",
+              "title": "如何让设计变现，哑巴设计师的新思路",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69a29cda000000001b01794e"
+            },
+            {
+              "blogger": "碳水狂蛋崽",
+              "level": "低赞",
+              "likes": "215",
+              "published": "2025-09-17 18:51",
+              "title": "面对讨厌的同事，真不用撕破脸",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68ca92ba000000001301204a"
+            }
+          ]
+        },
+        {
+          "id": "q04",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260903/q04-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260903/q04-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "野生涌动鲤",
+              "level": "高赞",
+              "likes": "22000",
+              "published": "2025-11-15 20:04",
+              "title": "打破信息差，如何靠审美变现？",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69186c58000000000d034250"
+            },
+            {
+              "blogger": "碳水狂蛋崽",
+              "level": "低赞",
+              "likes": "268",
+              "published": "2025-09-15 18:08",
+              "title": "职场技能过期，如何用现有存量换破局增量",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68c6424c000000001d01476e"
+            }
+          ]
+        },
+        {
+          "id": "q05",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260903/q05-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260903/q05-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "野生涌动鲤",
+              "level": "高赞",
+              "likes": "6716",
+              "published": "2025-10-28 19:10",
+              "title": "拉开人和人的差距是找信息的能力",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6900a49b00000000030112cb"
+            },
+            {
+              "blogger": "整理师Anne",
+              "level": "低赞",
+              "likes": "42",
+              "published": "2026-07-25 09:00",
+              "title": "人活得累，都是被「拥有」困住了。#个人成长[话题]# #自我提升[话题]# #人生智慧[话题]# #极简主义[话题]#",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5f1e64000000000503b0c8"
+            }
+          ]
+        },
+        {
+          "id": "q06",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260903/q06.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "我是桃子",
+              "level": "低赞",
+              "likes": "98",
+              "published": "2026-07-24 18:14",
+              "title": "看似聪明实则吃大亏，我亲身踩过的三个坑",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a60974a000000001101864b"
+            }
+          ]
+        },
+        {
+          "id": "q07",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260903/q07.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "碳水狂蛋崽",
+              "level": "低赞",
+              "likes": "467",
+              "published": "2025-09-14 21:21",
+              "title": "咱是说打工皇后是不可能苦了自己的！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68c6c15a000000001d017360"
+            }
+          ]
+        },
+        {
+          "id": "q08",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260903/q08.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "blogger": "福将文玩",
+              "level": "高赞",
+              "likes": "11000",
+              "published": "2026-07-05 21:03",
+              "title": "你喜欢什么运动，就是什么性格#性格决定命运[话题]# #运动[话题]# #知识分享家[话题]# #心理学知识[话题]#",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4a5628000000002101a0ca"
+            }
+          ]
+        },
+        {
+          "id": "q09",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260903/q09.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "野生涌动鲤",
+              "level": "低赞",
+              "likes": "332",
+              "published": "2025-10-09 17:09",
+              "title": "看完没收获你骂翻我",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68e77bbf000000000300d8c1"
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260903/q10.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "野生涌动鲤",
+              "level": "低赞",
+              "likes": "370",
+              "published": "2025-09-30 21:40",
+              "title": "设计师活路在哪了？抓住新的设计趋势",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68dbddb1000000000300eee2"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
