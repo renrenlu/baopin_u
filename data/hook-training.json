@@ -15744,6 +15744,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-09-04",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-09-04.pdf",
+      "questions": [
+        {
+          "id": "q01",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260904/q01-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260904/q01-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "此人又在歹毒地思考",
+              "level": "高赞",
+              "likes": "1972",
+              "published": "2026-06-15 22:21",
+              "title": "很震惊 也很无奈",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a300a56000000002200b483"
+            },
+            {
+              "blogger": "炸老师爱说话",
+              "level": "低赞",
+              "likes": "86",
+              "published": "2025-12-05 20:49",
+              "title": "可能是全网最另辟蹊径的，“消除疲惫”方法论",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6932d4ec000000001b021a4e"
+            }
+          ]
+        },
+        {
+          "id": "q02",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260904/q02-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260904/q02-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "鹿冰冰",
+              "level": "高赞",
+              "likes": "4028",
+              "published": "2026-05-31 10:36",
+              "title": "我与文字的关系一直相当谨慎",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a1b9eb700000000070102e0"
+            },
+            {
+              "blogger": "此人又在歹毒地思考",
+              "level": "低赞",
+              "likes": "26",
+              "published": "2025-11-14 22:42",
+              "title": "一个薅羊毛爱好者决定不过双十一了",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69173fc1000000000402ae2e"
+            }
+          ]
+        },
+        {
+          "id": "q03",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260904/q03-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260904/q03-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "鹿冰冰",
+              "level": "高赞",
+              "likes": "4709",
+              "published": "2026-05-29 18:31",
+              "title": "我时常感觉我的命运压在自己的舌根",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a196b0f000000000602363c"
+            },
+            {
+              "blogger": "此人又在歹毒地思考",
+              "level": "低赞",
+              "likes": "10",
+              "published": "2025-10-16 20:39",
+              "title": "老鼠人找东西的～超实用方法～",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68f0e7730000000005012c54"
+            }
+          ]
+        },
+        {
+          "id": "q04",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260904/q04-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260904/q04-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "鹿冰冰",
+              "level": "高赞",
+              "likes": "100000",
+              "published": "2026-05-10 12:05",
+              "title": "12min讲清如何拥有惊人的表达能力",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a00040b0000000007027f37"
+            },
+            {
+              "blogger": "碳水狂蛋崽",
+              "level": "低赞",
+              "likes": "371",
+              "published": "2025-07-18 23:20",
+              "title": "父母催婚的背后是权利游戏吗？",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/687a66510000000010010fdf"
+            }
+          ]
+        },
+        {
+          "id": "q05",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260904/q05-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260904/q05-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "鹿冰冰",
+              "level": "高赞",
+              "likes": "28000",
+              "published": "2026-05-02 18:05",
+              "title": "三只小猪的故事毁了我的一生",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69f5cc7d000000001e00fd75"
+            },
+            {
+              "blogger": "进击的李李",
+              "level": "低赞",
+              "likes": "249",
+              "published": "2024-10-25 21:30",
+              "title": "难以置信我竟然转行做编导",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/671b84c3000000002100a9c9"
+            }
+          ]
+        },
+        {
+          "id": "q06",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260904/q06.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "此人又在歹毒地思考",
+              "level": "低赞",
+              "likes": "9",
+              "published": "2026-06-18 21:47",
+              "title": "不构成任何建议！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a33f7080000000006037d89"
+            }
+          ]
+        },
+        {
+          "id": "q07",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260904/q07.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "进击的李李",
+              "level": "低赞",
+              "likes": "304",
+              "published": "2024-10-19 17:26",
+              "title": "听劝，双非文科就别深耕了！该转行就转",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/67137b4c0000000021006f28"
+            }
+          ]
+        },
+        {
+          "id": "q08",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260904/q08.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "blogger": "鹿冰冰",
+              "level": "高赞",
+              "likes": "16000",
+              "published": "2025-12-07 18:16",
+              "title": "在平稳的列车上，没人会想要抓紧扶手",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/693553fb000000001f005eb8"
+            }
+          ]
+        },
+        {
+          "id": "q09",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260904/q09.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "野生涌动鲤",
+              "level": "低赞",
+              "likes": "222",
+              "published": "2025-10-16 00:42",
+              "title": "设计师不敢露脸，怕没有流量的方法",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68efcee900000000040022bc"
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260904/q10.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "此人又在歹毒地思考",
+              "level": "低赞",
+              "likes": "9",
+              "published": "2026-06-16 19:55",
+              "title": "因为年龄+转行焦虑疯狂吐槽后逐渐平静",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a3139940000000007021788"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
