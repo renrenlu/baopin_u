@@ -18425,6 +18425,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-09-11",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-09-11.pdf",
+      "questions": [
+        {
+          "id": "q01",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260911/q01-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260911/q01-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "珍妮尔L",
+              "level": "高赞",
+              "likes": "5899",
+              "published": "2026-02-17 19:41",
+              "title": "串门困难户有救了！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/699453ce000000001d026794"
+            },
+            {
+              "blogger": "童姐姐",
+              "level": "低赞",
+              "likes": "10",
+              "published": "2026-07-26 07:42",
+              "title": "Howto 健康过三伏｜安度三伏 心安神聚",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a649f6300000000040296a6"
+            }
+          ]
+        },
+        {
+          "id": "q02",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260911/q02-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260911/q02-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "珍妮尔L",
+              "level": "高赞",
+              "likes": "5380",
+              "published": "2026-07-05 22:20",
+              "title": "分享小技巧一则",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a4a6811000000001702c1eb"
+            },
+            {
+              "blogger": "童姐姐",
+              "level": "低赞",
+              "likes": "15",
+              "published": "2026-04-22 21:44",
+              "title": "高认知的人，懂得给身体“留点余量”",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69e8d0b9000000002200c1d0"
+            }
+          ]
+        },
+        {
+          "id": "q03",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260911/q03-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260911/q03-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "金富江Kimdelvey",
+              "level": "高赞",
+              "likes": "8344",
+              "published": "2026-06-22 13:20",
+              "title": "普通人就这么搞钱",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a38c6170000000007027217"
+            },
+            {
+              "blogger": "童姐姐",
+              "level": "低赞",
+              "likes": "10",
+              "published": "2026-07-17 21:34",
+              "title": "照着做，慢慢把人生养顺",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5a2f54000000001f01d3ff"
+            }
+          ]
+        },
+        {
+          "id": "q04",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260911/q04-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260911/q04-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "郭耳朵",
+              "level": "高赞",
+              "likes": "40000",
+              "published": "2026-06-18 19:48",
+              "title": "其实你所有的爱好都可以拿来赚钱",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a33db040000000007011c02"
+            },
+            {
+              "blogger": "马甜max",
+              "level": "低赞",
+              "likes": "281",
+              "published": "2026-06-09 19:08",
+              "title": "我是如何偷学一个女性角色身上的力量的",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a27f443000000003502505e"
+            }
+          ]
+        },
+        {
+          "id": "q05",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260911/q05-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260911/q05-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "大樊樊Tina",
+              "level": "高赞",
+              "likes": "24000",
+              "published": "2026-05-19 20:00",
+              "title": "高野心的人，一定要尽早建立，无痛执行系统",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a0c3192000000003701d8c2"
+            },
+            {
+              "blogger": "徐大金",
+              "level": "低赞",
+              "likes": "481",
+              "published": "2026-05-10 14:22",
+              "title": "人！但行好事！莫问前程！世间一切！皆有因果！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a0024180000000038034e16"
+            }
+          ]
+        },
+        {
+          "id": "q06",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260911/q06.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "快乐的小青蛙",
+              "level": "低赞",
+              "likes": "17",
+              "published": "2026-08-01 11:37",
+              "title": "不要去强留任何一段关系",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6d69ee0000000028005897"
+            }
+          ]
+        },
+        {
+          "id": "q07",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260911/q07.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "徐大金",
+              "level": "低赞",
+              "likes": "501",
+              "published": "2026-08-06 14:19",
+              "title": "因为先替别人命名了苦难，才产生拯救的冲动",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a74275500000000250065b0"
+            }
+          ]
+        },
+        {
+          "id": "q08",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260911/q08.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "blogger": "宋大宝.",
+              "level": "高赞",
+              "likes": "8098",
+              "published": "2026-04-04 11:19",
+              "title": "为什么有的人总会被坑",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69d0834c00000000230101f4"
+            }
+          ]
+        },
+        {
+          "id": "q09",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260911/q09.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "酸汤毒唯",
+              "level": "低赞",
+              "likes": "5",
+              "published": "2026-07-26 22:16",
+              "title": "答应我 把无条件快乐贯彻到底！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6616cf000000001c00c9ee"
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260911/q10.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "酸汤毒唯",
+              "level": "低赞",
+              "likes": "2",
+              "published": "2026-07-23 22:18",
+              "title": "被夸别再说“没有没有”了",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6222ae000000001c013a9d"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
