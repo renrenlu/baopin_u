@@ -19191,6 +19191,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-09-13",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-09-13.pdf",
+      "questions": [
+        {
+          "id": "q01",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260913/q01-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260913/q01-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "治愈果（kakki在说啥）",
+              "level": "高赞",
+              "likes": "14000",
+              "published": "2026-06-12 20:03",
+              "title": "关于提升魅力的三点分享？（魅力的本质）",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a2be75b00000000070126c0"
+            },
+            {
+              "blogger": "西西里柠檬",
+              "level": "低赞",
+              "likes": "908",
+              "published": "2026-04-30 19:02",
+              "title": "分享一下我在欧洲英语突飞猛进的决定性瞬间",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69f324a30000000036030647"
+            }
+          ]
+        },
+        {
+          "id": "q02",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260913/q02-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260913/q02-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "锄田光司",
+              "level": "高赞",
+              "likes": "4463",
+              "published": "2026-04-23 16:51",
+              "title": "锄田光司｜当你没有一个东西 就没资格批评它",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69e9dd8c000000001b022b41"
+            },
+            {
+              "blogger": "Suki邪修学英语",
+              "level": "低赞",
+              "likes": "60",
+              "published": "2026-08-08 12:19",
+              "title": "这才是最适合中国人的英语语法学习方法！！！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a76ae65000000002403e6f9"
+            }
+          ]
+        },
+        {
+          "id": "q03",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260913/q03-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260913/q03-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "锄田光司",
+              "level": "高赞",
+              "likes": "7618",
+              "published": "2026-01-06 12:34",
+              "title": "锄田光司｜初中辍学率为什么小于高中",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/695c90d5000000001a024303"
+            },
+            {
+              "blogger": "Suki邪修学英语",
+              "level": "低赞",
+              "likes": "13",
+              "published": "2026-07-16 14:32",
+              "title": "人只有跳出单一系统才能看清自己原来的系统",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a587b1a000000000402a70c"
+            }
+          ]
+        },
+        {
+          "id": "q04",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260913/q04-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260913/q04-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "阿紫哈哈",
+              "level": "高赞",
+              "likes": "1513",
+              "published": "2025-07-29 20:04",
+              "title": "准到发疯的美女感吸引力法则，养成福相脸!!!",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6888a35a0000000005004b12"
+            },
+            {
+              "blogger": "Suki邪修学英语",
+              "level": "低赞",
+              "likes": "27",
+              "published": "2026-08-08 21:29",
+              "title": "真正地道的英文，藏着极其霸道的主体性思维",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a772f1c000000002402f24f"
+            }
+          ]
+        },
+        {
+          "id": "q05",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260913/q05-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260913/q05-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "阿紫哈哈",
+              "level": "高赞",
+              "likes": "1957",
+              "published": "2025-07-15 19:45",
+              "title": "转运提示请你每天把自己打扮漂亮!!!",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6874d55b0000000017032740"
+            },
+            {
+              "blogger": "哥本哈根大师",
+              "level": "低赞",
+              "likes": "3",
+              "published": "2026-07-23 20:05",
+              "title": "你的网名有什么故事？",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a62038b000000000101ce5f"
+            }
+          ]
+        },
+        {
+          "id": "q06",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260913/q06.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "酸汤毒唯",
+              "level": "低赞",
+              "likes": "7",
+              "published": "2026-08-01 22:55",
+              "title": "一些很重要但没人教的能力",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6e08e70000000028006dd7"
+            }
+          ]
+        },
+        {
+          "id": "q07",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260913/q07.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "三岁（成长版）",
+              "level": "低赞",
+              "likes": "273",
+              "published": "2026-07-04 23:01",
+              "title": "如果一个人就过得好，为什么还需要谈恋爱？",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a49203a000000000f00738b"
+            }
+          ]
+        },
+        {
+          "id": "q08",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260913/q08.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "blogger": "鱼尾葵",
+              "level": "高赞",
+              "likes": "5311",
+              "published": "2026-08-08 17:40",
+              "title": "存钱上瘾 其实是个赋魅行为……",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a76f99a000000003302ecc1"
+            }
+          ]
+        },
+        {
+          "id": "q09",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260913/q09.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "blogger": "西西里柠檬",
+              "level": "高赞",
+              "likes": "1714",
+              "published": "2026-08-09 08:01",
+              "title": "优秀是你跟我对话的门槛，不是我爱你的原因",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a77c02d00000000050324c2"
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260913/q10.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "blogger": "西西里柠檬",
+              "level": "高赞",
+              "likes": "67000",
+              "published": "2026-08-02 08:30",
+              "title": "如何与家境悬殊的人，开启一段平等的恋爱",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6e819d000000002403f4b3"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
