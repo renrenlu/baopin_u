@@ -24170,6 +24170,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-09-28",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-09-28.pdf",
+      "questions": [
+        {
+          "id": "q01",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260928/q01-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260928/q01-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "周小满",
+              "level": "高赞",
+              "likes": "29000",
+              "published": "2026-06-08 18:57",
+              "title": "长脑子最快的方式就是跟顶级好脑聊天！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a26a0040000000008001998"
+            },
+            {
+              "blogger": "日立酱酱",
+              "level": "低赞",
+              "likes": "144",
+              "published": "2026-08-15 20:05",
+              "title": "学习影响我赚钱了",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a8056210000000005021171"
+            }
+          ]
+        },
+        {
+          "id": "q02",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260928/q02-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260928/q02-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "许哈哈",
+              "level": "高赞",
+              "likes": "4669",
+              "published": "2026-03-10 22:08",
+              "title": "如何拥有清晰通透的人生？用投资思维经营..",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69b025ef0000000015031e9a"
+            },
+            {
+              "blogger": "许哈哈",
+              "level": "低赞",
+              "likes": "59",
+              "published": "2026-07-21 22:32",
+              "title": "不顺迷茫的时候，多出去走走，真的能换运",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a5f83020000000004028c02"
+            }
+          ]
+        },
+        {
+          "id": "q03",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260928/q03-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260928/q03-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "芝士燃燃",
+              "level": "高赞",
+              "likes": "1638",
+              "published": "2026-08-16 14:22",
+              "title": "嘴笨可以快速提升瞬时说话能力",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a815729000000002603731d"
+            },
+            {
+              "blogger": "小琼148",
+              "level": "低赞",
+              "likes": "4",
+              "published": "2026-08-21 20:57",
+              "title": "别幻想靠打工翻身，你的底气要自己造#打工#",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a884b450000000028002af5"
+            }
+          ]
+        },
+        {
+          "id": "q04",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260928/q04-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260928/q04-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "十一程",
+              "level": "高赞",
+              "likes": "7398",
+              "published": "2026-08-19 18:03",
+              "title": "不要献祭你的健康给草台班子做业绩",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a82efa2000000000502835b"
+            },
+            {
+              "blogger": "辛的话",
+              "level": "低赞",
+              "likes": "36",
+              "published": "2026-08-20 20:06",
+              "title": "女生养成吸金体质的8个习惯！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a86edc700000000080118ab"
+            }
+          ]
+        },
+        {
+          "id": "q05",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260928/q05-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260928/q05-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "下一站小悦",
+              "level": "高赞",
+              "likes": "5907",
+              "published": "2026-08-12 20:54",
+              "title": "高敏感野心家执行力差是因为这两点",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7c6d1e000000002500ad6a"
+            },
+            {
+              "blogger": "辛的话",
+              "level": "低赞",
+              "likes": "35",
+              "published": "2026-08-13 18:03",
+              "title": "大学生赚零花钱实用方法之线上篇",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7d9664000000003300ea70"
+            }
+          ]
+        },
+        {
+          "id": "q06",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260928/q06.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "王木木",
+              "level": "低赞",
+              "likes": "14",
+              "published": "2026-08-04 19:52",
+              "title": "如何拥有解决问题的能力",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a71d265000000000502b00b"
+            }
+          ]
+        },
+        {
+          "id": "q07",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260928/q07.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "下一站小悦",
+              "level": "低赞",
+              "likes": "896",
+              "published": "2026-05-16 10:34",
+              "title": "一个让infp吃尽红利的方法",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a07d7c8000000000702495f"
+            }
+          ]
+        },
+        {
+          "id": "q08",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260928/q08.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "blogger": "进击的李李",
+              "level": "高赞",
+              "likes": "8674",
+              "published": "2025-05-14 21:56",
+              "title": "感觉油尽灯枯的时候，怎么找回心气",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6824a1060000000023002f71"
+            }
+          ]
+        },
+        {
+          "id": "q09",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260928/q09.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "王木木",
+              "level": "低赞",
+              "likes": "33",
+              "published": "2026-08-02 19:16",
+              "title": "33岁的我想对20岁的你说",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6f270c0000000008012abe"
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "type": "judge",
+          "prompt": "看这张作品图，判断它的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260928/q10.webp",
+              "choice": "work",
+              "label": "待判断作品"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "CR冉小萱",
+              "level": "低赞",
+              "likes": "29",
+              "published": "2026-08-11 22:56",
+              "title": "天选顶美 5个特征",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a7b3834000000002202fddb"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
