@@ -24553,6 +24553,389 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-09-29",
+      "title": "看一眼，判断哪条更容易高赞",
+      "description": "10 道高低赞辨别题：5 题二选一对比，5 题判断点赞量级（低赞/百赞/千赞或万赞），先凭作品画面与开头做判断，再展开 PDF 给出的答案、作者和数据。",
+      "pdf": "/hooks/钩子训练-2026-09-29.pdf",
+      "questions": [
+        {
+          "id": "q01",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260929/q01-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260929/q01-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "甜老师在笑",
+              "level": "高赞",
+              "likes": "15000",
+              "published": "2026-08-17 19:01",
+              "title": "“早睡+远离手机，我的人生慢慢复活了”",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a818ee50000000029030589"
+            },
+            {
+              "blogger": "下一站小悦",
+              "level": "低赞",
+              "likes": "926",
+              "published": "2026-04-20 22:16",
+              "title": "乖乖女要尽早脱下孔乙己的长衫",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69e61bc3000000001a02c8a4"
+            }
+          ]
+        },
+        {
+          "id": "q02",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260929/q02-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260929/q02-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "徐大金",
+              "level": "高赞",
+              "likes": "2719",
+              "published": "2026-08-20 17:29",
+              "title": "很多人以为消费升级，带来了阶层升级…",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a867585000000002503235b"
+            },
+            {
+              "blogger": "CR冉小萱",
+              "level": "低赞",
+              "likes": "24",
+              "published": "2026-08-17 00:08",
+              "title": "一根手指五秒自测自己丑在哪里～",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a81e07a000000003400d456"
+            }
+          ]
+        },
+        {
+          "id": "q03",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260929/q03-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260929/q03-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "日立酱酱",
+              "level": "高赞",
+              "likes": "29000",
+              "published": "2026-06-18 21:24",
+              "title": "666当年选专业忘看大四学姐就业分析了",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a33f1900000000008000f92"
+            },
+            {
+              "blogger": "周小满",
+              "level": "低赞",
+              "likes": "546",
+              "published": "2026-08-02 21:15",
+              "title": "时间永远够用（纳瓦尔：建立无痛执行系统）",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6f42e20000000035014bf7"
+            }
+          ]
+        },
+        {
+          "id": "q04",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260929/q04-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260929/q04-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "right",
+          "answerLabel": "B图是高赞作品",
+          "works": [
+            {
+              "blogger": "日立酱酱",
+              "level": "高赞",
+              "likes": "24000",
+              "published": "2026-02-23 22:29",
+              "title": "适配所有实习dw的提高实习质量方法论",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/699c645c00000000280208fe"
+            },
+            {
+              "blogger": "周小满",
+              "level": "低赞",
+              "likes": "262",
+              "published": "2026-02-07 22:29",
+              "title": "1天顶2天！你真正需要的是规则的制定",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69874c57000000001a025afe"
+            }
+          ]
+        },
+        {
+          "id": "q05",
+          "type": "compare",
+          "prompt": "左右两张作品图，哪一张更可能是高赞作品？",
+          "images": [
+            {
+              "src": "/hooks/20260929/q05-left.webp",
+              "choice": "left",
+              "label": "A图"
+            },
+            {
+              "src": "/hooks/20260929/q05-right.webp",
+              "choice": "right",
+              "label": "B图"
+            }
+          ],
+          "correct": "left",
+          "answerLabel": "A图是高赞作品",
+          "works": [
+            {
+              "blogger": "炸老师爱说话",
+              "level": "高赞",
+              "likes": "32000",
+              "published": "2026-03-08 15:06",
+              "title": "任何懒得去做的事，都是训练前额叶的好机会！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/69ad1ffc000000001b014f65"
+            },
+            {
+              "blogger": "葡萄柚茶茶",
+              "level": "低赞",
+              "likes": "392",
+              "published": "2026-07-30 19:59",
+              "title": "既保证主线又踩死小人的策略思路",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6b3c9b00000000240245c6"
+            }
+          ]
+        },
+        {
+          "id": "q06",
+          "type": "judge",
+          "prompt": "看这张图，判断这条作品的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260929/q06.webp",
+              "choice": "single",
+              "label": "作品图"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "CR冉小萱",
+              "level": "低赞",
+              "likes": "22",
+              "published": "2026-07-31 22:34",
+              "title": "鼻子丑 先看鼻小柱！",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6cb26f000000003300bd96"
+            }
+          ]
+        },
+        {
+          "id": "q07",
+          "type": "judge",
+          "prompt": "看这张图，判断这条作品的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260929/q07.webp",
+              "choice": "single",
+              "label": "作品图"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "hundred",
+          "answerLabel": "正确选项 B（百赞）",
+          "works": [
+            {
+              "blogger": "葡萄柚茶茶",
+              "level": "低赞",
+              "likes": "202",
+              "published": "2026-07-26 19:10",
+              "title": "4个关键指标判断你是强者还是阿Q",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a65eb26000000001102ffe3"
+            }
+          ]
+        },
+        {
+          "id": "q08",
+          "type": "judge",
+          "prompt": "看这张图，判断这条作品的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260929/q08.webp",
+              "choice": "single",
+              "label": "作品图"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "thousand",
+          "answerLabel": "正确选项 C（千赞或万赞）",
+          "works": [
+            {
+              "blogger": "华丽蒙",
+              "level": "高赞",
+              "likes": "79000",
+              "published": "2025-09-12 18:01",
+              "title": "0经验如何跨到自己想去的行业（第二期）",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/68c3ef7c000000001c00ec74"
+            }
+          ]
+        },
+        {
+          "id": "q09",
+          "type": "judge",
+          "prompt": "看这张图，判断这条作品的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260929/q09.webp",
+              "choice": "single",
+              "label": "作品图"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "冯软软",
+              "level": "低赞",
+              "likes": "70",
+              "published": "2026-08-22 20:10",
+              "title": "哪些特质不适合做超级个体？",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a8991af000000001602b39d"
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "type": "judge",
+          "prompt": "看这张图，判断这条作品的点赞量级。",
+          "images": [
+            {
+              "src": "/hooks/20260929/q10.webp",
+              "choice": "single",
+              "label": "作品图"
+            }
+          ],
+          "options": [
+            {
+              "choice": "low",
+              "label": "低赞"
+            },
+            {
+              "choice": "hundred",
+              "label": "百赞"
+            },
+            {
+              "choice": "thousand",
+              "label": "千赞或万赞"
+            }
+          ],
+          "correct": "low",
+          "answerLabel": "正确选项 A（低赞）",
+          "works": [
+            {
+              "blogger": "爱吃肉肉的小漂亮",
+              "level": "低赞",
+              "likes": "36",
+              "published": "2026-08-01 21:22",
+              "title": "六年前相遇，如今合伙人同行",
+              "videoUrl": "https://www.xiaohongshu.com/discovery/item/6a6df324000000003303673b"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
